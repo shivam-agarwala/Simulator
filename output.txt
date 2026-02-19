@@ -1,0 +1,3705 @@
+REAL TIME SIMULATOR 
+
+RUNNING SIMULATION WITH ORIGINAL TASK SET
+Loaded invocation times from invocations.txt
+
+Task Set Loaded: tasks.txt
+T1: period=8, wcet=3 (util=0.375)
+T2: period=10, wcet=3 (util=0.300)
+T3: period=14, wcet=1 (util=0.071)
+Hyperperiod: 280 ms
+
+
+Calculating Baselines...
+
+=== SIMULATION: Plain EDF ===
+   T=0.0: Freq fixed at 1.000
+   T=0.0: Released Job0(T1, actual=2, deadline=8)
+   T=0.0: Released Job1(T2, actual=1, deadline=10)
+   T=0.0: Released Job2(T3, actual=1, deadline=14)
+   T=0.0: Scheduled Job0(T1)
+   T=2.0: Completed Job0(T1) actual=2
+   T=2.0: Scheduled Job1(T2)
+   T=3.0: Completed Job1(T2) actual=1
+   T=3.0: Scheduled Job2(T3)
+   T=4.0: Completed Job2(T3) actual=1
+   T=4.0: IDLE for 4.0ms (consuming energy at lowest freq)
+   T=8.0: Released Job3(T1, actual=1, deadline=16)
+   T=8.0: Scheduled Job3(T1)
+   T=9.0: Completed Job3(T1) actual=1
+   T=9.0: IDLE for 1.0ms (consuming energy at lowest freq)
+   T=10.0: Released Job4(T2, actual=1, deadline=20)
+   T=10.0: Scheduled Job4(T2)
+   T=11.0: Completed Job4(T2) actual=1
+   T=11.0: IDLE for 3.0ms (consuming energy at lowest freq)
+   T=14.0: Released Job5(T3, actual=1, deadline=28)
+   T=14.0: Scheduled Job5(T3)
+   T=15.0: Completed Job5(T3) actual=1
+   T=15.0: IDLE for 1.0ms (consuming energy at lowest freq)
+   T=16.0: Released Job6(T1, actual=2, deadline=24)
+   T=16.0: Scheduled Job6(T1)
+   T=18.0: Completed Job6(T1) actual=2
+   T=18.0: IDLE for 2.0ms (consuming energy at lowest freq)
+   T=20.0: Released Job7(T2, actual=1, deadline=30)
+   T=20.0: Scheduled Job7(T2)
+   T=21.0: Completed Job7(T2) actual=1
+   T=21.0: IDLE for 3.0ms (consuming energy at lowest freq)
+   T=24.0: Released Job8(T1, actual=1, deadline=32)
+   T=24.0: Scheduled Job8(T1)
+   T=25.0: Completed Job8(T1) actual=1
+   T=25.0: IDLE for 3.0ms (consuming energy at lowest freq)
+   T=28.0: Released Job9(T3, actual=1, deadline=42)
+   T=28.0: Scheduled Job9(T3)
+   T=29.0: Completed Job9(T3) actual=1
+   T=29.0: IDLE for 1.0ms (consuming energy at lowest freq)
+   T=30.0: Released Job10(T2, actual=1, deadline=40)
+   T=30.0: Scheduled Job10(T2)
+   T=31.0: Completed Job10(T2) actual=1
+   T=31.0: IDLE for 1.0ms (consuming energy at lowest freq)
+   T=32.0: Released Job11(T1, actual=2, deadline=40)
+   T=32.0: Scheduled Job11(T1)
+   T=34.0: Completed Job11(T1) actual=2
+   T=34.0: IDLE for 6.0ms (consuming energy at lowest freq)
+   T=40.0: Released Job12(T1, actual=1, deadline=48)
+   T=40.0: Released Job13(T2, actual=1, deadline=50)
+   T=40.0: Scheduled Job12(T1)
+   T=41.0: Completed Job12(T1) actual=1
+   T=41.0: Scheduled Job13(T2)
+   T=42.0: Completed Job13(T2) actual=1
+   T=42.0: Released Job14(T3, actual=1, deadline=56)
+   T=42.0: Scheduled Job14(T3)
+   T=43.0: Completed Job14(T3) actual=1
+   T=43.0: IDLE for 5.0ms (consuming energy at lowest freq)
+   T=48.0: Released Job15(T1, actual=2, deadline=56)
+   T=48.0: Scheduled Job15(T1)
+   T=50.0: Completed Job15(T1) actual=2
+   T=50.0: Released Job16(T2, actual=1, deadline=60)
+   T=50.0: Scheduled Job16(T2)
+   T=51.0: Completed Job16(T2) actual=1
+   T=51.0: IDLE for 5.0ms (consuming energy at lowest freq)
+   T=56.0: Released Job17(T1, actual=1, deadline=64)
+   T=56.0: Released Job18(T3, actual=1, deadline=70)
+   T=56.0: Scheduled Job17(T1)
+   T=57.0: Completed Job17(T1) actual=1
+   T=57.0: Scheduled Job18(T3)
+   T=58.0: Completed Job18(T3) actual=1
+   T=58.0: IDLE for 2.0ms (consuming energy at lowest freq)
+   T=60.0: Released Job19(T2, actual=1, deadline=70)
+   T=60.0: Scheduled Job19(T2)
+   T=61.0: Completed Job19(T2) actual=1
+   T=61.0: IDLE for 3.0ms (consuming energy at lowest freq)
+   T=64.0: Released Job20(T1, actual=2, deadline=72)
+   T=64.0: Scheduled Job20(T1)
+   T=66.0: Completed Job20(T1) actual=2
+   T=66.0: IDLE for 4.0ms (consuming energy at lowest freq)
+   T=70.0: Released Job21(T2, actual=1, deadline=80)
+   T=70.0: Released Job22(T3, actual=1, deadline=84)
+   T=70.0: Scheduled Job21(T2)
+   T=71.0: Completed Job21(T2) actual=1
+   T=71.0: Scheduled Job22(T3)
+   T=72.0: Completed Job22(T3) actual=1
+   T=72.0: Released Job23(T1, actual=1, deadline=80)
+   T=72.0: Scheduled Job23(T1)
+   T=73.0: Completed Job23(T1) actual=1
+   T=73.0: IDLE for 7.0ms (consuming energy at lowest freq)
+   T=80.0: Released Job24(T1, actual=2, deadline=88)
+   T=80.0: Released Job25(T2, actual=1, deadline=90)
+   T=80.0: Scheduled Job24(T1)
+   T=82.0: Completed Job24(T1) actual=2
+   T=82.0: Scheduled Job25(T2)
+   T=83.0: Completed Job25(T2) actual=1
+   T=83.0: IDLE for 1.0ms (consuming energy at lowest freq)
+   T=84.0: Released Job26(T3, actual=1, deadline=98)
+   T=84.0: Scheduled Job26(T3)
+   T=85.0: Completed Job26(T3) actual=1
+   T=85.0: IDLE for 3.0ms (consuming energy at lowest freq)
+   T=88.0: Released Job27(T1, actual=1, deadline=96)
+   T=88.0: Scheduled Job27(T1)
+   T=89.0: Completed Job27(T1) actual=1
+   T=89.0: IDLE for 1.0ms (consuming energy at lowest freq)
+   T=90.0: Released Job28(T2, actual=1, deadline=100)
+   T=90.0: Scheduled Job28(T2)
+   T=91.0: Completed Job28(T2) actual=1
+   T=91.0: IDLE for 5.0ms (consuming energy at lowest freq)
+   T=96.0: Released Job29(T1, actual=2, deadline=104)
+   T=96.0: Scheduled Job29(T1)
+   T=98.0: Completed Job29(T1) actual=2
+   T=98.0: Released Job30(T3, actual=1, deadline=112)
+   T=98.0: Scheduled Job30(T3)
+   T=99.0: Completed Job30(T3) actual=1
+   T=99.0: IDLE for 1.0ms (consuming energy at lowest freq)
+   T=100.0: Released Job31(T2, actual=1, deadline=110)
+   T=100.0: Scheduled Job31(T2)
+   T=101.0: Completed Job31(T2) actual=1
+   T=101.0: IDLE for 3.0ms (consuming energy at lowest freq)
+   T=104.0: Released Job32(T1, actual=1, deadline=112)
+   T=104.0: Scheduled Job32(T1)
+   T=105.0: Completed Job32(T1) actual=1
+   T=105.0: IDLE for 5.0ms (consuming energy at lowest freq)
+   T=110.0: Released Job33(T2, actual=1, deadline=120)
+   T=110.0: Scheduled Job33(T2)
+   T=111.0: Completed Job33(T2) actual=1
+   T=111.0: IDLE for 1.0ms (consuming energy at lowest freq)
+   T=112.0: Released Job34(T1, actual=2, deadline=120)
+   T=112.0: Released Job35(T3, actual=1, deadline=126)
+   T=112.0: Scheduled Job34(T1)
+   T=114.0: Completed Job34(T1) actual=2
+   T=114.0: Scheduled Job35(T3)
+   T=115.0: Completed Job35(T3) actual=1
+   T=115.0: IDLE for 5.0ms (consuming energy at lowest freq)
+   T=120.0: Released Job36(T1, actual=1, deadline=128)
+   T=120.0: Released Job37(T2, actual=1, deadline=130)
+   T=120.0: Scheduled Job36(T1)
+   T=121.0: Completed Job36(T1) actual=1
+   T=121.0: Scheduled Job37(T2)
+   T=122.0: Completed Job37(T2) actual=1
+   T=122.0: IDLE for 4.0ms (consuming energy at lowest freq)
+   T=126.0: Released Job38(T3, actual=1, deadline=140)
+   T=126.0: Scheduled Job38(T3)
+   T=127.0: Completed Job38(T3) actual=1
+   T=127.0: IDLE for 1.0ms (consuming energy at lowest freq)
+   T=128.0: Released Job39(T1, actual=2, deadline=136)
+   T=128.0: Scheduled Job39(T1)
+   T=130.0: Completed Job39(T1) actual=2
+   T=130.0: Released Job40(T2, actual=1, deadline=140)
+   T=130.0: Scheduled Job40(T2)
+   T=131.0: Completed Job40(T2) actual=1
+   T=131.0: IDLE for 5.0ms (consuming energy at lowest freq)
+   T=136.0: Released Job41(T1, actual=1, deadline=144)
+   T=136.0: Scheduled Job41(T1)
+   T=137.0: Completed Job41(T1) actual=1
+   T=137.0: IDLE for 3.0ms (consuming energy at lowest freq)
+   T=140.0: Released Job42(T2, actual=1, deadline=150)
+   T=140.0: Released Job43(T3, actual=1, deadline=154)
+   T=140.0: Scheduled Job42(T2)
+   T=141.0: Completed Job42(T2) actual=1
+   T=141.0: Scheduled Job43(T3)
+   T=142.0: Completed Job43(T3) actual=1
+   T=142.0: IDLE for 2.0ms (consuming energy at lowest freq)
+   T=144.0: Released Job44(T1, actual=2, deadline=152)
+   T=144.0: Scheduled Job44(T1)
+   T=146.0: Completed Job44(T1) actual=2
+   T=146.0: IDLE for 4.0ms (consuming energy at lowest freq)
+   T=150.0: Released Job45(T2, actual=1, deadline=160)
+   T=150.0: Scheduled Job45(T2)
+   T=151.0: Completed Job45(T2) actual=1
+   T=151.0: IDLE for 1.0ms (consuming energy at lowest freq)
+   T=152.0: Released Job46(T1, actual=1, deadline=160)
+   T=152.0: Scheduled Job46(T1)
+   T=153.0: Completed Job46(T1) actual=1
+   T=153.0: IDLE for 1.0ms (consuming energy at lowest freq)
+   T=154.0: Released Job47(T3, actual=1, deadline=168)
+   T=154.0: Scheduled Job47(T3)
+   T=155.0: Completed Job47(T3) actual=1
+   T=155.0: IDLE for 5.0ms (consuming energy at lowest freq)
+   T=160.0: Released Job48(T1, actual=2, deadline=168)
+   T=160.0: Released Job49(T2, actual=1, deadline=170)
+   T=160.0: Scheduled Job48(T1)
+   T=162.0: Completed Job48(T1) actual=2
+   T=162.0: Scheduled Job49(T2)
+   T=163.0: Completed Job49(T2) actual=1
+   T=163.0: IDLE for 5.0ms (consuming energy at lowest freq)
+   T=168.0: Released Job50(T1, actual=1, deadline=176)
+   T=168.0: Released Job51(T3, actual=1, deadline=182)
+   T=168.0: Scheduled Job50(T1)
+   T=169.0: Completed Job50(T1) actual=1
+   T=169.0: Scheduled Job51(T3)
+   T=170.0: Completed Job51(T3) actual=1
+   T=170.0: Released Job52(T2, actual=1, deadline=180)
+   T=170.0: Scheduled Job52(T2)
+   T=171.0: Completed Job52(T2) actual=1
+   T=171.0: IDLE for 5.0ms (consuming energy at lowest freq)
+   T=176.0: Released Job53(T1, actual=2, deadline=184)
+   T=176.0: Scheduled Job53(T1)
+   T=178.0: Completed Job53(T1) actual=2
+   T=178.0: IDLE for 2.0ms (consuming energy at lowest freq)
+   T=180.0: Released Job54(T2, actual=1, deadline=190)
+   T=180.0: Scheduled Job54(T2)
+   T=181.0: Completed Job54(T2) actual=1
+   T=181.0: IDLE for 1.0ms (consuming energy at lowest freq)
+   T=182.0: Released Job55(T3, actual=1, deadline=196)
+   T=182.0: Scheduled Job55(T3)
+   T=183.0: Completed Job55(T3) actual=1
+   T=183.0: IDLE for 1.0ms (consuming energy at lowest freq)
+   T=184.0: Released Job56(T1, actual=1, deadline=192)
+   T=184.0: Scheduled Job56(T1)
+   T=185.0: Completed Job56(T1) actual=1
+   T=185.0: IDLE for 5.0ms (consuming energy at lowest freq)
+   T=190.0: Released Job57(T2, actual=1, deadline=200)
+   T=190.0: Scheduled Job57(T2)
+   T=191.0: Completed Job57(T2) actual=1
+   T=191.0: IDLE for 1.0ms (consuming energy at lowest freq)
+   T=192.0: Released Job58(T1, actual=2, deadline=200)
+   T=192.0: Scheduled Job58(T1)
+   T=194.0: Completed Job58(T1) actual=2
+   T=194.0: IDLE for 2.0ms (consuming energy at lowest freq)
+   T=196.0: Released Job59(T3, actual=1, deadline=210)
+   T=196.0: Scheduled Job59(T3)
+   T=197.0: Completed Job59(T3) actual=1
+   T=197.0: IDLE for 3.0ms (consuming energy at lowest freq)
+   T=200.0: Released Job60(T1, actual=1, deadline=208)
+   T=200.0: Released Job61(T2, actual=1, deadline=210)
+   T=200.0: Scheduled Job60(T1)
+   T=201.0: Completed Job60(T1) actual=1
+   T=201.0: Scheduled Job61(T2)
+   T=202.0: Completed Job61(T2) actual=1
+   T=202.0: IDLE for 6.0ms (consuming energy at lowest freq)
+   T=208.0: Released Job62(T1, actual=2, deadline=216)
+   T=208.0: Scheduled Job62(T1)
+   T=210.0: Completed Job62(T1) actual=2
+   T=210.0: Released Job63(T2, actual=1, deadline=220)
+   T=210.0: Released Job64(T3, actual=1, deadline=224)
+   T=210.0: Scheduled Job63(T2)
+   T=211.0: Completed Job63(T2) actual=1
+   T=211.0: Scheduled Job64(T3)
+   T=212.0: Completed Job64(T3) actual=1
+   T=212.0: IDLE for 4.0ms (consuming energy at lowest freq)
+   T=216.0: Released Job65(T1, actual=1, deadline=224)
+   T=216.0: Scheduled Job65(T1)
+   T=217.0: Completed Job65(T1) actual=1
+   T=217.0: IDLE for 3.0ms (consuming energy at lowest freq)
+   T=220.0: Released Job66(T2, actual=1, deadline=230)
+   T=220.0: Scheduled Job66(T2)
+   T=221.0: Completed Job66(T2) actual=1
+   T=221.0: IDLE for 3.0ms (consuming energy at lowest freq)
+   T=224.0: Released Job67(T1, actual=2, deadline=232)
+   T=224.0: Released Job68(T3, actual=1, deadline=238)
+   T=224.0: Scheduled Job67(T1)
+   T=226.0: Completed Job67(T1) actual=2
+   T=226.0: Scheduled Job68(T3)
+   T=227.0: Completed Job68(T3) actual=1
+   T=227.0: IDLE for 3.0ms (consuming energy at lowest freq)
+   T=230.0: Released Job69(T2, actual=1, deadline=240)
+   T=230.0: Scheduled Job69(T2)
+   T=231.0: Completed Job69(T2) actual=1
+   T=231.0: IDLE for 1.0ms (consuming energy at lowest freq)
+   T=232.0: Released Job70(T1, actual=1, deadline=240)
+   T=232.0: Scheduled Job70(T1)
+   T=233.0: Completed Job70(T1) actual=1
+   T=233.0: IDLE for 5.0ms (consuming energy at lowest freq)
+   T=238.0: Released Job71(T3, actual=1, deadline=252)
+   T=238.0: Scheduled Job71(T3)
+   T=239.0: Completed Job71(T3) actual=1
+   T=239.0: IDLE for 1.0ms (consuming energy at lowest freq)
+   T=240.0: Released Job72(T1, actual=2, deadline=248)
+   T=240.0: Released Job73(T2, actual=1, deadline=250)
+   T=240.0: Scheduled Job72(T1)
+   T=242.0: Completed Job72(T1) actual=2
+   T=242.0: Scheduled Job73(T2)
+   T=243.0: Completed Job73(T2) actual=1
+   T=243.0: IDLE for 5.0ms (consuming energy at lowest freq)
+   T=248.0: Released Job74(T1, actual=1, deadline=256)
+   T=248.0: Scheduled Job74(T1)
+   T=249.0: Completed Job74(T1) actual=1
+   T=249.0: IDLE for 1.0ms (consuming energy at lowest freq)
+   T=250.0: Released Job75(T2, actual=1, deadline=260)
+   T=250.0: Scheduled Job75(T2)
+   T=251.0: Completed Job75(T2) actual=1
+   T=251.0: IDLE for 1.0ms (consuming energy at lowest freq)
+   T=252.0: Released Job76(T3, actual=1, deadline=266)
+   T=252.0: Scheduled Job76(T3)
+   T=253.0: Completed Job76(T3) actual=1
+   T=253.0: IDLE for 3.0ms (consuming energy at lowest freq)
+   T=256.0: Released Job77(T1, actual=2, deadline=264)
+   T=256.0: Scheduled Job77(T1)
+   T=258.0: Completed Job77(T1) actual=2
+   T=258.0: IDLE for 2.0ms (consuming energy at lowest freq)
+   T=260.0: Released Job78(T2, actual=1, deadline=270)
+   T=260.0: Scheduled Job78(T2)
+   T=261.0: Completed Job78(T2) actual=1
+   T=261.0: IDLE for 3.0ms (consuming energy at lowest freq)
+   T=264.0: Released Job79(T1, actual=1, deadline=272)
+   T=264.0: Scheduled Job79(T1)
+   T=265.0: Completed Job79(T1) actual=1
+   T=265.0: IDLE for 1.0ms (consuming energy at lowest freq)
+   T=266.0: Released Job80(T3, actual=1, deadline=280)
+   T=266.0: Scheduled Job80(T3)
+   T=267.0: Completed Job80(T3) actual=1
+   T=267.0: IDLE for 3.0ms (consuming energy at lowest freq)
+   T=270.0: Released Job81(T2, actual=1, deadline=280)
+   T=270.0: Scheduled Job81(T2)
+   T=271.0: Completed Job81(T2) actual=1
+   T=271.0: IDLE for 1.0ms (consuming energy at lowest freq)
+   T=272.0: Released Job82(T1, actual=2, deadline=280)
+   T=272.0: Scheduled Job82(T1)
+   T=274.0: Completed Job82(T1) actual=2
+   T=274.0: IDLE for 6.0ms (consuming energy at lowest freq)
+
+--- RESULTS for Plain EDF ---
+Hyperperiod: 280 ms
+Jobs: 83, Decision points: 166
+Preemptions: 0, Context switches: 83
+Deadline misses: 0
+Total energy: 3258.18
+
+=== SIMULATION: Plain RM ===
+   T=0.0: Freq fixed at 1.000
+   T=0.0: Released Job0(T1, actual=2, deadline=8)
+   T=0.0: Released Job1(T2, actual=1, deadline=10)
+   T=0.0: Released Job2(T3, actual=1, deadline=14)
+   T=0.0: Scheduled Job0(T1)
+   T=2.0: Completed Job0(T1) actual=2
+   T=2.0: Scheduled Job1(T2)
+   T=3.0: Completed Job1(T2) actual=1
+   T=3.0: Scheduled Job2(T3)
+   T=4.0: Completed Job2(T3) actual=1
+   T=4.0: IDLE for 4.0ms (consuming energy at lowest freq)
+   T=8.0: Released Job3(T1, actual=1, deadline=16)
+   T=8.0: Scheduled Job3(T1)
+   T=9.0: Completed Job3(T1) actual=1
+   T=9.0: IDLE for 1.0ms (consuming energy at lowest freq)
+   T=10.0: Released Job4(T2, actual=1, deadline=20)
+   T=10.0: Scheduled Job4(T2)
+   T=11.0: Completed Job4(T2) actual=1
+   T=11.0: IDLE for 3.0ms (consuming energy at lowest freq)
+   T=14.0: Released Job5(T3, actual=1, deadline=28)
+   T=14.0: Scheduled Job5(T3)
+   T=15.0: Completed Job5(T3) actual=1
+   T=15.0: IDLE for 1.0ms (consuming energy at lowest freq)
+   T=16.0: Released Job6(T1, actual=2, deadline=24)
+   T=16.0: Scheduled Job6(T1)
+   T=18.0: Completed Job6(T1) actual=2
+   T=18.0: IDLE for 2.0ms (consuming energy at lowest freq)
+   T=20.0: Released Job7(T2, actual=1, deadline=30)
+   T=20.0: Scheduled Job7(T2)
+   T=21.0: Completed Job7(T2) actual=1
+   T=21.0: IDLE for 3.0ms (consuming energy at lowest freq)
+   T=24.0: Released Job8(T1, actual=1, deadline=32)
+   T=24.0: Scheduled Job8(T1)
+   T=25.0: Completed Job8(T1) actual=1
+   T=25.0: IDLE for 3.0ms (consuming energy at lowest freq)
+   T=28.0: Released Job9(T3, actual=1, deadline=42)
+   T=28.0: Scheduled Job9(T3)
+   T=29.0: Completed Job9(T3) actual=1
+   T=29.0: IDLE for 1.0ms (consuming energy at lowest freq)
+   T=30.0: Released Job10(T2, actual=1, deadline=40)
+   T=30.0: Scheduled Job10(T2)
+   T=31.0: Completed Job10(T2) actual=1
+   T=31.0: IDLE for 1.0ms (consuming energy at lowest freq)
+   T=32.0: Released Job11(T1, actual=2, deadline=40)
+   T=32.0: Scheduled Job11(T1)
+   T=34.0: Completed Job11(T1) actual=2
+   T=34.0: IDLE for 6.0ms (consuming energy at lowest freq)
+   T=40.0: Released Job12(T1, actual=1, deadline=48)
+   T=40.0: Released Job13(T2, actual=1, deadline=50)
+   T=40.0: Scheduled Job12(T1)
+   T=41.0: Completed Job12(T1) actual=1
+   T=41.0: Scheduled Job13(T2)
+   T=42.0: Completed Job13(T2) actual=1
+   T=42.0: Released Job14(T3, actual=1, deadline=56)
+   T=42.0: Scheduled Job14(T3)
+   T=43.0: Completed Job14(T3) actual=1
+   T=43.0: IDLE for 5.0ms (consuming energy at lowest freq)
+   T=48.0: Released Job15(T1, actual=2, deadline=56)
+   T=48.0: Scheduled Job15(T1)
+   T=50.0: Completed Job15(T1) actual=2
+   T=50.0: Released Job16(T2, actual=1, deadline=60)
+   T=50.0: Scheduled Job16(T2)
+   T=51.0: Completed Job16(T2) actual=1
+   T=51.0: IDLE for 5.0ms (consuming energy at lowest freq)
+   T=56.0: Released Job17(T1, actual=1, deadline=64)
+   T=56.0: Released Job18(T3, actual=1, deadline=70)
+   T=56.0: Scheduled Job17(T1)
+   T=57.0: Completed Job17(T1) actual=1
+   T=57.0: Scheduled Job18(T3)
+   T=58.0: Completed Job18(T3) actual=1
+   T=58.0: IDLE for 2.0ms (consuming energy at lowest freq)
+   T=60.0: Released Job19(T2, actual=1, deadline=70)
+   T=60.0: Scheduled Job19(T2)
+   T=61.0: Completed Job19(T2) actual=1
+   T=61.0: IDLE for 3.0ms (consuming energy at lowest freq)
+   T=64.0: Released Job20(T1, actual=2, deadline=72)
+   T=64.0: Scheduled Job20(T1)
+   T=66.0: Completed Job20(T1) actual=2
+   T=66.0: IDLE for 4.0ms (consuming energy at lowest freq)
+   T=70.0: Released Job21(T2, actual=1, deadline=80)
+   T=70.0: Released Job22(T3, actual=1, deadline=84)
+   T=70.0: Scheduled Job21(T2)
+   T=71.0: Completed Job21(T2) actual=1
+   T=71.0: Scheduled Job22(T3)
+   T=72.0: Completed Job22(T3) actual=1
+   T=72.0: Released Job23(T1, actual=1, deadline=80)
+   T=72.0: Scheduled Job23(T1)
+   T=73.0: Completed Job23(T1) actual=1
+   T=73.0: IDLE for 7.0ms (consuming energy at lowest freq)
+   T=80.0: Released Job24(T1, actual=2, deadline=88)
+   T=80.0: Released Job25(T2, actual=1, deadline=90)
+   T=80.0: Scheduled Job24(T1)
+   T=82.0: Completed Job24(T1) actual=2
+   T=82.0: Scheduled Job25(T2)
+   T=83.0: Completed Job25(T2) actual=1
+   T=83.0: IDLE for 1.0ms (consuming energy at lowest freq)
+   T=84.0: Released Job26(T3, actual=1, deadline=98)
+   T=84.0: Scheduled Job26(T3)
+   T=85.0: Completed Job26(T3) actual=1
+   T=85.0: IDLE for 3.0ms (consuming energy at lowest freq)
+   T=88.0: Released Job27(T1, actual=1, deadline=96)
+   T=88.0: Scheduled Job27(T1)
+   T=89.0: Completed Job27(T1) actual=1
+   T=89.0: IDLE for 1.0ms (consuming energy at lowest freq)
+   T=90.0: Released Job28(T2, actual=1, deadline=100)
+   T=90.0: Scheduled Job28(T2)
+   T=91.0: Completed Job28(T2) actual=1
+   T=91.0: IDLE for 5.0ms (consuming energy at lowest freq)
+   T=96.0: Released Job29(T1, actual=2, deadline=104)
+   T=96.0: Scheduled Job29(T1)
+   T=98.0: Completed Job29(T1) actual=2
+   T=98.0: Released Job30(T3, actual=1, deadline=112)
+   T=98.0: Scheduled Job30(T3)
+   T=99.0: Completed Job30(T3) actual=1
+   T=99.0: IDLE for 1.0ms (consuming energy at lowest freq)
+   T=100.0: Released Job31(T2, actual=1, deadline=110)
+   T=100.0: Scheduled Job31(T2)
+   T=101.0: Completed Job31(T2) actual=1
+   T=101.0: IDLE for 3.0ms (consuming energy at lowest freq)
+   T=104.0: Released Job32(T1, actual=1, deadline=112)
+   T=104.0: Scheduled Job32(T1)
+   T=105.0: Completed Job32(T1) actual=1
+   T=105.0: IDLE for 5.0ms (consuming energy at lowest freq)
+   T=110.0: Released Job33(T2, actual=1, deadline=120)
+   T=110.0: Scheduled Job33(T2)
+   T=111.0: Completed Job33(T2) actual=1
+   T=111.0: IDLE for 1.0ms (consuming energy at lowest freq)
+   T=112.0: Released Job34(T1, actual=2, deadline=120)
+   T=112.0: Released Job35(T3, actual=1, deadline=126)
+   T=112.0: Scheduled Job34(T1)
+   T=114.0: Completed Job34(T1) actual=2
+   T=114.0: Scheduled Job35(T3)
+   T=115.0: Completed Job35(T3) actual=1
+   T=115.0: IDLE for 5.0ms (consuming energy at lowest freq)
+   T=120.0: Released Job36(T1, actual=1, deadline=128)
+   T=120.0: Released Job37(T2, actual=1, deadline=130)
+   T=120.0: Scheduled Job36(T1)
+   T=121.0: Completed Job36(T1) actual=1
+   T=121.0: Scheduled Job37(T2)
+   T=122.0: Completed Job37(T2) actual=1
+   T=122.0: IDLE for 4.0ms (consuming energy at lowest freq)
+   T=126.0: Released Job38(T3, actual=1, deadline=140)
+   T=126.0: Scheduled Job38(T3)
+   T=127.0: Completed Job38(T3) actual=1
+   T=127.0: IDLE for 1.0ms (consuming energy at lowest freq)
+   T=128.0: Released Job39(T1, actual=2, deadline=136)
+   T=128.0: Scheduled Job39(T1)
+   T=130.0: Completed Job39(T1) actual=2
+   T=130.0: Released Job40(T2, actual=1, deadline=140)
+   T=130.0: Scheduled Job40(T2)
+   T=131.0: Completed Job40(T2) actual=1
+   T=131.0: IDLE for 5.0ms (consuming energy at lowest freq)
+   T=136.0: Released Job41(T1, actual=1, deadline=144)
+   T=136.0: Scheduled Job41(T1)
+   T=137.0: Completed Job41(T1) actual=1
+   T=137.0: IDLE for 3.0ms (consuming energy at lowest freq)
+   T=140.0: Released Job42(T2, actual=1, deadline=150)
+   T=140.0: Released Job43(T3, actual=1, deadline=154)
+   T=140.0: Scheduled Job42(T2)
+   T=141.0: Completed Job42(T2) actual=1
+   T=141.0: Scheduled Job43(T3)
+   T=142.0: Completed Job43(T3) actual=1
+   T=142.0: IDLE for 2.0ms (consuming energy at lowest freq)
+   T=144.0: Released Job44(T1, actual=2, deadline=152)
+   T=144.0: Scheduled Job44(T1)
+   T=146.0: Completed Job44(T1) actual=2
+   T=146.0: IDLE for 4.0ms (consuming energy at lowest freq)
+   T=150.0: Released Job45(T2, actual=1, deadline=160)
+   T=150.0: Scheduled Job45(T2)
+   T=151.0: Completed Job45(T2) actual=1
+   T=151.0: IDLE for 1.0ms (consuming energy at lowest freq)
+   T=152.0: Released Job46(T1, actual=1, deadline=160)
+   T=152.0: Scheduled Job46(T1)
+   T=153.0: Completed Job46(T1) actual=1
+   T=153.0: IDLE for 1.0ms (consuming energy at lowest freq)
+   T=154.0: Released Job47(T3, actual=1, deadline=168)
+   T=154.0: Scheduled Job47(T3)
+   T=155.0: Completed Job47(T3) actual=1
+   T=155.0: IDLE for 5.0ms (consuming energy at lowest freq)
+   T=160.0: Released Job48(T1, actual=2, deadline=168)
+   T=160.0: Released Job49(T2, actual=1, deadline=170)
+   T=160.0: Scheduled Job48(T1)
+   T=162.0: Completed Job48(T1) actual=2
+   T=162.0: Scheduled Job49(T2)
+   T=163.0: Completed Job49(T2) actual=1
+   T=163.0: IDLE for 5.0ms (consuming energy at lowest freq)
+   T=168.0: Released Job50(T1, actual=1, deadline=176)
+   T=168.0: Released Job51(T3, actual=1, deadline=182)
+   T=168.0: Scheduled Job50(T1)
+   T=169.0: Completed Job50(T1) actual=1
+   T=169.0: Scheduled Job51(T3)
+   T=170.0: Completed Job51(T3) actual=1
+   T=170.0: Released Job52(T2, actual=1, deadline=180)
+   T=170.0: Scheduled Job52(T2)
+   T=171.0: Completed Job52(T2) actual=1
+   T=171.0: IDLE for 5.0ms (consuming energy at lowest freq)
+   T=176.0: Released Job53(T1, actual=2, deadline=184)
+   T=176.0: Scheduled Job53(T1)
+   T=178.0: Completed Job53(T1) actual=2
+   T=178.0: IDLE for 2.0ms (consuming energy at lowest freq)
+   T=180.0: Released Job54(T2, actual=1, deadline=190)
+   T=180.0: Scheduled Job54(T2)
+   T=181.0: Completed Job54(T2) actual=1
+   T=181.0: IDLE for 1.0ms (consuming energy at lowest freq)
+   T=182.0: Released Job55(T3, actual=1, deadline=196)
+   T=182.0: Scheduled Job55(T3)
+   T=183.0: Completed Job55(T3) actual=1
+   T=183.0: IDLE for 1.0ms (consuming energy at lowest freq)
+   T=184.0: Released Job56(T1, actual=1, deadline=192)
+   T=184.0: Scheduled Job56(T1)
+   T=185.0: Completed Job56(T1) actual=1
+   T=185.0: IDLE for 5.0ms (consuming energy at lowest freq)
+   T=190.0: Released Job57(T2, actual=1, deadline=200)
+   T=190.0: Scheduled Job57(T2)
+   T=191.0: Completed Job57(T2) actual=1
+   T=191.0: IDLE for 1.0ms (consuming energy at lowest freq)
+   T=192.0: Released Job58(T1, actual=2, deadline=200)
+   T=192.0: Scheduled Job58(T1)
+   T=194.0: Completed Job58(T1) actual=2
+   T=194.0: IDLE for 2.0ms (consuming energy at lowest freq)
+   T=196.0: Released Job59(T3, actual=1, deadline=210)
+   T=196.0: Scheduled Job59(T3)
+   T=197.0: Completed Job59(T3) actual=1
+   T=197.0: IDLE for 3.0ms (consuming energy at lowest freq)
+   T=200.0: Released Job60(T1, actual=1, deadline=208)
+   T=200.0: Released Job61(T2, actual=1, deadline=210)
+   T=200.0: Scheduled Job60(T1)
+   T=201.0: Completed Job60(T1) actual=1
+   T=201.0: Scheduled Job61(T2)
+   T=202.0: Completed Job61(T2) actual=1
+   T=202.0: IDLE for 6.0ms (consuming energy at lowest freq)
+   T=208.0: Released Job62(T1, actual=2, deadline=216)
+   T=208.0: Scheduled Job62(T1)
+   T=210.0: Completed Job62(T1) actual=2
+   T=210.0: Released Job63(T2, actual=1, deadline=220)
+   T=210.0: Released Job64(T3, actual=1, deadline=224)
+   T=210.0: Scheduled Job63(T2)
+   T=211.0: Completed Job63(T2) actual=1
+   T=211.0: Scheduled Job64(T3)
+   T=212.0: Completed Job64(T3) actual=1
+   T=212.0: IDLE for 4.0ms (consuming energy at lowest freq)
+   T=216.0: Released Job65(T1, actual=1, deadline=224)
+   T=216.0: Scheduled Job65(T1)
+   T=217.0: Completed Job65(T1) actual=1
+   T=217.0: IDLE for 3.0ms (consuming energy at lowest freq)
+   T=220.0: Released Job66(T2, actual=1, deadline=230)
+   T=220.0: Scheduled Job66(T2)
+   T=221.0: Completed Job66(T2) actual=1
+   T=221.0: IDLE for 3.0ms (consuming energy at lowest freq)
+   T=224.0: Released Job67(T1, actual=2, deadline=232)
+   T=224.0: Released Job68(T3, actual=1, deadline=238)
+   T=224.0: Scheduled Job67(T1)
+   T=226.0: Completed Job67(T1) actual=2
+   T=226.0: Scheduled Job68(T3)
+   T=227.0: Completed Job68(T3) actual=1
+   T=227.0: IDLE for 3.0ms (consuming energy at lowest freq)
+   T=230.0: Released Job69(T2, actual=1, deadline=240)
+   T=230.0: Scheduled Job69(T2)
+   T=231.0: Completed Job69(T2) actual=1
+   T=231.0: IDLE for 1.0ms (consuming energy at lowest freq)
+   T=232.0: Released Job70(T1, actual=1, deadline=240)
+   T=232.0: Scheduled Job70(T1)
+   T=233.0: Completed Job70(T1) actual=1
+   T=233.0: IDLE for 5.0ms (consuming energy at lowest freq)
+   T=238.0: Released Job71(T3, actual=1, deadline=252)
+   T=238.0: Scheduled Job71(T3)
+   T=239.0: Completed Job71(T3) actual=1
+   T=239.0: IDLE for 1.0ms (consuming energy at lowest freq)
+   T=240.0: Released Job72(T1, actual=2, deadline=248)
+   T=240.0: Released Job73(T2, actual=1, deadline=250)
+   T=240.0: Scheduled Job72(T1)
+   T=242.0: Completed Job72(T1) actual=2
+   T=242.0: Scheduled Job73(T2)
+   T=243.0: Completed Job73(T2) actual=1
+   T=243.0: IDLE for 5.0ms (consuming energy at lowest freq)
+   T=248.0: Released Job74(T1, actual=1, deadline=256)
+   T=248.0: Scheduled Job74(T1)
+   T=249.0: Completed Job74(T1) actual=1
+   T=249.0: IDLE for 1.0ms (consuming energy at lowest freq)
+   T=250.0: Released Job75(T2, actual=1, deadline=260)
+   T=250.0: Scheduled Job75(T2)
+   T=251.0: Completed Job75(T2) actual=1
+   T=251.0: IDLE for 1.0ms (consuming energy at lowest freq)
+   T=252.0: Released Job76(T3, actual=1, deadline=266)
+   T=252.0: Scheduled Job76(T3)
+   T=253.0: Completed Job76(T3) actual=1
+   T=253.0: IDLE for 3.0ms (consuming energy at lowest freq)
+   T=256.0: Released Job77(T1, actual=2, deadline=264)
+   T=256.0: Scheduled Job77(T1)
+   T=258.0: Completed Job77(T1) actual=2
+   T=258.0: IDLE for 2.0ms (consuming energy at lowest freq)
+   T=260.0: Released Job78(T2, actual=1, deadline=270)
+   T=260.0: Scheduled Job78(T2)
+   T=261.0: Completed Job78(T2) actual=1
+   T=261.0: IDLE for 3.0ms (consuming energy at lowest freq)
+   T=264.0: Released Job79(T1, actual=1, deadline=272)
+   T=264.0: Scheduled Job79(T1)
+   T=265.0: Completed Job79(T1) actual=1
+   T=265.0: IDLE for 1.0ms (consuming energy at lowest freq)
+   T=266.0: Released Job80(T3, actual=1, deadline=280)
+   T=266.0: Scheduled Job80(T3)
+   T=267.0: Completed Job80(T3) actual=1
+   T=267.0: IDLE for 3.0ms (consuming energy at lowest freq)
+   T=270.0: Released Job81(T2, actual=1, deadline=280)
+   T=270.0: Scheduled Job81(T2)
+   T=271.0: Completed Job81(T2) actual=1
+   T=271.0: IDLE for 1.0ms (consuming energy at lowest freq)
+   T=272.0: Released Job82(T1, actual=2, deadline=280)
+   T=272.0: Scheduled Job82(T1)
+   T=274.0: Completed Job82(T1) actual=2
+   T=274.0: IDLE for 6.0ms (consuming energy at lowest freq)
+
+--- RESULTS for Plain RM ---
+Hyperperiod: 280 ms
+Jobs: 83, Decision points: 166
+Preemptions: 0, Context switches: 83
+Deadline misses: 0
+Total energy: 3258.18
+
+Baselines Calculated. Running DVS simulations...
+
+=== SIMULATION: Static EDF ===
+   T=0.0: Static EDF util req: 0.746 -> Freq set to 0.800
+   T=0.0: Released Job0(T1, actual=2, deadline=8)
+   T=0.0: Released Job1(T2, actual=1, deadline=10)
+   T=0.0: Released Job2(T3, actual=1, deadline=14)
+   T=0.0: Scheduled Job0(T1)
+   T=2.5: Completed Job0(T1) actual=2
+   T=2.5: Scheduled Job1(T2)
+   T=3.8: Completed Job1(T2) actual=1
+   T=3.8: Scheduled Job2(T3)
+   T=5.0: Completed Job2(T3) actual=1
+   T=5.0: IDLE for 3.0ms (consuming energy at lowest freq)
+   T=8.0: Released Job3(T1, actual=1, deadline=16)
+   T=8.0: Scheduled Job3(T1)
+   T=9.2: Completed Job3(T1) actual=1
+   T=9.2: IDLE for 0.8ms (consuming energy at lowest freq)
+   T=10.0: Released Job4(T2, actual=1, deadline=20)
+   T=10.0: Scheduled Job4(T2)
+   T=11.2: Completed Job4(T2) actual=1
+   T=11.2: IDLE for 2.8ms (consuming energy at lowest freq)
+   T=14.0: Released Job5(T3, actual=1, deadline=28)
+   T=14.0: Scheduled Job5(T3)
+   T=15.2: Completed Job5(T3) actual=1
+   T=15.2: IDLE for 0.8ms (consuming energy at lowest freq)
+   T=16.0: Released Job6(T1, actual=2, deadline=24)
+   T=16.0: Scheduled Job6(T1)
+   T=18.5: Completed Job6(T1) actual=2
+   T=18.5: IDLE for 1.5ms (consuming energy at lowest freq)
+   T=20.0: Released Job7(T2, actual=1, deadline=30)
+   T=20.0: Scheduled Job7(T2)
+   T=21.2: Completed Job7(T2) actual=1
+   T=21.2: IDLE for 2.8ms (consuming energy at lowest freq)
+   T=24.0: Released Job8(T1, actual=1, deadline=32)
+   T=24.0: Scheduled Job8(T1)
+   T=25.2: Completed Job8(T1) actual=1
+   T=25.2: IDLE for 2.8ms (consuming energy at lowest freq)
+   T=28.0: Released Job9(T3, actual=1, deadline=42)
+   T=28.0: Scheduled Job9(T3)
+   T=29.2: Completed Job9(T3) actual=1
+   T=29.2: IDLE for 0.8ms (consuming energy at lowest freq)
+   T=30.0: Released Job10(T2, actual=1, deadline=40)
+   T=30.0: Scheduled Job10(T2)
+   T=31.2: Completed Job10(T2) actual=1
+   T=31.2: IDLE for 0.8ms (consuming energy at lowest freq)
+   T=32.0: Released Job11(T1, actual=2, deadline=40)
+   T=32.0: Scheduled Job11(T1)
+   T=34.5: Completed Job11(T1) actual=2
+   T=34.5: IDLE for 5.5ms (consuming energy at lowest freq)
+   T=40.0: Released Job12(T1, actual=1, deadline=48)
+   T=40.0: Released Job13(T2, actual=1, deadline=50)
+   T=40.0: Scheduled Job12(T1)
+   T=41.2: Completed Job12(T1) actual=1
+   T=41.2: Scheduled Job13(T2)
+   T=42.0: Released Job14(T3, actual=1, deadline=56)
+   T=42.5: Completed Job13(T2) actual=1
+   T=42.5: Scheduled Job14(T3)
+   T=43.8: Completed Job14(T3) actual=1
+   T=43.8: IDLE for 4.2ms (consuming energy at lowest freq)
+   T=48.0: Released Job15(T1, actual=2, deadline=56)
+   T=48.0: Scheduled Job15(T1)
+   T=50.0: Released Job16(T2, actual=1, deadline=60)
+   T=50.5: Completed Job15(T1) actual=2
+   T=50.5: Scheduled Job16(T2)
+   T=51.8: Completed Job16(T2) actual=1
+   T=51.8: IDLE for 4.2ms (consuming energy at lowest freq)
+   T=56.0: Released Job17(T1, actual=1, deadline=64)
+   T=56.0: Released Job18(T3, actual=1, deadline=70)
+   T=56.0: Scheduled Job17(T1)
+   T=57.2: Completed Job17(T1) actual=1
+   T=57.2: Scheduled Job18(T3)
+   T=58.5: Completed Job18(T3) actual=1
+   T=58.5: IDLE for 1.5ms (consuming energy at lowest freq)
+   T=60.0: Released Job19(T2, actual=1, deadline=70)
+   T=60.0: Scheduled Job19(T2)
+   T=61.2: Completed Job19(T2) actual=1
+   T=61.2: IDLE for 2.8ms (consuming energy at lowest freq)
+   T=64.0: Released Job20(T1, actual=2, deadline=72)
+   T=64.0: Scheduled Job20(T1)
+   T=66.5: Completed Job20(T1) actual=2
+   T=66.5: IDLE for 3.5ms (consuming energy at lowest freq)
+   T=70.0: Released Job21(T2, actual=1, deadline=80)
+   T=70.0: Released Job22(T3, actual=1, deadline=84)
+   T=70.0: Scheduled Job21(T2)
+   T=71.2: Completed Job21(T2) actual=1
+   T=71.2: Scheduled Job22(T3)
+   T=72.0: Released Job23(T1, actual=1, deadline=80)
+   T=72.0: Scheduled Job23(T1)
+   T=73.2: Completed Job23(T1) actual=1
+   T=73.2: Scheduled Job22(T3)
+   T=73.8: Completed Job22(T3) actual=1
+   T=73.8: IDLE for 6.2ms (consuming energy at lowest freq)
+   T=80.0: Released Job24(T1, actual=2, deadline=88)
+   T=80.0: Released Job25(T2, actual=1, deadline=90)
+   T=80.0: Scheduled Job24(T1)
+   T=82.5: Completed Job24(T1) actual=2
+   T=82.5: Scheduled Job25(T2)
+   T=83.8: Completed Job25(T2) actual=1
+   T=83.8: IDLE for 0.2ms (consuming energy at lowest freq)
+   T=84.0: Released Job26(T3, actual=1, deadline=98)
+   T=84.0: Scheduled Job26(T3)
+   T=85.2: Completed Job26(T3) actual=1
+   T=85.2: IDLE for 2.8ms (consuming energy at lowest freq)
+   T=88.0: Released Job27(T1, actual=1, deadline=96)
+   T=88.0: Scheduled Job27(T1)
+   T=89.2: Completed Job27(T1) actual=1
+   T=89.2: IDLE for 0.8ms (consuming energy at lowest freq)
+   T=90.0: Released Job28(T2, actual=1, deadline=100)
+   T=90.0: Scheduled Job28(T2)
+   T=91.2: Completed Job28(T2) actual=1
+   T=91.2: IDLE for 4.8ms (consuming energy at lowest freq)
+   T=96.0: Released Job29(T1, actual=2, deadline=104)
+   T=96.0: Scheduled Job29(T1)
+   T=98.0: Released Job30(T3, actual=1, deadline=112)
+   T=98.5: Completed Job29(T1) actual=2
+   T=98.5: Scheduled Job30(T3)
+   T=99.8: Completed Job30(T3) actual=1
+   T=99.8: IDLE for 0.2ms (consuming energy at lowest freq)
+   T=100.0: Released Job31(T2, actual=1, deadline=110)
+   T=100.0: Scheduled Job31(T2)
+   T=101.2: Completed Job31(T2) actual=1
+   T=101.2: IDLE for 2.8ms (consuming energy at lowest freq)
+   T=104.0: Released Job32(T1, actual=1, deadline=112)
+   T=104.0: Scheduled Job32(T1)
+   T=105.2: Completed Job32(T1) actual=1
+   T=105.2: IDLE for 4.8ms (consuming energy at lowest freq)
+   T=110.0: Released Job33(T2, actual=1, deadline=120)
+   T=110.0: Scheduled Job33(T2)
+   T=111.2: Completed Job33(T2) actual=1
+   T=111.2: IDLE for 0.8ms (consuming energy at lowest freq)
+   T=112.0: Released Job34(T1, actual=2, deadline=120)
+   T=112.0: Released Job35(T3, actual=1, deadline=126)
+   T=112.0: Scheduled Job34(T1)
+   T=114.5: Completed Job34(T1) actual=2
+   T=114.5: Scheduled Job35(T3)
+   T=115.8: Completed Job35(T3) actual=1
+   T=115.8: IDLE for 4.2ms (consuming energy at lowest freq)
+   T=120.0: Released Job36(T1, actual=1, deadline=128)
+   T=120.0: Released Job37(T2, actual=1, deadline=130)
+   T=120.0: Scheduled Job36(T1)
+   T=121.2: Completed Job36(T1) actual=1
+   T=121.2: Scheduled Job37(T2)
+   T=122.5: Completed Job37(T2) actual=1
+   T=122.5: IDLE for 3.5ms (consuming energy at lowest freq)
+   T=126.0: Released Job38(T3, actual=1, deadline=140)
+   T=126.0: Scheduled Job38(T3)
+   T=127.2: Completed Job38(T3) actual=1
+   T=127.2: IDLE for 0.8ms (consuming energy at lowest freq)
+   T=128.0: Released Job39(T1, actual=2, deadline=136)
+   T=128.0: Scheduled Job39(T1)
+   T=130.0: Released Job40(T2, actual=1, deadline=140)
+   T=130.5: Completed Job39(T1) actual=2
+   T=130.5: Scheduled Job40(T2)
+   T=131.8: Completed Job40(T2) actual=1
+   T=131.8: IDLE for 4.2ms (consuming energy at lowest freq)
+   T=136.0: Released Job41(T1, actual=1, deadline=144)
+   T=136.0: Scheduled Job41(T1)
+   T=137.2: Completed Job41(T1) actual=1
+   T=137.2: IDLE for 2.8ms (consuming energy at lowest freq)
+   T=140.0: Released Job42(T2, actual=1, deadline=150)
+   T=140.0: Released Job43(T3, actual=1, deadline=154)
+   T=140.0: Scheduled Job42(T2)
+   T=141.2: Completed Job42(T2) actual=1
+   T=141.2: Scheduled Job43(T3)
+   T=142.5: Completed Job43(T3) actual=1
+   T=142.5: IDLE for 1.5ms (consuming energy at lowest freq)
+   T=144.0: Released Job44(T1, actual=2, deadline=152)
+   T=144.0: Scheduled Job44(T1)
+   T=146.5: Completed Job44(T1) actual=2
+   T=146.5: IDLE for 3.5ms (consuming energy at lowest freq)
+   T=150.0: Released Job45(T2, actual=1, deadline=160)
+   T=150.0: Scheduled Job45(T2)
+   T=151.2: Completed Job45(T2) actual=1
+   T=151.2: IDLE for 0.8ms (consuming energy at lowest freq)
+   T=152.0: Released Job46(T1, actual=1, deadline=160)
+   T=152.0: Scheduled Job46(T1)
+   T=153.2: Completed Job46(T1) actual=1
+   T=153.2: IDLE for 0.8ms (consuming energy at lowest freq)
+   T=154.0: Released Job47(T3, actual=1, deadline=168)
+   T=154.0: Scheduled Job47(T3)
+   T=155.2: Completed Job47(T3) actual=1
+   T=155.2: IDLE for 4.8ms (consuming energy at lowest freq)
+   T=160.0: Released Job48(T1, actual=2, deadline=168)
+   T=160.0: Released Job49(T2, actual=1, deadline=170)
+   T=160.0: Scheduled Job48(T1)
+   T=162.5: Completed Job48(T1) actual=2
+   T=162.5: Scheduled Job49(T2)
+   T=163.8: Completed Job49(T2) actual=1
+   T=163.8: IDLE for 4.2ms (consuming energy at lowest freq)
+   T=168.0: Released Job50(T1, actual=1, deadline=176)
+   T=168.0: Released Job51(T3, actual=1, deadline=182)
+   T=168.0: Scheduled Job50(T1)
+   T=169.2: Completed Job50(T1) actual=1
+   T=169.2: Scheduled Job51(T3)
+   T=170.0: Released Job52(T2, actual=1, deadline=180)
+   T=170.0: Scheduled Job52(T2)
+   T=171.2: Completed Job52(T2) actual=1
+   T=171.2: Scheduled Job51(T3)
+   T=171.8: Completed Job51(T3) actual=1
+   T=171.8: IDLE for 4.2ms (consuming energy at lowest freq)
+   T=176.0: Released Job53(T1, actual=2, deadline=184)
+   T=176.0: Scheduled Job53(T1)
+   T=178.5: Completed Job53(T1) actual=2
+   T=178.5: IDLE for 1.5ms (consuming energy at lowest freq)
+   T=180.0: Released Job54(T2, actual=1, deadline=190)
+   T=180.0: Scheduled Job54(T2)
+   T=181.2: Completed Job54(T2) actual=1
+   T=181.2: IDLE for 0.8ms (consuming energy at lowest freq)
+   T=182.0: Released Job55(T3, actual=1, deadline=196)
+   T=182.0: Scheduled Job55(T3)
+   T=183.2: Completed Job55(T3) actual=1
+   T=183.2: IDLE for 0.8ms (consuming energy at lowest freq)
+   T=184.0: Released Job56(T1, actual=1, deadline=192)
+   T=184.0: Scheduled Job56(T1)
+   T=185.2: Completed Job56(T1) actual=1
+   T=185.2: IDLE for 4.8ms (consuming energy at lowest freq)
+   T=190.0: Released Job57(T2, actual=1, deadline=200)
+   T=190.0: Scheduled Job57(T2)
+   T=191.2: Completed Job57(T2) actual=1
+   T=191.2: IDLE for 0.8ms (consuming energy at lowest freq)
+   T=192.0: Released Job58(T1, actual=2, deadline=200)
+   T=192.0: Scheduled Job58(T1)
+   T=194.5: Completed Job58(T1) actual=2
+   T=194.5: IDLE for 1.5ms (consuming energy at lowest freq)
+   T=196.0: Released Job59(T3, actual=1, deadline=210)
+   T=196.0: Scheduled Job59(T3)
+   T=197.2: Completed Job59(T3) actual=1
+   T=197.2: IDLE for 2.8ms (consuming energy at lowest freq)
+   T=200.0: Released Job60(T1, actual=1, deadline=208)
+   T=200.0: Released Job61(T2, actual=1, deadline=210)
+   T=200.0: Scheduled Job60(T1)
+   T=201.2: Completed Job60(T1) actual=1
+   T=201.2: Scheduled Job61(T2)
+   T=202.5: Completed Job61(T2) actual=1
+   T=202.5: IDLE for 5.5ms (consuming energy at lowest freq)
+   T=208.0: Released Job62(T1, actual=2, deadline=216)
+   T=208.0: Scheduled Job62(T1)
+   T=210.0: Released Job63(T2, actual=1, deadline=220)
+   T=210.0: Released Job64(T3, actual=1, deadline=224)
+   T=210.5: Completed Job62(T1) actual=2
+   T=210.5: Scheduled Job63(T2)
+   T=211.8: Completed Job63(T2) actual=1
+   T=211.8: Scheduled Job64(T3)
+   T=213.0: Completed Job64(T3) actual=1
+   T=213.0: IDLE for 3.0ms (consuming energy at lowest freq)
+   T=216.0: Released Job65(T1, actual=1, deadline=224)
+   T=216.0: Scheduled Job65(T1)
+   T=217.2: Completed Job65(T1) actual=1
+   T=217.2: IDLE for 2.8ms (consuming energy at lowest freq)
+   T=220.0: Released Job66(T2, actual=1, deadline=230)
+   T=220.0: Scheduled Job66(T2)
+   T=221.2: Completed Job66(T2) actual=1
+   T=221.2: IDLE for 2.8ms (consuming energy at lowest freq)
+   T=224.0: Released Job67(T1, actual=2, deadline=232)
+   T=224.0: Released Job68(T3, actual=1, deadline=238)
+   T=224.0: Scheduled Job67(T1)
+   T=226.5: Completed Job67(T1) actual=2
+   T=226.5: Scheduled Job68(T3)
+   T=227.8: Completed Job68(T3) actual=1
+   T=227.8: IDLE for 2.2ms (consuming energy at lowest freq)
+   T=230.0: Released Job69(T2, actual=1, deadline=240)
+   T=230.0: Scheduled Job69(T2)
+   T=231.2: Completed Job69(T2) actual=1
+   T=231.2: IDLE for 0.8ms (consuming energy at lowest freq)
+   T=232.0: Released Job70(T1, actual=1, deadline=240)
+   T=232.0: Scheduled Job70(T1)
+   T=233.2: Completed Job70(T1) actual=1
+   T=233.2: IDLE for 4.8ms (consuming energy at lowest freq)
+   T=238.0: Released Job71(T3, actual=1, deadline=252)
+   T=238.0: Scheduled Job71(T3)
+   T=239.2: Completed Job71(T3) actual=1
+   T=239.2: IDLE for 0.8ms (consuming energy at lowest freq)
+   T=240.0: Released Job72(T1, actual=2, deadline=248)
+   T=240.0: Released Job73(T2, actual=1, deadline=250)
+   T=240.0: Scheduled Job72(T1)
+   T=242.5: Completed Job72(T1) actual=2
+   T=242.5: Scheduled Job73(T2)
+   T=243.8: Completed Job73(T2) actual=1
+   T=243.8: IDLE for 4.2ms (consuming energy at lowest freq)
+   T=248.0: Released Job74(T1, actual=1, deadline=256)
+   T=248.0: Scheduled Job74(T1)
+   T=249.2: Completed Job74(T1) actual=1
+   T=249.2: IDLE for 0.8ms (consuming energy at lowest freq)
+   T=250.0: Released Job75(T2, actual=1, deadline=260)
+   T=250.0: Scheduled Job75(T2)
+   T=251.2: Completed Job75(T2) actual=1
+   T=251.2: IDLE for 0.8ms (consuming energy at lowest freq)
+   T=252.0: Released Job76(T3, actual=1, deadline=266)
+   T=252.0: Scheduled Job76(T3)
+   T=253.2: Completed Job76(T3) actual=1
+   T=253.2: IDLE for 2.8ms (consuming energy at lowest freq)
+   T=256.0: Released Job77(T1, actual=2, deadline=264)
+   T=256.0: Scheduled Job77(T1)
+   T=258.5: Completed Job77(T1) actual=2
+   T=258.5: IDLE for 1.5ms (consuming energy at lowest freq)
+   T=260.0: Released Job78(T2, actual=1, deadline=270)
+   T=260.0: Scheduled Job78(T2)
+   T=261.2: Completed Job78(T2) actual=1
+   T=261.2: IDLE for 2.8ms (consuming energy at lowest freq)
+   T=264.0: Released Job79(T1, actual=1, deadline=272)
+   T=264.0: Scheduled Job79(T1)
+   T=265.2: Completed Job79(T1) actual=1
+   T=265.2: IDLE for 0.8ms (consuming energy at lowest freq)
+   T=266.0: Released Job80(T3, actual=1, deadline=280)
+   T=266.0: Scheduled Job80(T3)
+   T=267.2: Completed Job80(T3) actual=1
+   T=267.2: IDLE for 2.8ms (consuming energy at lowest freq)
+   T=270.0: Released Job81(T2, actual=1, deadline=280)
+   T=270.0: Scheduled Job81(T2)
+   T=271.2: Completed Job81(T2) actual=1
+   T=271.2: IDLE for 0.8ms (consuming energy at lowest freq)
+   T=272.0: Released Job82(T1, actual=2, deadline=280)
+   T=272.0: Scheduled Job82(T1)
+   T=274.5: Completed Job82(T1) actual=2
+   T=274.5: IDLE for 5.5ms (consuming energy at lowest freq)
+
+--- RESULTS for Static EDF ---
+Hyperperiod: 280 ms
+Jobs: 83, Decision points: 166
+Preemptions: 2, Context switches: 85
+Deadline misses: 0
+Total energy: 2585.12
+
+=== SIMULATION: ccEDF ===
+   T=0.0: Dynamic policy initial speed: 1.000
+   T=0.0: Released Job0(T1, actual=2, deadline=8)
+   T=0.0: Released Job1(T2, actual=1, deadline=10)
+   T=0.0: Released Job2(T3, actual=1, deadline=14)
+   T=0.0: Freq change: 1.000 -> 0.800 (util req: 0.746)
+   T=0.0: Scheduled Job0(T1)
+   T=2.5: Completed Job0(T1) actual=2
+   T=2.5: Freq change: 0.800 -> 0.700 (util req: 0.621)
+   T=2.5: Scheduled Job1(T2)
+   T=3.9: Completed Job1(T2) actual=1
+   T=3.9: Freq change: 0.700 -> 0.500 (util req: 0.421)
+   T=3.9: Scheduled Job2(T3)
+   T=5.9: Completed Job2(T3) actual=1
+   T=5.9: IDLE for 2.1ms (consuming energy at lowest freq)
+   T=8.0: Released Job3(T1, actual=1, deadline=16)
+   T=8.0: Freq change: 0.500 -> 0.600 (util req: 0.546)
+   T=8.0: Scheduled Job3(T1)
+   T=9.7: Completed Job3(T1) actual=1
+   T=9.7: Freq change: 0.600 -> 0.400 (util req: 0.296)
+   T=9.7: IDLE for 0.3ms (consuming energy at lowest freq)
+   T=10.0: Released Job4(T2, actual=1, deadline=20)
+   T=10.0: Freq change: 0.400 -> 0.500 (util req: 0.496)
+   T=10.0: Scheduled Job4(T2)
+   T=12.0: Completed Job4(T2) actual=1
+   T=12.0: Freq change: 0.500 -> 0.400 (util req: 0.296)
+   T=12.0: IDLE for 2.0ms (consuming energy at lowest freq)
+   T=14.0: Released Job5(T3, actual=1, deadline=28)
+   T=14.0: Scheduled Job5(T3)
+   T=16.0: Released Job6(T1, actual=2, deadline=24)
+   T=16.0: Freq change: 0.400 -> 0.600 (util req: 0.546)
+   T=16.0: Scheduled Job6(T1)
+   T=19.3: Completed Job6(T1) actual=2
+   T=19.3: Freq change: 0.600 -> 0.500 (util req: 0.421)
+   T=19.3: Scheduled Job5(T3)
+   T=19.7: Completed Job5(T3) actual=1
+   T=19.7: IDLE for 0.3ms (consuming energy at lowest freq)
+   T=20.0: Released Job7(T2, actual=1, deadline=30)
+   T=20.0: Freq change: 0.500 -> 0.700 (util req: 0.621)
+   T=20.0: Scheduled Job7(T2)
+   T=21.4: Completed Job7(T2) actual=1
+   T=21.4: Freq change: 0.700 -> 0.500 (util req: 0.421)
+   T=21.4: IDLE for 2.6ms (consuming energy at lowest freq)
+   T=24.0: Released Job8(T1, actual=1, deadline=32)
+   T=24.0: Freq change: 0.500 -> 0.600 (util req: 0.546)
+   T=24.0: Scheduled Job8(T1)
+   T=25.7: Completed Job8(T1) actual=1
+   T=25.7: Freq change: 0.600 -> 0.400 (util req: 0.296)
+   T=25.7: IDLE for 2.3ms (consuming energy at lowest freq)
+   T=28.0: Released Job9(T3, actual=1, deadline=42)
+   T=28.0: Scheduled Job9(T3)
+   T=30.0: Released Job10(T2, actual=1, deadline=40)
+   T=30.0: Freq change: 0.400 -> 0.500 (util req: 0.496)
+   T=30.0: Scheduled Job10(T2)
+   T=32.0: Completed Job10(T2) actual=1
+   T=32.0: Released Job11(T1, actual=2, deadline=40)
+   T=32.0: Freq change: 0.500 -> 0.600 (util req: 0.546)
+   T=32.0: Scheduled Job11(T1)
+   T=35.3: Completed Job11(T1) actual=2
+   T=35.3: Freq change: 0.600 -> 0.500 (util req: 0.421)
+   T=35.3: Scheduled Job9(T3)
+   T=35.7: Completed Job9(T3) actual=1
+   T=35.7: IDLE for 4.3ms (consuming energy at lowest freq)
+   T=40.0: Released Job12(T1, actual=1, deadline=48)
+   T=40.0: Released Job13(T2, actual=1, deadline=50)
+   T=40.0: Freq change: 0.500 -> 0.800 (util req: 0.746)
+   T=40.0: Scheduled Job12(T1)
+   T=41.2: Completed Job12(T1) actual=1
+   T=41.2: Freq change: 0.800 -> 0.500 (util req: 0.496)
+   T=41.2: Scheduled Job13(T2)
+   T=42.0: Released Job14(T3, actual=1, deadline=56)
+   T=43.2: Completed Job13(T2) actual=1
+   T=43.2: Freq change: 0.500 -> 0.400 (util req: 0.296)
+   T=43.2: Scheduled Job14(T3)
+   T=45.8: Completed Job14(T3) actual=1
+   T=45.8: IDLE for 2.2ms (consuming energy at lowest freq)
+   T=48.0: Released Job15(T1, actual=2, deadline=56)
+   T=48.0: Freq change: 0.400 -> 0.600 (util req: 0.546)
+   T=48.0: Scheduled Job15(T1)
+   T=50.0: Released Job16(T2, actual=1, deadline=60)
+   T=50.0: Freq change: 0.600 -> 0.800 (util req: 0.746)
+   T=51.0: Completed Job15(T1) actual=2
+   T=51.0: Freq change: 0.800 -> 0.700 (util req: 0.621)
+   T=51.0: Scheduled Job16(T2)
+   T=52.4: Completed Job16(T2) actual=1
+   T=52.4: Freq change: 0.700 -> 0.500 (util req: 0.421)
+   T=52.4: IDLE for 3.6ms (consuming energy at lowest freq)
+   T=56.0: Released Job17(T1, actual=1, deadline=64)
+   T=56.0: Released Job18(T3, actual=1, deadline=70)
+   T=56.0: Freq change: 0.500 -> 0.600 (util req: 0.546)
+   T=56.0: Scheduled Job17(T1)
+   T=57.7: Completed Job17(T1) actual=1
+   T=57.7: Freq change: 0.600 -> 0.400 (util req: 0.296)
+   T=57.7: Scheduled Job18(T3)
+   T=60.0: Released Job19(T2, actual=1, deadline=70)
+   T=60.0: Freq change: 0.400 -> 0.500 (util req: 0.496)
+   T=60.1: Completed Job18(T3) actual=1
+   T=60.1: Scheduled Job19(T2)
+   T=62.1: Completed Job19(T2) actual=1
+   T=62.1: Freq change: 0.500 -> 0.400 (util req: 0.296)
+   T=62.1: IDLE for 1.9ms (consuming energy at lowest freq)
+   T=64.0: Released Job20(T1, actual=2, deadline=72)
+   T=64.0: Freq change: 0.400 -> 0.600 (util req: 0.546)
+   T=64.0: Scheduled Job20(T1)
+   T=67.3: Completed Job20(T1) actual=2
+   T=67.3: Freq change: 0.600 -> 0.500 (util req: 0.421)
+   T=67.3: IDLE for 2.7ms (consuming energy at lowest freq)
+   T=70.0: Released Job21(T2, actual=1, deadline=80)
+   T=70.0: Released Job22(T3, actual=1, deadline=84)
+   T=70.0: Freq change: 0.500 -> 0.700 (util req: 0.621)
+   T=70.0: Scheduled Job21(T2)
+   T=71.4: Completed Job21(T2) actual=1
+   T=71.4: Freq change: 0.700 -> 0.500 (util req: 0.421)
+   T=71.4: Scheduled Job22(T3)
+   T=72.0: Released Job23(T1, actual=1, deadline=80)
+   T=72.0: Freq change: 0.500 -> 0.600 (util req: 0.546)
+   T=72.0: Scheduled Job23(T1)
+   T=73.7: Completed Job23(T1) actual=1
+   T=73.7: Freq change: 0.600 -> 0.400 (util req: 0.296)
+   T=73.7: Scheduled Job22(T3)
+   T=75.5: Completed Job22(T3) actual=1
+   T=75.5: IDLE for 4.5ms (consuming energy at lowest freq)
+   T=80.0: Released Job24(T1, actual=2, deadline=88)
+   T=80.0: Released Job25(T2, actual=1, deadline=90)
+   T=80.0: Freq change: 0.400 -> 0.800 (util req: 0.746)
+   T=80.0: Scheduled Job24(T1)
+   T=82.5: Completed Job24(T1) actual=2
+   T=82.5: Freq change: 0.800 -> 0.700 (util req: 0.621)
+   T=82.5: Scheduled Job25(T2)
+   T=83.9: Completed Job25(T2) actual=1
+   T=83.9: Freq change: 0.700 -> 0.500 (util req: 0.421)
+   T=83.9: IDLE for 0.1ms (consuming energy at lowest freq)
+   T=84.0: Released Job26(T3, actual=1, deadline=98)
+   T=84.0: Scheduled Job26(T3)
+   T=86.0: Completed Job26(T3) actual=1
+   T=86.0: IDLE for 2.0ms (consuming energy at lowest freq)
+   T=88.0: Released Job27(T1, actual=1, deadline=96)
+   T=88.0: Freq change: 0.500 -> 0.600 (util req: 0.546)
+   T=88.0: Scheduled Job27(T1)
+   T=89.7: Completed Job27(T1) actual=1
+   T=89.7: Freq change: 0.600 -> 0.400 (util req: 0.296)
+   T=89.7: IDLE for 0.3ms (consuming energy at lowest freq)
+   T=90.0: Released Job28(T2, actual=1, deadline=100)
+   T=90.0: Freq change: 0.400 -> 0.500 (util req: 0.496)
+   T=90.0: Scheduled Job28(T2)
+   T=92.0: Completed Job28(T2) actual=1
+   T=92.0: Freq change: 0.500 -> 0.400 (util req: 0.296)
+   T=92.0: IDLE for 4.0ms (consuming energy at lowest freq)
+   T=96.0: Released Job29(T1, actual=2, deadline=104)
+   T=96.0: Freq change: 0.400 -> 0.600 (util req: 0.546)
+   T=96.0: Scheduled Job29(T1)
+   T=98.0: Released Job30(T3, actual=1, deadline=112)
+   T=99.3: Completed Job29(T1) actual=2
+   T=99.3: Freq change: 0.600 -> 0.500 (util req: 0.421)
+   T=99.3: Scheduled Job30(T3)
+   T=100.0: Released Job31(T2, actual=1, deadline=110)
+   T=100.0: Freq change: 0.500 -> 0.700 (util req: 0.621)
+   T=100.0: Scheduled Job31(T2)
+   T=101.4: Completed Job31(T2) actual=1
+   T=101.4: Freq change: 0.700 -> 0.500 (util req: 0.421)
+   T=101.4: Scheduled Job30(T3)
+   T=102.8: Completed Job30(T3) actual=1
+   T=102.8: IDLE for 1.2ms (consuming energy at lowest freq)
+   T=104.0: Released Job32(T1, actual=1, deadline=112)
+   T=104.0: Freq change: 0.500 -> 0.600 (util req: 0.546)
+   T=104.0: Scheduled Job32(T1)
+   T=105.7: Completed Job32(T1) actual=1
+   T=105.7: Freq change: 0.600 -> 0.400 (util req: 0.296)
+   T=105.7: IDLE for 4.3ms (consuming energy at lowest freq)
+   T=110.0: Released Job33(T2, actual=1, deadline=120)
+   T=110.0: Freq change: 0.400 -> 0.500 (util req: 0.496)
+   T=110.0: Scheduled Job33(T2)
+   T=112.0: Completed Job33(T2) actual=1
+   T=112.0: Released Job34(T1, actual=2, deadline=120)
+   T=112.0: Released Job35(T3, actual=1, deadline=126)
+   T=112.0: Freq change: 0.500 -> 0.600 (util req: 0.546)
+   T=112.0: Scheduled Job34(T1)
+   T=115.3: Completed Job34(T1) actual=2
+   T=115.3: Freq change: 0.600 -> 0.500 (util req: 0.421)
+   T=115.3: Scheduled Job35(T3)
+   T=117.3: Completed Job35(T3) actual=1
+   T=117.3: IDLE for 2.7ms (consuming energy at lowest freq)
+   T=120.0: Released Job36(T1, actual=1, deadline=128)
+   T=120.0: Released Job37(T2, actual=1, deadline=130)
+   T=120.0: Freq change: 0.500 -> 0.800 (util req: 0.746)
+   T=120.0: Scheduled Job36(T1)
+   T=121.2: Completed Job36(T1) actual=1
+   T=121.2: Freq change: 0.800 -> 0.500 (util req: 0.496)
+   T=121.2: Scheduled Job37(T2)
+   T=123.2: Completed Job37(T2) actual=1
+   T=123.2: Freq change: 0.500 -> 0.400 (util req: 0.296)
+   T=123.2: IDLE for 2.8ms (consuming energy at lowest freq)
+   T=126.0: Released Job38(T3, actual=1, deadline=140)
+   T=126.0: Scheduled Job38(T3)
+   T=128.0: Released Job39(T1, actual=2, deadline=136)
+   T=128.0: Freq change: 0.400 -> 0.600 (util req: 0.546)
+   T=128.0: Scheduled Job39(T1)
+   T=130.0: Released Job40(T2, actual=1, deadline=140)
+   T=130.0: Freq change: 0.600 -> 0.800 (util req: 0.746)
+   T=131.0: Completed Job39(T1) actual=2
+   T=131.0: Freq change: 0.800 -> 0.700 (util req: 0.621)
+   T=131.0: Scheduled Job38(T3)
+   T=131.3: Completed Job38(T3) actual=1
+   T=131.3: Scheduled Job40(T2)
+   T=132.7: Completed Job40(T2) actual=1
+   T=132.7: Freq change: 0.700 -> 0.500 (util req: 0.421)
+   T=132.7: IDLE for 3.3ms (consuming energy at lowest freq)
+   T=136.0: Released Job41(T1, actual=1, deadline=144)
+   T=136.0: Freq change: 0.500 -> 0.600 (util req: 0.546)
+   T=136.0: Scheduled Job41(T1)
+   T=137.7: Completed Job41(T1) actual=1
+   T=137.7: Freq change: 0.600 -> 0.400 (util req: 0.296)
+   T=137.7: IDLE for 2.3ms (consuming energy at lowest freq)
+   T=140.0: Released Job42(T2, actual=1, deadline=150)
+   T=140.0: Released Job43(T3, actual=1, deadline=154)
+   T=140.0: Freq change: 0.400 -> 0.500 (util req: 0.496)
+   T=140.0: Scheduled Job42(T2)
+   T=142.0: Completed Job42(T2) actual=1
+   T=142.0: Freq change: 0.500 -> 0.400 (util req: 0.296)
+   T=142.0: Scheduled Job43(T3)
+   T=144.0: Released Job44(T1, actual=2, deadline=152)
+   T=144.0: Freq change: 0.400 -> 0.600 (util req: 0.546)
+   T=144.0: Scheduled Job44(T1)
+   T=147.3: Completed Job44(T1) actual=2
+   T=147.3: Freq change: 0.600 -> 0.500 (util req: 0.421)
+   T=147.3: Scheduled Job43(T3)
+   T=147.7: Completed Job43(T3) actual=1
+   T=147.7: IDLE for 2.3ms (consuming energy at lowest freq)
+   T=150.0: Released Job45(T2, actual=1, deadline=160)
+   T=150.0: Freq change: 0.500 -> 0.700 (util req: 0.621)
+   T=150.0: Scheduled Job45(T2)
+   T=151.4: Completed Job45(T2) actual=1
+   T=151.4: Freq change: 0.700 -> 0.500 (util req: 0.421)
+   T=151.4: IDLE for 0.6ms (consuming energy at lowest freq)
+   T=152.0: Released Job46(T1, actual=1, deadline=160)
+   T=152.0: Freq change: 0.500 -> 0.600 (util req: 0.546)
+   T=152.0: Scheduled Job46(T1)
+   T=153.7: Completed Job46(T1) actual=1
+   T=153.7: Freq change: 0.600 -> 0.400 (util req: 0.296)
+   T=153.7: IDLE for 0.3ms (consuming energy at lowest freq)
+   T=154.0: Released Job47(T3, actual=1, deadline=168)
+   T=154.0: Scheduled Job47(T3)
+   T=156.5: Completed Job47(T3) actual=1
+   T=156.5: IDLE for 3.5ms (consuming energy at lowest freq)
+   T=160.0: Released Job48(T1, actual=2, deadline=168)
+   T=160.0: Released Job49(T2, actual=1, deadline=170)
+   T=160.0: Freq change: 0.400 -> 0.800 (util req: 0.746)
+   T=160.0: Scheduled Job48(T1)
+   T=162.5: Completed Job48(T1) actual=2
+   T=162.5: Freq change: 0.800 -> 0.700 (util req: 0.621)
+   T=162.5: Scheduled Job49(T2)
+   T=163.9: Completed Job49(T2) actual=1
+   T=163.9: Freq change: 0.700 -> 0.500 (util req: 0.421)
+   T=163.9: IDLE for 4.1ms (consuming energy at lowest freq)
+   T=168.0: Released Job50(T1, actual=1, deadline=176)
+   T=168.0: Released Job51(T3, actual=1, deadline=182)
+   T=168.0: Freq change: 0.500 -> 0.600 (util req: 0.546)
+   T=168.0: Scheduled Job50(T1)
+   T=169.7: Completed Job50(T1) actual=1
+   T=169.7: Freq change: 0.600 -> 0.400 (util req: 0.296)
+   T=169.7: Scheduled Job51(T3)
+   T=170.0: Released Job52(T2, actual=1, deadline=180)
+   T=170.0: Freq change: 0.400 -> 0.500 (util req: 0.496)
+   T=170.0: Scheduled Job52(T2)
+   T=172.0: Completed Job52(T2) actual=1
+   T=172.0: Freq change: 0.500 -> 0.400 (util req: 0.296)
+   T=172.0: Scheduled Job51(T3)
+   T=174.2: Completed Job51(T3) actual=1
+   T=174.2: IDLE for 1.8ms (consuming energy at lowest freq)
+   T=176.0: Released Job53(T1, actual=2, deadline=184)
+   T=176.0: Freq change: 0.400 -> 0.600 (util req: 0.546)
+   T=176.0: Scheduled Job53(T1)
+   T=179.3: Completed Job53(T1) actual=2
+   T=179.3: Freq change: 0.600 -> 0.500 (util req: 0.421)
+   T=179.3: IDLE for 0.7ms (consuming energy at lowest freq)
+   T=180.0: Released Job54(T2, actual=1, deadline=190)
+   T=180.0: Freq change: 0.500 -> 0.700 (util req: 0.621)
+   T=180.0: Scheduled Job54(T2)
+   T=181.4: Completed Job54(T2) actual=1
+   T=181.4: Freq change: 0.700 -> 0.500 (util req: 0.421)
+   T=181.4: IDLE for 0.6ms (consuming energy at lowest freq)
+   T=182.0: Released Job55(T3, actual=1, deadline=196)
+   T=182.0: Scheduled Job55(T3)
+   T=184.0: Completed Job55(T3) actual=1
+   T=184.0: Released Job56(T1, actual=1, deadline=192)
+   T=184.0: Freq change: 0.500 -> 0.600 (util req: 0.546)
+   T=184.0: Scheduled Job56(T1)
+   T=185.7: Completed Job56(T1) actual=1
+   T=185.7: Freq change: 0.600 -> 0.400 (util req: 0.296)
+   T=185.7: IDLE for 4.3ms (consuming energy at lowest freq)
+   T=190.0: Released Job57(T2, actual=1, deadline=200)
+   T=190.0: Freq change: 0.400 -> 0.500 (util req: 0.496)
+   T=190.0: Scheduled Job57(T2)
+   T=192.0: Completed Job57(T2) actual=1
+   T=192.0: Released Job58(T1, actual=2, deadline=200)
+   T=192.0: Freq change: 0.500 -> 0.600 (util req: 0.546)
+   T=192.0: Scheduled Job58(T1)
+   T=195.3: Completed Job58(T1) actual=2
+   T=195.3: Freq change: 0.600 -> 0.500 (util req: 0.421)
+   T=195.3: IDLE for 0.7ms (consuming energy at lowest freq)
+   T=196.0: Released Job59(T3, actual=1, deadline=210)
+   T=196.0: Scheduled Job59(T3)
+   T=198.0: Completed Job59(T3) actual=1
+   T=198.0: IDLE for 2.0ms (consuming energy at lowest freq)
+   T=200.0: Released Job60(T1, actual=1, deadline=208)
+   T=200.0: Released Job61(T2, actual=1, deadline=210)
+   T=200.0: Freq change: 0.500 -> 0.800 (util req: 0.746)
+   T=200.0: Scheduled Job60(T1)
+   T=201.2: Completed Job60(T1) actual=1
+   T=201.2: Freq change: 0.800 -> 0.500 (util req: 0.496)
+   T=201.2: Scheduled Job61(T2)
+   T=203.2: Completed Job61(T2) actual=1
+   T=203.2: Freq change: 0.500 -> 0.400 (util req: 0.296)
+   T=203.2: IDLE for 4.8ms (consuming energy at lowest freq)
+   T=208.0: Released Job62(T1, actual=2, deadline=216)
+   T=208.0: Freq change: 0.400 -> 0.600 (util req: 0.546)
+   T=208.0: Scheduled Job62(T1)
+   T=210.0: Released Job63(T2, actual=1, deadline=220)
+   T=210.0: Released Job64(T3, actual=1, deadline=224)
+   T=210.0: Freq change: 0.600 -> 0.800 (util req: 0.746)
+   T=211.0: Completed Job62(T1) actual=2
+   T=211.0: Freq change: 0.800 -> 0.700 (util req: 0.621)
+   T=211.0: Scheduled Job63(T2)
+   T=212.4: Completed Job63(T2) actual=1
+   T=212.4: Freq change: 0.700 -> 0.500 (util req: 0.421)
+   T=212.4: Scheduled Job64(T3)
+   T=214.4: Completed Job64(T3) actual=1
+   T=214.4: IDLE for 1.6ms (consuming energy at lowest freq)
+   T=216.0: Released Job65(T1, actual=1, deadline=224)
+   T=216.0: Freq change: 0.500 -> 0.600 (util req: 0.546)
+   T=216.0: Scheduled Job65(T1)
+   T=217.7: Completed Job65(T1) actual=1
+   T=217.7: Freq change: 0.600 -> 0.400 (util req: 0.296)
+   T=217.7: IDLE for 2.3ms (consuming energy at lowest freq)
+   T=220.0: Released Job66(T2, actual=1, deadline=230)
+   T=220.0: Freq change: 0.400 -> 0.500 (util req: 0.496)
+   T=220.0: Scheduled Job66(T2)
+   T=222.0: Completed Job66(T2) actual=1
+   T=222.0: Freq change: 0.500 -> 0.400 (util req: 0.296)
+   T=222.0: IDLE for 2.0ms (consuming energy at lowest freq)
+   T=224.0: Released Job67(T1, actual=2, deadline=232)
+   T=224.0: Released Job68(T3, actual=1, deadline=238)
+   T=224.0: Freq change: 0.400 -> 0.600 (util req: 0.546)
+   T=224.0: Scheduled Job67(T1)
+   T=227.3: Completed Job67(T1) actual=2
+   T=227.3: Freq change: 0.600 -> 0.500 (util req: 0.421)
+   T=227.3: Scheduled Job68(T3)
+   T=229.3: Completed Job68(T3) actual=1
+   T=229.3: IDLE for 0.7ms (consuming energy at lowest freq)
+   T=230.0: Released Job69(T2, actual=1, deadline=240)
+   T=230.0: Freq change: 0.500 -> 0.700 (util req: 0.621)
+   T=230.0: Scheduled Job69(T2)
+   T=231.4: Completed Job69(T2) actual=1
+   T=231.4: Freq change: 0.700 -> 0.500 (util req: 0.421)
+   T=231.4: IDLE for 0.6ms (consuming energy at lowest freq)
+   T=232.0: Released Job70(T1, actual=1, deadline=240)
+   T=232.0: Freq change: 0.500 -> 0.600 (util req: 0.546)
+   T=232.0: Scheduled Job70(T1)
+   T=233.7: Completed Job70(T1) actual=1
+   T=233.7: Freq change: 0.600 -> 0.400 (util req: 0.296)
+   T=233.7: IDLE for 4.3ms (consuming energy at lowest freq)
+   T=238.0: Released Job71(T3, actual=1, deadline=252)
+   T=238.0: Scheduled Job71(T3)
+   T=240.0: Released Job72(T1, actual=2, deadline=248)
+   T=240.0: Released Job73(T2, actual=1, deadline=250)
+   T=240.0: Freq change: 0.400 -> 0.800 (util req: 0.746)
+   T=240.0: Scheduled Job72(T1)
+   T=242.5: Completed Job72(T1) actual=2
+   T=242.5: Freq change: 0.800 -> 0.700 (util req: 0.621)
+   T=242.5: Scheduled Job73(T2)
+   T=243.9: Completed Job73(T2) actual=1
+   T=243.9: Freq change: 0.700 -> 0.500 (util req: 0.421)
+   T=243.9: Scheduled Job71(T3)
+   T=244.3: Completed Job71(T3) actual=1
+   T=244.3: IDLE for 3.7ms (consuming energy at lowest freq)
+   T=248.0: Released Job74(T1, actual=1, deadline=256)
+   T=248.0: Freq change: 0.500 -> 0.600 (util req: 0.546)
+   T=248.0: Scheduled Job74(T1)
+   T=249.7: Completed Job74(T1) actual=1
+   T=249.7: Freq change: 0.600 -> 0.400 (util req: 0.296)
+   T=249.7: IDLE for 0.3ms (consuming energy at lowest freq)
+   T=250.0: Released Job75(T2, actual=1, deadline=260)
+   T=250.0: Freq change: 0.400 -> 0.500 (util req: 0.496)
+   T=250.0: Scheduled Job75(T2)
+   T=252.0: Completed Job75(T2) actual=1
+   T=252.0: Released Job76(T3, actual=1, deadline=266)
+   T=252.0: Freq change: 0.500 -> 0.400 (util req: 0.296)
+   T=252.0: Scheduled Job76(T3)
+   T=254.5: Completed Job76(T3) actual=1
+   T=254.5: IDLE for 1.5ms (consuming energy at lowest freq)
+   T=256.0: Released Job77(T1, actual=2, deadline=264)
+   T=256.0: Freq change: 0.400 -> 0.600 (util req: 0.546)
+   T=256.0: Scheduled Job77(T1)
+   T=259.3: Completed Job77(T1) actual=2
+   T=259.3: Freq change: 0.600 -> 0.500 (util req: 0.421)
+   T=259.3: IDLE for 0.7ms (consuming energy at lowest freq)
+   T=260.0: Released Job78(T2, actual=1, deadline=270)
+   T=260.0: Freq change: 0.500 -> 0.700 (util req: 0.621)
+   T=260.0: Scheduled Job78(T2)
+   T=261.4: Completed Job78(T2) actual=1
+   T=261.4: Freq change: 0.700 -> 0.500 (util req: 0.421)
+   T=261.4: IDLE for 2.6ms (consuming energy at lowest freq)
+   T=264.0: Released Job79(T1, actual=1, deadline=272)
+   T=264.0: Freq change: 0.500 -> 0.600 (util req: 0.546)
+   T=264.0: Scheduled Job79(T1)
+   T=265.7: Completed Job79(T1) actual=1
+   T=265.7: Freq change: 0.600 -> 0.400 (util req: 0.296)
+   T=265.7: IDLE for 0.3ms (consuming energy at lowest freq)
+   T=266.0: Released Job80(T3, actual=1, deadline=280)
+   T=266.0: Scheduled Job80(T3)
+   T=268.5: Completed Job80(T3) actual=1
+   T=268.5: IDLE for 1.5ms (consuming energy at lowest freq)
+   T=270.0: Released Job81(T2, actual=1, deadline=280)
+   T=270.0: Freq change: 0.400 -> 0.500 (util req: 0.496)
+   T=270.0: Scheduled Job81(T2)
+   T=272.0: Completed Job81(T2) actual=1
+   T=272.0: Released Job82(T1, actual=2, deadline=280)
+   T=272.0: Freq change: 0.500 -> 0.600 (util req: 0.546)
+   T=272.0: Scheduled Job82(T1)
+   T=275.3: Completed Job82(T1) actual=2
+   T=275.3: Freq change: 0.600 -> 0.500 (util req: 0.421)
+   T=275.3: IDLE for 4.7ms (consuming energy at lowest freq)
+
+--- RESULTS for ccEDF ---
+Hyperperiod: 280 ms
+Jobs: 83, Decision points: 166
+Preemptions: 8, Context switches: 91
+Deadline misses: 0
+Total energy: 1888.75
+
+=== SIMULATION: LAEDF ===
+   T=0.0: Dynamic policy initial speed: 1.000
+   T=0.0: Released Job0(T1, actual=2, deadline=8)
+   T=0.0: Released Job1(T2, actual=1, deadline=10)
+   T=0.0: Released Job2(T3, actual=1, deadline=14)
+   T=0.0: Freq change: 1.000 -> 0.500 (util req: 0.500)
+   T=0.0: Scheduled Job0(T1)
+   T=4.0: Completed Job0(T1) actual=2
+   T=4.0: Freq change: 0.500 -> 0.400 (util req: 0.400)
+   T=4.0: Scheduled Job1(T2)
+   T=6.5: Completed Job1(T2) actual=1
+   T=6.5: Scheduled Job2(T3)
+   T=8.0: Released Job3(T1, actual=1, deadline=16)
+   T=9.0: Completed Job2(T3) actual=1
+   T=9.0: Scheduled Job3(T1)
+   T=10.0: Released Job4(T2, actual=1, deadline=20)
+   T=11.5: Completed Job3(T1) actual=1
+   T=11.5: Scheduled Job4(T2)
+   T=14.0: Completed Job4(T2) actual=1
+   T=14.0: Released Job5(T3, actual=1, deadline=28)
+   T=14.0: Scheduled Job5(T3)
+   T=16.0: Released Job6(T1, actual=2, deadline=24)
+   T=16.0: Scheduled Job6(T1)
+   T=20.0: Released Job7(T2, actual=1, deadline=30)
+   T=21.0: Completed Job6(T1) actual=2
+   T=21.0: Scheduled Job5(T3)
+   T=21.5: Completed Job5(T3) actual=1
+   T=21.5: Scheduled Job7(T2)
+   T=24.0: Completed Job7(T2) actual=1
+   T=24.0: Released Job8(T1, actual=1, deadline=32)
+   T=24.0: Scheduled Job8(T1)
+   T=26.5: Completed Job8(T1) actual=1
+   T=26.5: IDLE for 1.5ms (consuming energy at lowest freq)
+   T=28.0: Released Job9(T3, actual=1, deadline=42)
+   T=28.0: Scheduled Job9(T3)
+   T=30.0: Released Job10(T2, actual=1, deadline=40)
+   T=30.0: Scheduled Job10(T2)
+   T=32.0: Released Job11(T1, actual=2, deadline=40)
+   T=32.5: Completed Job10(T2) actual=1
+   T=32.5: Scheduled Job11(T1)
+   T=37.5: Completed Job11(T1) actual=2
+   T=37.5: Scheduled Job9(T3)
+   T=38.0: Completed Job9(T3) actual=1
+   T=38.0: IDLE for 2.0ms (consuming energy at lowest freq)
+   T=40.0: Released Job12(T1, actual=1, deadline=48)
+   T=40.0: Released Job13(T2, actual=1, deadline=50)
+   T=40.0: Scheduled Job12(T1)
+   T=42.0: Released Job14(T3, actual=1, deadline=56)
+   T=42.5: Completed Job12(T1) actual=1
+   T=42.5: Scheduled Job13(T2)
+   T=45.0: Completed Job13(T2) actual=1
+   T=45.0: Scheduled Job14(T3)
+   T=47.5: Completed Job14(T3) actual=1
+   T=47.5: IDLE for 0.5ms (consuming energy at lowest freq)
+   T=48.0: Released Job15(T1, actual=2, deadline=56)
+   T=48.0: Scheduled Job15(T1)
+   T=50.0: Released Job16(T2, actual=1, deadline=60)
+   T=53.0: Completed Job15(T1) actual=2
+   T=53.0: Scheduled Job16(T2)
+   T=55.5: Completed Job16(T2) actual=1
+   T=55.5: IDLE for 0.5ms (consuming energy at lowest freq)
+   T=56.0: Released Job17(T1, actual=1, deadline=64)
+   T=56.0: Released Job18(T3, actual=1, deadline=70)
+   T=56.0: Scheduled Job17(T1)
+   T=58.5: Completed Job17(T1) actual=1
+   T=58.5: Scheduled Job18(T3)
+   T=60.0: Released Job19(T2, actual=1, deadline=70)
+   T=61.0: Completed Job18(T3) actual=1
+   T=61.0: Scheduled Job19(T2)
+   T=63.5: Completed Job19(T2) actual=1
+   T=63.5: IDLE for 0.5ms (consuming energy at lowest freq)
+   T=64.0: Released Job20(T1, actual=2, deadline=72)
+   T=64.0: Scheduled Job20(T1)
+   T=69.0: Completed Job20(T1) actual=2
+   T=69.0: IDLE for 1.0ms (consuming energy at lowest freq)
+   T=70.0: Released Job21(T2, actual=1, deadline=80)
+   T=70.0: Released Job22(T3, actual=1, deadline=84)
+   T=70.0: Scheduled Job21(T2)
+   T=72.0: Released Job23(T1, actual=1, deadline=80)
+   T=72.5: Completed Job21(T2) actual=1
+   T=72.5: Scheduled Job23(T1)
+   T=75.0: Completed Job23(T1) actual=1
+   T=75.0: Scheduled Job22(T3)
+   T=77.5: Completed Job22(T3) actual=1
+   T=77.5: IDLE for 2.5ms (consuming energy at lowest freq)
+   T=80.0: Released Job24(T1, actual=2, deadline=88)
+   T=80.0: Released Job25(T2, actual=1, deadline=90)
+   T=80.0: Scheduled Job24(T1)
+   T=84.0: Released Job26(T3, actual=1, deadline=98)
+   T=84.0: Freq change: 0.400 -> 0.600 (util req: 0.600)
+   T=84.7: Completed Job24(T1) actual=2
+   T=84.7: Freq change: 0.600 -> 0.400 (util req: 0.400)
+   T=84.7: Scheduled Job25(T2)
+   T=87.2: Completed Job25(T2) actual=1
+   T=87.2: Scheduled Job26(T3)
+   T=88.0: Released Job27(T1, actual=1, deadline=96)
+   T=88.0: Scheduled Job27(T1)
+   T=90.0: Released Job28(T2, actual=1, deadline=100)
+   T=90.5: Completed Job27(T1) actual=1
+   T=90.5: Scheduled Job26(T3)
+   T=92.2: Completed Job26(T3) actual=1
+   T=92.2: Scheduled Job28(T2)
+   T=94.7: Completed Job28(T2) actual=1
+   T=94.7: IDLE for 1.3ms (consuming energy at lowest freq)
+   T=96.0: Released Job29(T1, actual=2, deadline=104)
+   T=96.0: Scheduled Job29(T1)
+   T=98.0: Released Job30(T3, actual=1, deadline=112)
+   T=100.0: Released Job31(T2, actual=1, deadline=110)
+   T=100.0: Freq change: 0.400 -> 0.600 (util req: 0.600)
+   T=100.7: Completed Job29(T1) actual=2
+   T=100.7: Freq change: 0.600 -> 0.400 (util req: 0.400)
+   T=100.7: Scheduled Job31(T2)
+   T=103.2: Completed Job31(T2) actual=1
+   T=103.2: Scheduled Job30(T3)
+   T=104.0: Released Job32(T1, actual=1, deadline=112)
+   T=105.7: Completed Job30(T3) actual=1
+   T=105.7: Scheduled Job32(T1)
+   T=108.2: Completed Job32(T1) actual=1
+   T=108.2: IDLE for 1.8ms (consuming energy at lowest freq)
+   T=110.0: Released Job33(T2, actual=1, deadline=120)
+   T=110.0: Scheduled Job33(T2)
+   T=112.0: Released Job34(T1, actual=2, deadline=120)
+   T=112.0: Released Job35(T3, actual=1, deadline=126)
+   T=112.5: Completed Job33(T2) actual=1
+   T=112.5: Scheduled Job34(T1)
+   T=117.5: Completed Job34(T1) actual=2
+   T=117.5: Scheduled Job35(T3)
+   T=120.0: Completed Job35(T3) actual=1
+   T=120.0: Released Job36(T1, actual=1, deadline=128)
+   T=120.0: Released Job37(T2, actual=1, deadline=130)
+   T=120.0: Scheduled Job36(T1)
+   T=122.5: Completed Job36(T1) actual=1
+   T=122.5: Scheduled Job37(T2)
+   T=125.0: Completed Job37(T2) actual=1
+   T=125.0: IDLE for 1.0ms (consuming energy at lowest freq)
+   T=126.0: Released Job38(T3, actual=1, deadline=140)
+   T=126.0: Scheduled Job38(T3)
+   T=128.0: Released Job39(T1, actual=2, deadline=136)
+   T=128.0: Scheduled Job39(T1)
+   T=130.0: Released Job40(T2, actual=1, deadline=140)
+   T=133.0: Completed Job39(T1) actual=2
+   T=133.0: Scheduled Job38(T3)
+   T=133.5: Completed Job38(T3) actual=1
+   T=133.5: Scheduled Job40(T2)
+   T=136.0: Completed Job40(T2) actual=1
+   T=136.0: Released Job41(T1, actual=1, deadline=144)
+   T=136.0: Scheduled Job41(T1)
+   T=138.5: Completed Job41(T1) actual=1
+   T=138.5: IDLE for 1.5ms (consuming energy at lowest freq)
+   T=140.0: Released Job42(T2, actual=1, deadline=150)
+   T=140.0: Released Job43(T3, actual=1, deadline=154)
+   T=140.0: Scheduled Job42(T2)
+   T=142.5: Completed Job42(T2) actual=1
+   T=142.5: Scheduled Job43(T3)
+   T=144.0: Released Job44(T1, actual=2, deadline=152)
+   T=144.0: Scheduled Job44(T1)
+   T=149.0: Completed Job44(T1) actual=2
+   T=149.0: Scheduled Job43(T3)
+   T=150.0: Completed Job43(T3) actual=1
+   T=150.0: Released Job45(T2, actual=1, deadline=160)
+   T=150.0: Scheduled Job45(T2)
+   T=152.0: Released Job46(T1, actual=1, deadline=160)
+   T=152.5: Completed Job45(T2) actual=1
+   T=152.5: Scheduled Job46(T1)
+   T=154.0: Released Job47(T3, actual=1, deadline=168)
+   T=155.0: Completed Job46(T1) actual=1
+   T=155.0: Scheduled Job47(T3)
+   T=157.5: Completed Job47(T3) actual=1
+   T=157.5: IDLE for 2.5ms (consuming energy at lowest freq)
+   T=160.0: Released Job48(T1, actual=2, deadline=168)
+   T=160.0: Released Job49(T2, actual=1, deadline=170)
+   T=160.0: Scheduled Job48(T1)
+   T=165.0: Completed Job48(T1) actual=2
+   T=165.0: Scheduled Job49(T2)
+   T=167.5: Completed Job49(T2) actual=1
+   T=167.5: IDLE for 0.5ms (consuming energy at lowest freq)
+   T=168.0: Released Job50(T1, actual=1, deadline=176)
+   T=168.0: Released Job51(T3, actual=1, deadline=182)
+   T=168.0: Scheduled Job50(T1)
+   T=170.0: Released Job52(T2, actual=1, deadline=180)
+   T=170.5: Completed Job50(T1) actual=1
+   T=170.5: Scheduled Job52(T2)
+   T=173.0: Completed Job52(T2) actual=1
+   T=173.0: Scheduled Job51(T3)
+   T=175.5: Completed Job51(T3) actual=1
+   T=175.5: IDLE for 0.5ms (consuming energy at lowest freq)
+   T=176.0: Released Job53(T1, actual=2, deadline=184)
+   T=176.0: Scheduled Job53(T1)
+   T=180.0: Released Job54(T2, actual=1, deadline=190)
+   T=181.0: Completed Job53(T1) actual=2
+   T=181.0: Scheduled Job54(T2)
+   T=182.0: Released Job55(T3, actual=1, deadline=196)
+   T=183.5: Completed Job54(T2) actual=1
+   T=183.5: Scheduled Job55(T3)
+   T=184.0: Released Job56(T1, actual=1, deadline=192)
+   T=184.0: Scheduled Job56(T1)
+   T=186.5: Completed Job56(T1) actual=1
+   T=186.5: Scheduled Job55(T3)
+   T=188.5: Completed Job55(T3) actual=1
+   T=188.5: IDLE for 1.5ms (consuming energy at lowest freq)
+   T=190.0: Released Job57(T2, actual=1, deadline=200)
+   T=190.0: Scheduled Job57(T2)
+   T=192.0: Released Job58(T1, actual=2, deadline=200)
+   T=192.5: Completed Job57(T2) actual=1
+   T=192.5: Scheduled Job58(T1)
+   T=196.0: Released Job59(T3, actual=1, deadline=210)
+   T=197.5: Completed Job58(T1) actual=2
+   T=197.5: Scheduled Job59(T3)
+   T=200.0: Completed Job59(T3) actual=1
+   T=200.0: Released Job60(T1, actual=1, deadline=208)
+   T=200.0: Released Job61(T2, actual=1, deadline=210)
+   T=200.0: Scheduled Job60(T1)
+   T=202.5: Completed Job60(T1) actual=1
+   T=202.5: Scheduled Job61(T2)
+   T=205.0: Completed Job61(T2) actual=1
+   T=205.0: IDLE for 3.0ms (consuming energy at lowest freq)
+   T=208.0: Released Job62(T1, actual=2, deadline=216)
+   T=208.0: Scheduled Job62(T1)
+   T=210.0: Released Job63(T2, actual=1, deadline=220)
+   T=210.0: Released Job64(T3, actual=1, deadline=224)
+   T=210.0: Freq change: 0.400 -> 0.600 (util req: 0.533)
+   T=212.0: Completed Job62(T1) actual=2
+   T=212.0: Freq change: 0.600 -> 0.400 (util req: 0.400)
+   T=212.0: Scheduled Job63(T2)
+   T=214.5: Completed Job63(T2) actual=1
+   T=214.5: Scheduled Job64(T3)
+   T=216.0: Released Job65(T1, actual=1, deadline=224)
+   T=217.0: Completed Job64(T3) actual=1
+   T=217.0: Scheduled Job65(T1)
+   T=219.5: Completed Job65(T1) actual=1
+   T=219.5: IDLE for 0.5ms (consuming energy at lowest freq)
+   T=220.0: Released Job66(T2, actual=1, deadline=230)
+   T=220.0: Scheduled Job66(T2)
+   T=222.5: Completed Job66(T2) actual=1
+   T=222.5: IDLE for 1.5ms (consuming energy at lowest freq)
+   T=224.0: Released Job67(T1, actual=2, deadline=232)
+   T=224.0: Released Job68(T3, actual=1, deadline=238)
+   T=224.0: Scheduled Job67(T1)
+   T=229.0: Completed Job67(T1) actual=2
+   T=229.0: Scheduled Job68(T3)
+   T=230.0: Released Job69(T2, actual=1, deadline=240)
+   T=231.5: Completed Job68(T3) actual=1
+   T=231.5: Scheduled Job69(T2)
+   T=232.0: Released Job70(T1, actual=1, deadline=240)
+   T=234.0: Completed Job69(T2) actual=1
+   T=234.0: Scheduled Job70(T1)
+   T=236.5: Completed Job70(T1) actual=1
+   T=236.5: IDLE for 1.5ms (consuming energy at lowest freq)
+   T=238.0: Released Job71(T3, actual=1, deadline=252)
+   T=238.0: Scheduled Job71(T3)
+   T=240.0: Released Job72(T1, actual=2, deadline=248)
+   T=240.0: Released Job73(T2, actual=1, deadline=250)
+   T=240.0: Scheduled Job72(T1)
+   T=245.0: Completed Job72(T1) actual=2
+   T=245.0: Scheduled Job73(T2)
+   T=247.5: Completed Job73(T2) actual=1
+   T=247.5: Scheduled Job71(T3)
+   T=248.0: Completed Job71(T3) actual=1
+   T=248.0: Released Job74(T1, actual=1, deadline=256)
+   T=248.0: Scheduled Job74(T1)
+   T=250.0: Released Job75(T2, actual=1, deadline=260)
+   T=250.5: Completed Job74(T1) actual=1
+   T=250.5: Scheduled Job75(T2)
+   T=252.0: Released Job76(T3, actual=1, deadline=266)
+   T=253.0: Completed Job75(T2) actual=1
+   T=253.0: Scheduled Job76(T3)
+   T=255.5: Completed Job76(T3) actual=1
+   T=255.5: IDLE for 0.5ms (consuming energy at lowest freq)
+   T=256.0: Released Job77(T1, actual=2, deadline=264)
+   T=256.0: Scheduled Job77(T1)
+   T=260.0: Released Job78(T2, actual=1, deadline=270)
+   T=261.0: Completed Job77(T1) actual=2
+   T=261.0: Scheduled Job78(T2)
+   T=263.5: Completed Job78(T2) actual=1
+   T=263.5: IDLE for 0.5ms (consuming energy at lowest freq)
+   T=264.0: Released Job79(T1, actual=1, deadline=272)
+   T=264.0: Scheduled Job79(T1)
+   T=266.0: Released Job80(T3, actual=1, deadline=280)
+   T=266.5: Completed Job79(T1) actual=1
+   T=266.5: Scheduled Job80(T3)
+   T=269.0: Completed Job80(T3) actual=1
+   T=269.0: IDLE for 1.0ms (consuming energy at lowest freq)
+   T=270.0: Released Job81(T2, actual=1, deadline=280)
+   T=270.0: Scheduled Job81(T2)
+   T=272.0: Released Job82(T1, actual=2, deadline=280)
+   T=272.5: Completed Job81(T2) actual=1
+   T=272.5: Scheduled Job82(T1)
+   T=277.5: Completed Job82(T1) actual=2
+   T=277.5: IDLE for 2.5ms (consuming energy at lowest freq)
+
+--- RESULTS for LAEDF ---
+Hyperperiod: 280 ms
+Jobs: 83, Decision points: 166
+Preemptions: 7, Context switches: 90
+Deadline misses: 0
+Total energy: 1170.22
+
+=== SIMULATION: Static RM ===
+   T=0.0: Static RM schedulable at alpha=1.000 -> Freq set to 1.000
+   T=0.0: Released Job0(T1, actual=2, deadline=8)
+   T=0.0: Released Job1(T2, actual=1, deadline=10)
+   T=0.0: Released Job2(T3, actual=1, deadline=14)
+   T=0.0: Scheduled Job0(T1)
+   T=2.0: Completed Job0(T1) actual=2
+   T=2.0: Scheduled Job1(T2)
+   T=3.0: Completed Job1(T2) actual=1
+   T=3.0: Scheduled Job2(T3)
+   T=4.0: Completed Job2(T3) actual=1
+   T=4.0: IDLE for 4.0ms (consuming energy at lowest freq)
+   T=8.0: Released Job3(T1, actual=1, deadline=16)
+   T=8.0: Scheduled Job3(T1)
+   T=9.0: Completed Job3(T1) actual=1
+   T=9.0: IDLE for 1.0ms (consuming energy at lowest freq)
+   T=10.0: Released Job4(T2, actual=1, deadline=20)
+   T=10.0: Scheduled Job4(T2)
+   T=11.0: Completed Job4(T2) actual=1
+   T=11.0: IDLE for 3.0ms (consuming energy at lowest freq)
+   T=14.0: Released Job5(T3, actual=1, deadline=28)
+   T=14.0: Scheduled Job5(T3)
+   T=15.0: Completed Job5(T3) actual=1
+   T=15.0: IDLE for 1.0ms (consuming energy at lowest freq)
+   T=16.0: Released Job6(T1, actual=2, deadline=24)
+   T=16.0: Scheduled Job6(T1)
+   T=18.0: Completed Job6(T1) actual=2
+   T=18.0: IDLE for 2.0ms (consuming energy at lowest freq)
+   T=20.0: Released Job7(T2, actual=1, deadline=30)
+   T=20.0: Scheduled Job7(T2)
+   T=21.0: Completed Job7(T2) actual=1
+   T=21.0: IDLE for 3.0ms (consuming energy at lowest freq)
+   T=24.0: Released Job8(T1, actual=1, deadline=32)
+   T=24.0: Scheduled Job8(T1)
+   T=25.0: Completed Job8(T1) actual=1
+   T=25.0: IDLE for 3.0ms (consuming energy at lowest freq)
+   T=28.0: Released Job9(T3, actual=1, deadline=42)
+   T=28.0: Scheduled Job9(T3)
+   T=29.0: Completed Job9(T3) actual=1
+   T=29.0: IDLE for 1.0ms (consuming energy at lowest freq)
+   T=30.0: Released Job10(T2, actual=1, deadline=40)
+   T=30.0: Scheduled Job10(T2)
+   T=31.0: Completed Job10(T2) actual=1
+   T=31.0: IDLE for 1.0ms (consuming energy at lowest freq)
+   T=32.0: Released Job11(T1, actual=2, deadline=40)
+   T=32.0: Scheduled Job11(T1)
+   T=34.0: Completed Job11(T1) actual=2
+   T=34.0: IDLE for 6.0ms (consuming energy at lowest freq)
+   T=40.0: Released Job12(T1, actual=1, deadline=48)
+   T=40.0: Released Job13(T2, actual=1, deadline=50)
+   T=40.0: Scheduled Job12(T1)
+   T=41.0: Completed Job12(T1) actual=1
+   T=41.0: Scheduled Job13(T2)
+   T=42.0: Completed Job13(T2) actual=1
+   T=42.0: Released Job14(T3, actual=1, deadline=56)
+   T=42.0: Scheduled Job14(T3)
+   T=43.0: Completed Job14(T3) actual=1
+   T=43.0: IDLE for 5.0ms (consuming energy at lowest freq)
+   T=48.0: Released Job15(T1, actual=2, deadline=56)
+   T=48.0: Scheduled Job15(T1)
+   T=50.0: Completed Job15(T1) actual=2
+   T=50.0: Released Job16(T2, actual=1, deadline=60)
+   T=50.0: Scheduled Job16(T2)
+   T=51.0: Completed Job16(T2) actual=1
+   T=51.0: IDLE for 5.0ms (consuming energy at lowest freq)
+   T=56.0: Released Job17(T1, actual=1, deadline=64)
+   T=56.0: Released Job18(T3, actual=1, deadline=70)
+   T=56.0: Scheduled Job17(T1)
+   T=57.0: Completed Job17(T1) actual=1
+   T=57.0: Scheduled Job18(T3)
+   T=58.0: Completed Job18(T3) actual=1
+   T=58.0: IDLE for 2.0ms (consuming energy at lowest freq)
+   T=60.0: Released Job19(T2, actual=1, deadline=70)
+   T=60.0: Scheduled Job19(T2)
+   T=61.0: Completed Job19(T2) actual=1
+   T=61.0: IDLE for 3.0ms (consuming energy at lowest freq)
+   T=64.0: Released Job20(T1, actual=2, deadline=72)
+   T=64.0: Scheduled Job20(T1)
+   T=66.0: Completed Job20(T1) actual=2
+   T=66.0: IDLE for 4.0ms (consuming energy at lowest freq)
+   T=70.0: Released Job21(T2, actual=1, deadline=80)
+   T=70.0: Released Job22(T3, actual=1, deadline=84)
+   T=70.0: Scheduled Job21(T2)
+   T=71.0: Completed Job21(T2) actual=1
+   T=71.0: Scheduled Job22(T3)
+   T=72.0: Completed Job22(T3) actual=1
+   T=72.0: Released Job23(T1, actual=1, deadline=80)
+   T=72.0: Scheduled Job23(T1)
+   T=73.0: Completed Job23(T1) actual=1
+   T=73.0: IDLE for 7.0ms (consuming energy at lowest freq)
+   T=80.0: Released Job24(T1, actual=2, deadline=88)
+   T=80.0: Released Job25(T2, actual=1, deadline=90)
+   T=80.0: Scheduled Job24(T1)
+   T=82.0: Completed Job24(T1) actual=2
+   T=82.0: Scheduled Job25(T2)
+   T=83.0: Completed Job25(T2) actual=1
+   T=83.0: IDLE for 1.0ms (consuming energy at lowest freq)
+   T=84.0: Released Job26(T3, actual=1, deadline=98)
+   T=84.0: Scheduled Job26(T3)
+   T=85.0: Completed Job26(T3) actual=1
+   T=85.0: IDLE for 3.0ms (consuming energy at lowest freq)
+   T=88.0: Released Job27(T1, actual=1, deadline=96)
+   T=88.0: Scheduled Job27(T1)
+   T=89.0: Completed Job27(T1) actual=1
+   T=89.0: IDLE for 1.0ms (consuming energy at lowest freq)
+   T=90.0: Released Job28(T2, actual=1, deadline=100)
+   T=90.0: Scheduled Job28(T2)
+   T=91.0: Completed Job28(T2) actual=1
+   T=91.0: IDLE for 5.0ms (consuming energy at lowest freq)
+   T=96.0: Released Job29(T1, actual=2, deadline=104)
+   T=96.0: Scheduled Job29(T1)
+   T=98.0: Completed Job29(T1) actual=2
+   T=98.0: Released Job30(T3, actual=1, deadline=112)
+   T=98.0: Scheduled Job30(T3)
+   T=99.0: Completed Job30(T3) actual=1
+   T=99.0: IDLE for 1.0ms (consuming energy at lowest freq)
+   T=100.0: Released Job31(T2, actual=1, deadline=110)
+   T=100.0: Scheduled Job31(T2)
+   T=101.0: Completed Job31(T2) actual=1
+   T=101.0: IDLE for 3.0ms (consuming energy at lowest freq)
+   T=104.0: Released Job32(T1, actual=1, deadline=112)
+   T=104.0: Scheduled Job32(T1)
+   T=105.0: Completed Job32(T1) actual=1
+   T=105.0: IDLE for 5.0ms (consuming energy at lowest freq)
+   T=110.0: Released Job33(T2, actual=1, deadline=120)
+   T=110.0: Scheduled Job33(T2)
+   T=111.0: Completed Job33(T2) actual=1
+   T=111.0: IDLE for 1.0ms (consuming energy at lowest freq)
+   T=112.0: Released Job34(T1, actual=2, deadline=120)
+   T=112.0: Released Job35(T3, actual=1, deadline=126)
+   T=112.0: Scheduled Job34(T1)
+   T=114.0: Completed Job34(T1) actual=2
+   T=114.0: Scheduled Job35(T3)
+   T=115.0: Completed Job35(T3) actual=1
+   T=115.0: IDLE for 5.0ms (consuming energy at lowest freq)
+   T=120.0: Released Job36(T1, actual=1, deadline=128)
+   T=120.0: Released Job37(T2, actual=1, deadline=130)
+   T=120.0: Scheduled Job36(T1)
+   T=121.0: Completed Job36(T1) actual=1
+   T=121.0: Scheduled Job37(T2)
+   T=122.0: Completed Job37(T2) actual=1
+   T=122.0: IDLE for 4.0ms (consuming energy at lowest freq)
+   T=126.0: Released Job38(T3, actual=1, deadline=140)
+   T=126.0: Scheduled Job38(T3)
+   T=127.0: Completed Job38(T3) actual=1
+   T=127.0: IDLE for 1.0ms (consuming energy at lowest freq)
+   T=128.0: Released Job39(T1, actual=2, deadline=136)
+   T=128.0: Scheduled Job39(T1)
+   T=130.0: Completed Job39(T1) actual=2
+   T=130.0: Released Job40(T2, actual=1, deadline=140)
+   T=130.0: Scheduled Job40(T2)
+   T=131.0: Completed Job40(T2) actual=1
+   T=131.0: IDLE for 5.0ms (consuming energy at lowest freq)
+   T=136.0: Released Job41(T1, actual=1, deadline=144)
+   T=136.0: Scheduled Job41(T1)
+   T=137.0: Completed Job41(T1) actual=1
+   T=137.0: IDLE for 3.0ms (consuming energy at lowest freq)
+   T=140.0: Released Job42(T2, actual=1, deadline=150)
+   T=140.0: Released Job43(T3, actual=1, deadline=154)
+   T=140.0: Scheduled Job42(T2)
+   T=141.0: Completed Job42(T2) actual=1
+   T=141.0: Scheduled Job43(T3)
+   T=142.0: Completed Job43(T3) actual=1
+   T=142.0: IDLE for 2.0ms (consuming energy at lowest freq)
+   T=144.0: Released Job44(T1, actual=2, deadline=152)
+   T=144.0: Scheduled Job44(T1)
+   T=146.0: Completed Job44(T1) actual=2
+   T=146.0: IDLE for 4.0ms (consuming energy at lowest freq)
+   T=150.0: Released Job45(T2, actual=1, deadline=160)
+   T=150.0: Scheduled Job45(T2)
+   T=151.0: Completed Job45(T2) actual=1
+   T=151.0: IDLE for 1.0ms (consuming energy at lowest freq)
+   T=152.0: Released Job46(T1, actual=1, deadline=160)
+   T=152.0: Scheduled Job46(T1)
+   T=153.0: Completed Job46(T1) actual=1
+   T=153.0: IDLE for 1.0ms (consuming energy at lowest freq)
+   T=154.0: Released Job47(T3, actual=1, deadline=168)
+   T=154.0: Scheduled Job47(T3)
+   T=155.0: Completed Job47(T3) actual=1
+   T=155.0: IDLE for 5.0ms (consuming energy at lowest freq)
+   T=160.0: Released Job48(T1, actual=2, deadline=168)
+   T=160.0: Released Job49(T2, actual=1, deadline=170)
+   T=160.0: Scheduled Job48(T1)
+   T=162.0: Completed Job48(T1) actual=2
+   T=162.0: Scheduled Job49(T2)
+   T=163.0: Completed Job49(T2) actual=1
+   T=163.0: IDLE for 5.0ms (consuming energy at lowest freq)
+   T=168.0: Released Job50(T1, actual=1, deadline=176)
+   T=168.0: Released Job51(T3, actual=1, deadline=182)
+   T=168.0: Scheduled Job50(T1)
+   T=169.0: Completed Job50(T1) actual=1
+   T=169.0: Scheduled Job51(T3)
+   T=170.0: Completed Job51(T3) actual=1
+   T=170.0: Released Job52(T2, actual=1, deadline=180)
+   T=170.0: Scheduled Job52(T2)
+   T=171.0: Completed Job52(T2) actual=1
+   T=171.0: IDLE for 5.0ms (consuming energy at lowest freq)
+   T=176.0: Released Job53(T1, actual=2, deadline=184)
+   T=176.0: Scheduled Job53(T1)
+   T=178.0: Completed Job53(T1) actual=2
+   T=178.0: IDLE for 2.0ms (consuming energy at lowest freq)
+   T=180.0: Released Job54(T2, actual=1, deadline=190)
+   T=180.0: Scheduled Job54(T2)
+   T=181.0: Completed Job54(T2) actual=1
+   T=181.0: IDLE for 1.0ms (consuming energy at lowest freq)
+   T=182.0: Released Job55(T3, actual=1, deadline=196)
+   T=182.0: Scheduled Job55(T3)
+   T=183.0: Completed Job55(T3) actual=1
+   T=183.0: IDLE for 1.0ms (consuming energy at lowest freq)
+   T=184.0: Released Job56(T1, actual=1, deadline=192)
+   T=184.0: Scheduled Job56(T1)
+   T=185.0: Completed Job56(T1) actual=1
+   T=185.0: IDLE for 5.0ms (consuming energy at lowest freq)
+   T=190.0: Released Job57(T2, actual=1, deadline=200)
+   T=190.0: Scheduled Job57(T2)
+   T=191.0: Completed Job57(T2) actual=1
+   T=191.0: IDLE for 1.0ms (consuming energy at lowest freq)
+   T=192.0: Released Job58(T1, actual=2, deadline=200)
+   T=192.0: Scheduled Job58(T1)
+   T=194.0: Completed Job58(T1) actual=2
+   T=194.0: IDLE for 2.0ms (consuming energy at lowest freq)
+   T=196.0: Released Job59(T3, actual=1, deadline=210)
+   T=196.0: Scheduled Job59(T3)
+   T=197.0: Completed Job59(T3) actual=1
+   T=197.0: IDLE for 3.0ms (consuming energy at lowest freq)
+   T=200.0: Released Job60(T1, actual=1, deadline=208)
+   T=200.0: Released Job61(T2, actual=1, deadline=210)
+   T=200.0: Scheduled Job60(T1)
+   T=201.0: Completed Job60(T1) actual=1
+   T=201.0: Scheduled Job61(T2)
+   T=202.0: Completed Job61(T2) actual=1
+   T=202.0: IDLE for 6.0ms (consuming energy at lowest freq)
+   T=208.0: Released Job62(T1, actual=2, deadline=216)
+   T=208.0: Scheduled Job62(T1)
+   T=210.0: Completed Job62(T1) actual=2
+   T=210.0: Released Job63(T2, actual=1, deadline=220)
+   T=210.0: Released Job64(T3, actual=1, deadline=224)
+   T=210.0: Scheduled Job63(T2)
+   T=211.0: Completed Job63(T2) actual=1
+   T=211.0: Scheduled Job64(T3)
+   T=212.0: Completed Job64(T3) actual=1
+   T=212.0: IDLE for 4.0ms (consuming energy at lowest freq)
+   T=216.0: Released Job65(T1, actual=1, deadline=224)
+   T=216.0: Scheduled Job65(T1)
+   T=217.0: Completed Job65(T1) actual=1
+   T=217.0: IDLE for 3.0ms (consuming energy at lowest freq)
+   T=220.0: Released Job66(T2, actual=1, deadline=230)
+   T=220.0: Scheduled Job66(T2)
+   T=221.0: Completed Job66(T2) actual=1
+   T=221.0: IDLE for 3.0ms (consuming energy at lowest freq)
+   T=224.0: Released Job67(T1, actual=2, deadline=232)
+   T=224.0: Released Job68(T3, actual=1, deadline=238)
+   T=224.0: Scheduled Job67(T1)
+   T=226.0: Completed Job67(T1) actual=2
+   T=226.0: Scheduled Job68(T3)
+   T=227.0: Completed Job68(T3) actual=1
+   T=227.0: IDLE for 3.0ms (consuming energy at lowest freq)
+   T=230.0: Released Job69(T2, actual=1, deadline=240)
+   T=230.0: Scheduled Job69(T2)
+   T=231.0: Completed Job69(T2) actual=1
+   T=231.0: IDLE for 1.0ms (consuming energy at lowest freq)
+   T=232.0: Released Job70(T1, actual=1, deadline=240)
+   T=232.0: Scheduled Job70(T1)
+   T=233.0: Completed Job70(T1) actual=1
+   T=233.0: IDLE for 5.0ms (consuming energy at lowest freq)
+   T=238.0: Released Job71(T3, actual=1, deadline=252)
+   T=238.0: Scheduled Job71(T3)
+   T=239.0: Completed Job71(T3) actual=1
+   T=239.0: IDLE for 1.0ms (consuming energy at lowest freq)
+   T=240.0: Released Job72(T1, actual=2, deadline=248)
+   T=240.0: Released Job73(T2, actual=1, deadline=250)
+   T=240.0: Scheduled Job72(T1)
+   T=242.0: Completed Job72(T1) actual=2
+   T=242.0: Scheduled Job73(T2)
+   T=243.0: Completed Job73(T2) actual=1
+   T=243.0: IDLE for 5.0ms (consuming energy at lowest freq)
+   T=248.0: Released Job74(T1, actual=1, deadline=256)
+   T=248.0: Scheduled Job74(T1)
+   T=249.0: Completed Job74(T1) actual=1
+   T=249.0: IDLE for 1.0ms (consuming energy at lowest freq)
+   T=250.0: Released Job75(T2, actual=1, deadline=260)
+   T=250.0: Scheduled Job75(T2)
+   T=251.0: Completed Job75(T2) actual=1
+   T=251.0: IDLE for 1.0ms (consuming energy at lowest freq)
+   T=252.0: Released Job76(T3, actual=1, deadline=266)
+   T=252.0: Scheduled Job76(T3)
+   T=253.0: Completed Job76(T3) actual=1
+   T=253.0: IDLE for 3.0ms (consuming energy at lowest freq)
+   T=256.0: Released Job77(T1, actual=2, deadline=264)
+   T=256.0: Scheduled Job77(T1)
+   T=258.0: Completed Job77(T1) actual=2
+   T=258.0: IDLE for 2.0ms (consuming energy at lowest freq)
+   T=260.0: Released Job78(T2, actual=1, deadline=270)
+   T=260.0: Scheduled Job78(T2)
+   T=261.0: Completed Job78(T2) actual=1
+   T=261.0: IDLE for 3.0ms (consuming energy at lowest freq)
+   T=264.0: Released Job79(T1, actual=1, deadline=272)
+   T=264.0: Scheduled Job79(T1)
+   T=265.0: Completed Job79(T1) actual=1
+   T=265.0: IDLE for 1.0ms (consuming energy at lowest freq)
+   T=266.0: Released Job80(T3, actual=1, deadline=280)
+   T=266.0: Scheduled Job80(T3)
+   T=267.0: Completed Job80(T3) actual=1
+   T=267.0: IDLE for 3.0ms (consuming energy at lowest freq)
+   T=270.0: Released Job81(T2, actual=1, deadline=280)
+   T=270.0: Scheduled Job81(T2)
+   T=271.0: Completed Job81(T2) actual=1
+   T=271.0: IDLE for 1.0ms (consuming energy at lowest freq)
+   T=272.0: Released Job82(T1, actual=2, deadline=280)
+   T=272.0: Scheduled Job82(T1)
+   T=274.0: Completed Job82(T1) actual=2
+   T=274.0: IDLE for 6.0ms (consuming energy at lowest freq)
+
+--- RESULTS for Static RM ---
+Hyperperiod: 280 ms
+Jobs: 83, Decision points: 166
+Preemptions: 0, Context switches: 83
+Deadline misses: 0
+Total energy: 3258.18
+
+=== SIMULATION: ccRM ===
+   T=0.0: Dynamic policy initial speed: 1.000
+   T=0.0: Released Job0(T1, actual=2, deadline=8)
+   T=0.0: Released Job1(T2, actual=1, deadline=10)
+   T=0.0: Released Job2(T3, actual=1, deadline=14)
+   T=0.0: Freq change: 1.000 -> 0.900 (util req: 0.900)
+   T=0.0: Scheduled Job0(T1)
+   T=2.2: Completed Job0(T1) actual=2
+   T=2.2: Scheduled Job1(T2)
+   T=3.3: Completed Job1(T2) actual=1
+   T=3.3: Scheduled Job2(T3)
+   T=4.4: Completed Job2(T3) actual=1
+   T=4.4: Freq change: 0.900 -> 0.800 (util req: 0.800)
+   T=4.4: IDLE for 3.6ms (consuming energy at lowest freq)
+   T=8.0: Released Job3(T1, actual=1, deadline=16)
+   T=8.0: Scheduled Job3(T1)
+   T=9.2: Completed Job3(T1) actual=1
+   T=9.2: IDLE for 0.8ms (consuming energy at lowest freq)
+   T=10.0: Released Job4(T2, actual=1, deadline=20)
+   T=10.0: Scheduled Job4(T2)
+   T=11.2: Completed Job4(T2) actual=1
+   T=11.2: IDLE for 2.8ms (consuming energy at lowest freq)
+   T=14.0: Released Job5(T3, actual=1, deadline=28)
+   T=14.0: Freq change: 0.800 -> 0.900 (util req: 0.900)
+   T=14.0: Scheduled Job5(T3)
+   T=15.1: Completed Job5(T3) actual=1
+   T=15.1: Freq change: 0.900 -> 0.800 (util req: 0.800)
+   T=15.1: IDLE for 0.9ms (consuming energy at lowest freq)
+   T=16.0: Released Job6(T1, actual=2, deadline=24)
+   T=16.0: Scheduled Job6(T1)
+   T=18.5: Completed Job6(T1) actual=2
+   T=18.5: IDLE for 1.5ms (consuming energy at lowest freq)
+   T=20.0: Released Job7(T2, actual=1, deadline=30)
+   T=20.0: Scheduled Job7(T2)
+   T=21.2: Completed Job7(T2) actual=1
+   T=21.2: IDLE for 2.8ms (consuming energy at lowest freq)
+   T=24.0: Released Job8(T1, actual=1, deadline=32)
+   T=24.0: Scheduled Job8(T1)
+   T=25.2: Completed Job8(T1) actual=1
+   T=25.2: IDLE for 2.8ms (consuming energy at lowest freq)
+   T=28.0: Released Job9(T3, actual=1, deadline=42)
+   T=28.0: Freq change: 0.800 -> 0.900 (util req: 0.900)
+   T=28.0: Scheduled Job9(T3)
+   T=29.1: Completed Job9(T3) actual=1
+   T=29.1: Freq change: 0.900 -> 0.800 (util req: 0.800)
+   T=29.1: IDLE for 0.9ms (consuming energy at lowest freq)
+   T=30.0: Released Job10(T2, actual=1, deadline=40)
+   T=30.0: Scheduled Job10(T2)
+   T=31.2: Completed Job10(T2) actual=1
+   T=31.2: IDLE for 0.8ms (consuming energy at lowest freq)
+   T=32.0: Released Job11(T1, actual=2, deadline=40)
+   T=32.0: Scheduled Job11(T1)
+   T=34.5: Completed Job11(T1) actual=2
+   T=34.5: IDLE for 5.5ms (consuming energy at lowest freq)
+   T=40.0: Released Job12(T1, actual=1, deadline=48)
+   T=40.0: Released Job13(T2, actual=1, deadline=50)
+   T=40.0: Scheduled Job12(T1)
+   T=41.2: Completed Job12(T1) actual=1
+   T=41.2: Scheduled Job13(T2)
+   T=42.0: Released Job14(T3, actual=1, deadline=56)
+   T=42.0: Freq change: 0.800 -> 0.900 (util req: 0.900)
+   T=42.4: Completed Job13(T2) actual=1
+   T=42.4: Scheduled Job14(T3)
+   T=43.6: Completed Job14(T3) actual=1
+   T=43.6: Freq change: 0.900 -> 0.800 (util req: 0.800)
+   T=43.6: IDLE for 4.4ms (consuming energy at lowest freq)
+   T=48.0: Released Job15(T1, actual=2, deadline=56)
+   T=48.0: Scheduled Job15(T1)
+   T=50.0: Released Job16(T2, actual=1, deadline=60)
+   T=50.5: Completed Job15(T1) actual=2
+   T=50.5: Scheduled Job16(T2)
+   T=51.8: Completed Job16(T2) actual=1
+   T=51.8: IDLE for 4.2ms (consuming energy at lowest freq)
+   T=56.0: Released Job17(T1, actual=1, deadline=64)
+   T=56.0: Released Job18(T3, actual=1, deadline=70)
+   T=56.0: Freq change: 0.800 -> 0.900 (util req: 0.900)
+   T=56.0: Scheduled Job17(T1)
+   T=57.1: Completed Job17(T1) actual=1
+   T=57.1: Scheduled Job18(T3)
+   T=58.2: Completed Job18(T3) actual=1
+   T=58.2: Freq change: 0.900 -> 0.800 (util req: 0.800)
+   T=58.2: IDLE for 1.8ms (consuming energy at lowest freq)
+   T=60.0: Released Job19(T2, actual=1, deadline=70)
+   T=60.0: Scheduled Job19(T2)
+   T=61.2: Completed Job19(T2) actual=1
+   T=61.2: IDLE for 2.8ms (consuming energy at lowest freq)
+   T=64.0: Released Job20(T1, actual=2, deadline=72)
+   T=64.0: Scheduled Job20(T1)
+   T=66.5: Completed Job20(T1) actual=2
+   T=66.5: IDLE for 3.5ms (consuming energy at lowest freq)
+   T=70.0: Released Job21(T2, actual=1, deadline=80)
+   T=70.0: Released Job22(T3, actual=1, deadline=84)
+   T=70.0: Freq change: 0.800 -> 0.900 (util req: 0.900)
+   T=70.0: Scheduled Job21(T2)
+   T=71.1: Completed Job21(T2) actual=1
+   T=71.1: Scheduled Job22(T3)
+   T=72.0: Released Job23(T1, actual=1, deadline=80)
+   T=72.0: Freq change: 0.900 -> 0.800 (util req: 0.800)
+   T=72.0: Scheduled Job23(T1)
+   T=73.2: Completed Job23(T1) actual=1
+   T=73.2: Scheduled Job22(T3)
+   T=73.5: Completed Job22(T3) actual=1
+   T=73.5: IDLE for 6.5ms (consuming energy at lowest freq)
+   T=80.0: Released Job24(T1, actual=2, deadline=88)
+   T=80.0: Released Job25(T2, actual=1, deadline=90)
+   T=80.0: Scheduled Job24(T1)
+   T=82.5: Completed Job24(T1) actual=2
+   T=82.5: Scheduled Job25(T2)
+   T=83.8: Completed Job25(T2) actual=1
+   T=83.8: IDLE for 0.2ms (consuming energy at lowest freq)
+   T=84.0: Released Job26(T3, actual=1, deadline=98)
+   T=84.0: Freq change: 0.800 -> 0.900 (util req: 0.900)
+   T=84.0: Scheduled Job26(T3)
+   T=85.1: Completed Job26(T3) actual=1
+   T=85.1: Freq change: 0.900 -> 0.800 (util req: 0.800)
+   T=85.1: IDLE for 2.9ms (consuming energy at lowest freq)
+   T=88.0: Released Job27(T1, actual=1, deadline=96)
+   T=88.0: Scheduled Job27(T1)
+   T=89.2: Completed Job27(T1) actual=1
+   T=89.2: IDLE for 0.8ms (consuming energy at lowest freq)
+   T=90.0: Released Job28(T2, actual=1, deadline=100)
+   T=90.0: Scheduled Job28(T2)
+   T=91.2: Completed Job28(T2) actual=1
+   T=91.2: IDLE for 4.8ms (consuming energy at lowest freq)
+   T=96.0: Released Job29(T1, actual=2, deadline=104)
+   T=96.0: Scheduled Job29(T1)
+   T=98.0: Released Job30(T3, actual=1, deadline=112)
+   T=98.0: Freq change: 0.800 -> 0.900 (util req: 0.900)
+   T=98.4: Completed Job29(T1) actual=2
+   T=98.4: Scheduled Job30(T3)
+   T=99.6: Completed Job30(T3) actual=1
+   T=99.6: Freq change: 0.900 -> 0.800 (util req: 0.800)
+   T=99.6: IDLE for 0.4ms (consuming energy at lowest freq)
+   T=100.0: Released Job31(T2, actual=1, deadline=110)
+   T=100.0: Scheduled Job31(T2)
+   T=101.2: Completed Job31(T2) actual=1
+   T=101.2: IDLE for 2.8ms (consuming energy at lowest freq)
+   T=104.0: Released Job32(T1, actual=1, deadline=112)
+   T=104.0: Scheduled Job32(T1)
+   T=105.2: Completed Job32(T1) actual=1
+   T=105.2: IDLE for 4.8ms (consuming energy at lowest freq)
+   T=110.0: Released Job33(T2, actual=1, deadline=120)
+   T=110.0: Scheduled Job33(T2)
+   T=111.2: Completed Job33(T2) actual=1
+   T=111.2: IDLE for 0.8ms (consuming energy at lowest freq)
+   T=112.0: Released Job34(T1, actual=2, deadline=120)
+   T=112.0: Released Job35(T3, actual=1, deadline=126)
+   T=112.0: Freq change: 0.800 -> 0.900 (util req: 0.900)
+   T=112.0: Scheduled Job34(T1)
+   T=114.2: Completed Job34(T1) actual=2
+   T=114.2: Scheduled Job35(T3)
+   T=115.3: Completed Job35(T3) actual=1
+   T=115.3: Freq change: 0.900 -> 0.800 (util req: 0.800)
+   T=115.3: IDLE for 4.7ms (consuming energy at lowest freq)
+   T=120.0: Released Job36(T1, actual=1, deadline=128)
+   T=120.0: Released Job37(T2, actual=1, deadline=130)
+   T=120.0: Scheduled Job36(T1)
+   T=121.2: Completed Job36(T1) actual=1
+   T=121.2: Scheduled Job37(T2)
+   T=122.5: Completed Job37(T2) actual=1
+   T=122.5: IDLE for 3.5ms (consuming energy at lowest freq)
+   T=126.0: Released Job38(T3, actual=1, deadline=140)
+   T=126.0: Freq change: 0.800 -> 0.900 (util req: 0.900)
+   T=126.0: Scheduled Job38(T3)
+   T=127.1: Completed Job38(T3) actual=1
+   T=127.1: Freq change: 0.900 -> 0.800 (util req: 0.800)
+   T=127.1: IDLE for 0.9ms (consuming energy at lowest freq)
+   T=128.0: Released Job39(T1, actual=2, deadline=136)
+   T=128.0: Scheduled Job39(T1)
+   T=130.0: Released Job40(T2, actual=1, deadline=140)
+   T=130.5: Completed Job39(T1) actual=2
+   T=130.5: Scheduled Job40(T2)
+   T=131.8: Completed Job40(T2) actual=1
+   T=131.8: IDLE for 4.2ms (consuming energy at lowest freq)
+   T=136.0: Released Job41(T1, actual=1, deadline=144)
+   T=136.0: Scheduled Job41(T1)
+   T=137.2: Completed Job41(T1) actual=1
+   T=137.2: IDLE for 2.8ms (consuming energy at lowest freq)
+   T=140.0: Released Job42(T2, actual=1, deadline=150)
+   T=140.0: Released Job43(T3, actual=1, deadline=154)
+   T=140.0: Freq change: 0.800 -> 0.900 (util req: 0.900)
+   T=140.0: Scheduled Job42(T2)
+   T=141.1: Completed Job42(T2) actual=1
+   T=141.1: Scheduled Job43(T3)
+   T=142.2: Completed Job43(T3) actual=1
+   T=142.2: Freq change: 0.900 -> 0.800 (util req: 0.800)
+   T=142.2: IDLE for 1.8ms (consuming energy at lowest freq)
+   T=144.0: Released Job44(T1, actual=2, deadline=152)
+   T=144.0: Scheduled Job44(T1)
+   T=146.5: Completed Job44(T1) actual=2
+   T=146.5: IDLE for 3.5ms (consuming energy at lowest freq)
+   T=150.0: Released Job45(T2, actual=1, deadline=160)
+   T=150.0: Scheduled Job45(T2)
+   T=151.2: Completed Job45(T2) actual=1
+   T=151.2: IDLE for 0.8ms (consuming energy at lowest freq)
+   T=152.0: Released Job46(T1, actual=1, deadline=160)
+   T=152.0: Scheduled Job46(T1)
+   T=153.2: Completed Job46(T1) actual=1
+   T=153.2: IDLE for 0.8ms (consuming energy at lowest freq)
+   T=154.0: Released Job47(T3, actual=1, deadline=168)
+   T=154.0: Freq change: 0.800 -> 0.900 (util req: 0.900)
+   T=154.0: Scheduled Job47(T3)
+   T=155.1: Completed Job47(T3) actual=1
+   T=155.1: Freq change: 0.900 -> 0.800 (util req: 0.800)
+   T=155.1: IDLE for 4.9ms (consuming energy at lowest freq)
+   T=160.0: Released Job48(T1, actual=2, deadline=168)
+   T=160.0: Released Job49(T2, actual=1, deadline=170)
+   T=160.0: Scheduled Job48(T1)
+   T=162.5: Completed Job48(T1) actual=2
+   T=162.5: Scheduled Job49(T2)
+   T=163.8: Completed Job49(T2) actual=1
+   T=163.8: IDLE for 4.2ms (consuming energy at lowest freq)
+   T=168.0: Released Job50(T1, actual=1, deadline=176)
+   T=168.0: Released Job51(T3, actual=1, deadline=182)
+   T=168.0: Freq change: 0.800 -> 0.900 (util req: 0.900)
+   T=168.0: Scheduled Job50(T1)
+   T=169.1: Completed Job50(T1) actual=1
+   T=169.1: Scheduled Job51(T3)
+   T=170.0: Released Job52(T2, actual=1, deadline=180)
+   T=170.0: Freq change: 0.900 -> 0.800 (util req: 0.800)
+   T=170.0: Scheduled Job52(T2)
+   T=171.2: Completed Job52(T2) actual=1
+   T=171.2: Scheduled Job51(T3)
+   T=171.5: Completed Job51(T3) actual=1
+   T=171.5: IDLE for 4.5ms (consuming energy at lowest freq)
+   T=176.0: Released Job53(T1, actual=2, deadline=184)
+   T=176.0: Scheduled Job53(T1)
+   T=178.5: Completed Job53(T1) actual=2
+   T=178.5: IDLE for 1.5ms (consuming energy at lowest freq)
+   T=180.0: Released Job54(T2, actual=1, deadline=190)
+   T=180.0: Scheduled Job54(T2)
+   T=181.2: Completed Job54(T2) actual=1
+   T=181.2: IDLE for 0.8ms (consuming energy at lowest freq)
+   T=182.0: Released Job55(T3, actual=1, deadline=196)
+   T=182.0: Freq change: 0.800 -> 0.900 (util req: 0.900)
+   T=182.0: Scheduled Job55(T3)
+   T=183.1: Completed Job55(T3) actual=1
+   T=183.1: Freq change: 0.900 -> 0.800 (util req: 0.800)
+   T=183.1: IDLE for 0.9ms (consuming energy at lowest freq)
+   T=184.0: Released Job56(T1, actual=1, deadline=192)
+   T=184.0: Scheduled Job56(T1)
+   T=185.2: Completed Job56(T1) actual=1
+   T=185.2: IDLE for 4.8ms (consuming energy at lowest freq)
+   T=190.0: Released Job57(T2, actual=1, deadline=200)
+   T=190.0: Scheduled Job57(T2)
+   T=191.2: Completed Job57(T2) actual=1
+   T=191.2: IDLE for 0.8ms (consuming energy at lowest freq)
+   T=192.0: Released Job58(T1, actual=2, deadline=200)
+   T=192.0: Scheduled Job58(T1)
+   T=194.5: Completed Job58(T1) actual=2
+   T=194.5: IDLE for 1.5ms (consuming energy at lowest freq)
+   T=196.0: Released Job59(T3, actual=1, deadline=210)
+   T=196.0: Freq change: 0.800 -> 0.900 (util req: 0.900)
+   T=196.0: Scheduled Job59(T3)
+   T=197.1: Completed Job59(T3) actual=1
+   T=197.1: Freq change: 0.900 -> 0.800 (util req: 0.800)
+   T=197.1: IDLE for 2.9ms (consuming energy at lowest freq)
+   T=200.0: Released Job60(T1, actual=1, deadline=208)
+   T=200.0: Released Job61(T2, actual=1, deadline=210)
+   T=200.0: Scheduled Job60(T1)
+   T=201.2: Completed Job60(T1) actual=1
+   T=201.2: Scheduled Job61(T2)
+   T=202.5: Completed Job61(T2) actual=1
+   T=202.5: IDLE for 5.5ms (consuming energy at lowest freq)
+   T=208.0: Released Job62(T1, actual=2, deadline=216)
+   T=208.0: Scheduled Job62(T1)
+   T=210.0: Released Job63(T2, actual=1, deadline=220)
+   T=210.0: Released Job64(T3, actual=1, deadline=224)
+   T=210.0: Freq change: 0.800 -> 0.900 (util req: 0.900)
+   T=210.4: Completed Job62(T1) actual=2
+   T=210.4: Scheduled Job63(T2)
+   T=211.6: Completed Job63(T2) actual=1
+   T=211.6: Scheduled Job64(T3)
+   T=212.7: Completed Job64(T3) actual=1
+   T=212.7: Freq change: 0.900 -> 0.800 (util req: 0.800)
+   T=212.7: IDLE for 3.3ms (consuming energy at lowest freq)
+   T=216.0: Released Job65(T1, actual=1, deadline=224)
+   T=216.0: Scheduled Job65(T1)
+   T=217.2: Completed Job65(T1) actual=1
+   T=217.2: IDLE for 2.8ms (consuming energy at lowest freq)
+   T=220.0: Released Job66(T2, actual=1, deadline=230)
+   T=220.0: Scheduled Job66(T2)
+   T=221.2: Completed Job66(T2) actual=1
+   T=221.2: IDLE for 2.8ms (consuming energy at lowest freq)
+   T=224.0: Released Job67(T1, actual=2, deadline=232)
+   T=224.0: Released Job68(T3, actual=1, deadline=238)
+   T=224.0: Freq change: 0.800 -> 0.900 (util req: 0.900)
+   T=224.0: Scheduled Job67(T1)
+   T=226.2: Completed Job67(T1) actual=2
+   T=226.2: Scheduled Job68(T3)
+   T=227.3: Completed Job68(T3) actual=1
+   T=227.3: Freq change: 0.900 -> 0.800 (util req: 0.800)
+   T=227.3: IDLE for 2.7ms (consuming energy at lowest freq)
+   T=230.0: Released Job69(T2, actual=1, deadline=240)
+   T=230.0: Scheduled Job69(T2)
+   T=231.2: Completed Job69(T2) actual=1
+   T=231.2: IDLE for 0.8ms (consuming energy at lowest freq)
+   T=232.0: Released Job70(T1, actual=1, deadline=240)
+   T=232.0: Scheduled Job70(T1)
+   T=233.2: Completed Job70(T1) actual=1
+   T=233.2: IDLE for 4.8ms (consuming energy at lowest freq)
+   T=238.0: Released Job71(T3, actual=1, deadline=252)
+   T=238.0: Freq change: 0.800 -> 0.900 (util req: 0.900)
+   T=238.0: Scheduled Job71(T3)
+   T=239.1: Completed Job71(T3) actual=1
+   T=239.1: Freq change: 0.900 -> 0.800 (util req: 0.800)
+   T=239.1: IDLE for 0.9ms (consuming energy at lowest freq)
+   T=240.0: Released Job72(T1, actual=2, deadline=248)
+   T=240.0: Released Job73(T2, actual=1, deadline=250)
+   T=240.0: Scheduled Job72(T1)
+   T=242.5: Completed Job72(T1) actual=2
+   T=242.5: Scheduled Job73(T2)
+   T=243.8: Completed Job73(T2) actual=1
+   T=243.8: IDLE for 4.2ms (consuming energy at lowest freq)
+   T=248.0: Released Job74(T1, actual=1, deadline=256)
+   T=248.0: Scheduled Job74(T1)
+   T=249.2: Completed Job74(T1) actual=1
+   T=249.2: IDLE for 0.8ms (consuming energy at lowest freq)
+   T=250.0: Released Job75(T2, actual=1, deadline=260)
+   T=250.0: Scheduled Job75(T2)
+   T=251.2: Completed Job75(T2) actual=1
+   T=251.2: IDLE for 0.8ms (consuming energy at lowest freq)
+   T=252.0: Released Job76(T3, actual=1, deadline=266)
+   T=252.0: Freq change: 0.800 -> 0.900 (util req: 0.900)
+   T=252.0: Scheduled Job76(T3)
+   T=253.1: Completed Job76(T3) actual=1
+   T=253.1: Freq change: 0.900 -> 0.800 (util req: 0.800)
+   T=253.1: IDLE for 2.9ms (consuming energy at lowest freq)
+   T=256.0: Released Job77(T1, actual=2, deadline=264)
+   T=256.0: Scheduled Job77(T1)
+   T=258.5: Completed Job77(T1) actual=2
+   T=258.5: IDLE for 1.5ms (consuming energy at lowest freq)
+   T=260.0: Released Job78(T2, actual=1, deadline=270)
+   T=260.0: Scheduled Job78(T2)
+   T=261.2: Completed Job78(T2) actual=1
+   T=261.2: IDLE for 2.8ms (consuming energy at lowest freq)
+   T=264.0: Released Job79(T1, actual=1, deadline=272)
+   T=264.0: Scheduled Job79(T1)
+   T=265.2: Completed Job79(T1) actual=1
+   T=265.2: IDLE for 0.8ms (consuming energy at lowest freq)
+   T=266.0: Released Job80(T3, actual=1, deadline=280)
+   T=266.0: Freq change: 0.800 -> 0.900 (util req: 0.900)
+   T=266.0: Scheduled Job80(T3)
+   T=267.1: Completed Job80(T3) actual=1
+   T=267.1: Freq change: 0.900 -> 0.800 (util req: 0.800)
+   T=267.1: IDLE for 2.9ms (consuming energy at lowest freq)
+   T=270.0: Released Job81(T2, actual=1, deadline=280)
+   T=270.0: Scheduled Job81(T2)
+   T=271.2: Completed Job81(T2) actual=1
+   T=271.2: IDLE for 0.8ms (consuming energy at lowest freq)
+   T=272.0: Released Job82(T1, actual=2, deadline=280)
+   T=272.0: Scheduled Job82(T1)
+   T=274.5: Completed Job82(T1) actual=2
+   T=274.5: IDLE for 5.5ms (consuming energy at lowest freq)
+
+--- RESULTS for ccRM ---
+Hyperperiod: 280 ms
+Jobs: 83, Decision points: 166
+Preemptions: 2, Context switches: 85
+Deadline misses: 0
+Total energy: 2693.32
+
+=== SIMULATION: ccRM ===
+   T=0.0: Dynamic policy initial speed: 1.000
+
+--- Log Data for ccRM ---
+Time	Alpha (Speed)
+   T=0.0: Released Job0(T1, actual=2, deadline=8)
+   T=0.0: Released Job1(T2, actual=1, deadline=10)
+   T=0.0: Released Job2(T3, actual=1, deadline=14)
+   T=0.0: Freq change: 1.000 -> 0.900 (util req: 0.900)
+0.0	0.900
+   T=0.0: Scheduled Job0(T1)
+   T=2.2: Completed Job0(T1) actual=2
+   T=2.2: Scheduled Job1(T2)
+   T=3.3: Completed Job1(T2) actual=1
+   T=3.3: Scheduled Job2(T3)
+   T=4.4: Completed Job2(T3) actual=1
+   T=4.4: Freq change: 0.900 -> 0.800 (util req: 0.800)
+   T=4.4: IDLE for 3.6ms (consuming energy at lowest freq)
+   T=8.0: Released Job3(T1, actual=1, deadline=16)
+8.0	0.800
+   T=8.0: Scheduled Job3(T1)
+   T=9.2: Completed Job3(T1) actual=1
+   T=9.2: IDLE for 0.8ms (consuming energy at lowest freq)
+   T=10.0: Released Job4(T2, actual=1, deadline=20)
+10.0	0.800
+   T=10.0: Scheduled Job4(T2)
+   T=11.2: Completed Job4(T2) actual=1
+   T=11.2: IDLE for 2.8ms (consuming energy at lowest freq)
+   T=14.0: Released Job5(T3, actual=1, deadline=28)
+   T=14.0: Freq change: 0.800 -> 0.900 (util req: 0.900)
+14.0	0.900
+   T=14.0: Scheduled Job5(T3)
+   T=15.1: Completed Job5(T3) actual=1
+   T=15.1: Freq change: 0.900 -> 0.800 (util req: 0.800)
+   T=15.1: IDLE for 0.9ms (consuming energy at lowest freq)
+   T=16.0: Released Job6(T1, actual=2, deadline=24)
+16.0	0.800
+   T=16.0: Scheduled Job6(T1)
+   T=18.5: Completed Job6(T1) actual=2
+   T=18.5: IDLE for 1.5ms (consuming energy at lowest freq)
+   T=20.0: Released Job7(T2, actual=1, deadline=30)
+20.0	0.800
+   T=20.0: Scheduled Job7(T2)
+   T=21.2: Completed Job7(T2) actual=1
+   T=21.2: IDLE for 2.8ms (consuming energy at lowest freq)
+   T=24.0: Released Job8(T1, actual=1, deadline=32)
+24.0	0.800
+   T=24.0: Scheduled Job8(T1)
+   T=25.2: Completed Job8(T1) actual=1
+   T=25.2: IDLE for 2.8ms (consuming energy at lowest freq)
+   T=28.0: Released Job9(T3, actual=1, deadline=42)
+   T=28.0: Freq change: 0.800 -> 0.900 (util req: 0.900)
+28.0	0.900
+   T=28.0: Scheduled Job9(T3)
+   T=29.1: Completed Job9(T3) actual=1
+   T=29.1: Freq change: 0.900 -> 0.800 (util req: 0.800)
+   T=29.1: IDLE for 0.9ms (consuming energy at lowest freq)
+   T=30.0: Released Job10(T2, actual=1, deadline=40)
+30.0	0.800
+   T=30.0: Scheduled Job10(T2)
+   T=31.2: Completed Job10(T2) actual=1
+   T=31.2: IDLE for 0.8ms (consuming energy at lowest freq)
+   T=32.0: Released Job11(T1, actual=2, deadline=40)
+32.0	0.800
+   T=32.0: Scheduled Job11(T1)
+   T=34.5: Completed Job11(T1) actual=2
+   T=34.5: IDLE for 5.5ms (consuming energy at lowest freq)
+   T=40.0: Released Job12(T1, actual=1, deadline=48)
+   T=40.0: Released Job13(T2, actual=1, deadline=50)
+40.0	0.800
+   T=40.0: Scheduled Job12(T1)
+   T=41.2: Completed Job12(T1) actual=1
+   T=41.2: Scheduled Job13(T2)
+   T=42.0: Released Job14(T3, actual=1, deadline=56)
+   T=42.0: Freq change: 0.800 -> 0.900 (util req: 0.900)
+42.0	0.900
+   T=42.4: Completed Job13(T2) actual=1
+   T=42.4: Scheduled Job14(T3)
+   T=43.6: Completed Job14(T3) actual=1
+   T=43.6: Freq change: 0.900 -> 0.800 (util req: 0.800)
+   T=43.6: IDLE for 4.4ms (consuming energy at lowest freq)
+   T=48.0: Released Job15(T1, actual=2, deadline=56)
+48.0	0.800
+   T=48.0: Scheduled Job15(T1)
+   T=50.0: Released Job16(T2, actual=1, deadline=60)
+50.0	0.800
+   T=50.5: Completed Job15(T1) actual=2
+   T=50.5: Scheduled Job16(T2)
+   T=51.8: Completed Job16(T2) actual=1
+   T=51.8: IDLE for 4.2ms (consuming energy at lowest freq)
+   T=56.0: Released Job17(T1, actual=1, deadline=64)
+   T=56.0: Released Job18(T3, actual=1, deadline=70)
+   T=56.0: Freq change: 0.800 -> 0.900 (util req: 0.900)
+56.0	0.900
+   T=56.0: Scheduled Job17(T1)
+   T=57.1: Completed Job17(T1) actual=1
+   T=57.1: Scheduled Job18(T3)
+   T=58.2: Completed Job18(T3) actual=1
+   T=58.2: Freq change: 0.900 -> 0.800 (util req: 0.800)
+   T=58.2: IDLE for 1.8ms (consuming energy at lowest freq)
+   T=60.0: Released Job19(T2, actual=1, deadline=70)
+60.0	0.800
+   T=60.0: Scheduled Job19(T2)
+   T=61.2: Completed Job19(T2) actual=1
+   T=61.2: IDLE for 2.8ms (consuming energy at lowest freq)
+   T=64.0: Released Job20(T1, actual=2, deadline=72)
+64.0	0.800
+   T=64.0: Scheduled Job20(T1)
+   T=66.5: Completed Job20(T1) actual=2
+   T=66.5: IDLE for 3.5ms (consuming energy at lowest freq)
+   T=70.0: Released Job21(T2, actual=1, deadline=80)
+   T=70.0: Released Job22(T3, actual=1, deadline=84)
+   T=70.0: Freq change: 0.800 -> 0.900 (util req: 0.900)
+70.0	0.900
+   T=70.0: Scheduled Job21(T2)
+   T=71.1: Completed Job21(T2) actual=1
+   T=71.1: Scheduled Job22(T3)
+   T=72.0: Released Job23(T1, actual=1, deadline=80)
+   T=72.0: Freq change: 0.900 -> 0.800 (util req: 0.800)
+72.0	0.800
+   T=72.0: Scheduled Job23(T1)
+   T=73.2: Completed Job23(T1) actual=1
+   T=73.2: Scheduled Job22(T3)
+   T=73.5: Completed Job22(T3) actual=1
+   T=73.5: IDLE for 6.5ms (consuming energy at lowest freq)
+   T=80.0: Released Job24(T1, actual=2, deadline=88)
+   T=80.0: Released Job25(T2, actual=1, deadline=90)
+80.0	0.800
+   T=80.0: Scheduled Job24(T1)
+   T=82.5: Completed Job24(T1) actual=2
+   T=82.5: Scheduled Job25(T2)
+   T=83.8: Completed Job25(T2) actual=1
+   T=83.8: IDLE for 0.2ms (consuming energy at lowest freq)
+   T=84.0: Released Job26(T3, actual=1, deadline=98)
+   T=84.0: Freq change: 0.800 -> 0.900 (util req: 0.900)
+84.0	0.900
+   T=84.0: Scheduled Job26(T3)
+   T=85.1: Completed Job26(T3) actual=1
+   T=85.1: Freq change: 0.900 -> 0.800 (util req: 0.800)
+   T=85.1: IDLE for 2.9ms (consuming energy at lowest freq)
+   T=88.0: Released Job27(T1, actual=1, deadline=96)
+88.0	0.800
+   T=88.0: Scheduled Job27(T1)
+   T=89.2: Completed Job27(T1) actual=1
+   T=89.2: IDLE for 0.8ms (consuming energy at lowest freq)
+   T=90.0: Released Job28(T2, actual=1, deadline=100)
+90.0	0.800
+   T=90.0: Scheduled Job28(T2)
+   T=91.2: Completed Job28(T2) actual=1
+   T=91.2: IDLE for 4.8ms (consuming energy at lowest freq)
+   T=96.0: Released Job29(T1, actual=2, deadline=104)
+96.0	0.800
+   T=96.0: Scheduled Job29(T1)
+   T=98.0: Released Job30(T3, actual=1, deadline=112)
+   T=98.0: Freq change: 0.800 -> 0.900 (util req: 0.900)
+98.0	0.900
+   T=98.4: Completed Job29(T1) actual=2
+   T=98.4: Scheduled Job30(T3)
+   T=99.6: Completed Job30(T3) actual=1
+   T=99.6: Freq change: 0.900 -> 0.800 (util req: 0.800)
+   T=99.6: IDLE for 0.4ms (consuming energy at lowest freq)
+   T=100.0: Released Job31(T2, actual=1, deadline=110)
+100.0	0.800
+   T=100.0: Scheduled Job31(T2)
+   T=101.2: Completed Job31(T2) actual=1
+   T=101.2: IDLE for 2.8ms (consuming energy at lowest freq)
+   T=104.0: Released Job32(T1, actual=1, deadline=112)
+104.0	0.800
+   T=104.0: Scheduled Job32(T1)
+   T=105.2: Completed Job32(T1) actual=1
+   T=105.2: IDLE for 4.8ms (consuming energy at lowest freq)
+   T=110.0: Released Job33(T2, actual=1, deadline=120)
+110.0	0.800
+   T=110.0: Scheduled Job33(T2)
+   T=111.2: Completed Job33(T2) actual=1
+   T=111.2: IDLE for 0.8ms (consuming energy at lowest freq)
+   T=112.0: Released Job34(T1, actual=2, deadline=120)
+   T=112.0: Released Job35(T3, actual=1, deadline=126)
+   T=112.0: Freq change: 0.800 -> 0.900 (util req: 0.900)
+112.0	0.900
+   T=112.0: Scheduled Job34(T1)
+   T=114.2: Completed Job34(T1) actual=2
+   T=114.2: Scheduled Job35(T3)
+   T=115.3: Completed Job35(T3) actual=1
+   T=115.3: Freq change: 0.900 -> 0.800 (util req: 0.800)
+   T=115.3: IDLE for 4.7ms (consuming energy at lowest freq)
+   T=120.0: Released Job36(T1, actual=1, deadline=128)
+   T=120.0: Released Job37(T2, actual=1, deadline=130)
+120.0	0.800
+   T=120.0: Scheduled Job36(T1)
+   T=121.2: Completed Job36(T1) actual=1
+   T=121.2: Scheduled Job37(T2)
+   T=122.5: Completed Job37(T2) actual=1
+   T=122.5: IDLE for 3.5ms (consuming energy at lowest freq)
+   T=126.0: Released Job38(T3, actual=1, deadline=140)
+   T=126.0: Freq change: 0.800 -> 0.900 (util req: 0.900)
+126.0	0.900
+   T=126.0: Scheduled Job38(T3)
+   T=127.1: Completed Job38(T3) actual=1
+   T=127.1: Freq change: 0.900 -> 0.800 (util req: 0.800)
+   T=127.1: IDLE for 0.9ms (consuming energy at lowest freq)
+   T=128.0: Released Job39(T1, actual=2, deadline=136)
+128.0	0.800
+   T=128.0: Scheduled Job39(T1)
+   T=130.0: Released Job40(T2, actual=1, deadline=140)
+130.0	0.800
+   T=130.5: Completed Job39(T1) actual=2
+   T=130.5: Scheduled Job40(T2)
+   T=131.8: Completed Job40(T2) actual=1
+   T=131.8: IDLE for 4.2ms (consuming energy at lowest freq)
+   T=136.0: Released Job41(T1, actual=1, deadline=144)
+136.0	0.800
+   T=136.0: Scheduled Job41(T1)
+   T=137.2: Completed Job41(T1) actual=1
+   T=137.2: IDLE for 2.8ms (consuming energy at lowest freq)
+   T=140.0: Released Job42(T2, actual=1, deadline=150)
+   T=140.0: Released Job43(T3, actual=1, deadline=154)
+   T=140.0: Freq change: 0.800 -> 0.900 (util req: 0.900)
+140.0	0.900
+   T=140.0: Scheduled Job42(T2)
+   T=141.1: Completed Job42(T2) actual=1
+   T=141.1: Scheduled Job43(T3)
+   T=142.2: Completed Job43(T3) actual=1
+   T=142.2: Freq change: 0.900 -> 0.800 (util req: 0.800)
+   T=142.2: IDLE for 1.8ms (consuming energy at lowest freq)
+   T=144.0: Released Job44(T1, actual=2, deadline=152)
+144.0	0.800
+   T=144.0: Scheduled Job44(T1)
+   T=146.5: Completed Job44(T1) actual=2
+   T=146.5: IDLE for 3.5ms (consuming energy at lowest freq)
+   T=150.0: Released Job45(T2, actual=1, deadline=160)
+150.0	0.800
+   T=150.0: Scheduled Job45(T2)
+   T=151.2: Completed Job45(T2) actual=1
+   T=151.2: IDLE for 0.8ms (consuming energy at lowest freq)
+   T=152.0: Released Job46(T1, actual=1, deadline=160)
+152.0	0.800
+   T=152.0: Scheduled Job46(T1)
+   T=153.2: Completed Job46(T1) actual=1
+   T=153.2: IDLE for 0.8ms (consuming energy at lowest freq)
+   T=154.0: Released Job47(T3, actual=1, deadline=168)
+   T=154.0: Freq change: 0.800 -> 0.900 (util req: 0.900)
+154.0	0.900
+   T=154.0: Scheduled Job47(T3)
+   T=155.1: Completed Job47(T3) actual=1
+   T=155.1: Freq change: 0.900 -> 0.800 (util req: 0.800)
+   T=155.1: IDLE for 4.9ms (consuming energy at lowest freq)
+   T=160.0: Released Job48(T1, actual=2, deadline=168)
+   T=160.0: Released Job49(T2, actual=1, deadline=170)
+160.0	0.800
+   T=160.0: Scheduled Job48(T1)
+   T=162.5: Completed Job48(T1) actual=2
+   T=162.5: Scheduled Job49(T2)
+   T=163.8: Completed Job49(T2) actual=1
+   T=163.8: IDLE for 4.2ms (consuming energy at lowest freq)
+   T=168.0: Released Job50(T1, actual=1, deadline=176)
+   T=168.0: Released Job51(T3, actual=1, deadline=182)
+   T=168.0: Freq change: 0.800 -> 0.900 (util req: 0.900)
+168.0	0.900
+   T=168.0: Scheduled Job50(T1)
+   T=169.1: Completed Job50(T1) actual=1
+   T=169.1: Scheduled Job51(T3)
+   T=170.0: Released Job52(T2, actual=1, deadline=180)
+   T=170.0: Freq change: 0.900 -> 0.800 (util req: 0.800)
+170.0	0.800
+   T=170.0: Scheduled Job52(T2)
+   T=171.2: Completed Job52(T2) actual=1
+   T=171.2: Scheduled Job51(T3)
+   T=171.5: Completed Job51(T3) actual=1
+   T=171.5: IDLE for 4.5ms (consuming energy at lowest freq)
+   T=176.0: Released Job53(T1, actual=2, deadline=184)
+176.0	0.800
+   T=176.0: Scheduled Job53(T1)
+   T=178.5: Completed Job53(T1) actual=2
+   T=178.5: IDLE for 1.5ms (consuming energy at lowest freq)
+   T=180.0: Released Job54(T2, actual=1, deadline=190)
+180.0	0.800
+   T=180.0: Scheduled Job54(T2)
+   T=181.2: Completed Job54(T2) actual=1
+   T=181.2: IDLE for 0.8ms (consuming energy at lowest freq)
+   T=182.0: Released Job55(T3, actual=1, deadline=196)
+   T=182.0: Freq change: 0.800 -> 0.900 (util req: 0.900)
+182.0	0.900
+   T=182.0: Scheduled Job55(T3)
+   T=183.1: Completed Job55(T3) actual=1
+   T=183.1: Freq change: 0.900 -> 0.800 (util req: 0.800)
+   T=183.1: IDLE for 0.9ms (consuming energy at lowest freq)
+   T=184.0: Released Job56(T1, actual=1, deadline=192)
+184.0	0.800
+   T=184.0: Scheduled Job56(T1)
+   T=185.2: Completed Job56(T1) actual=1
+   T=185.2: IDLE for 4.8ms (consuming energy at lowest freq)
+   T=190.0: Released Job57(T2, actual=1, deadline=200)
+190.0	0.800
+   T=190.0: Scheduled Job57(T2)
+   T=191.2: Completed Job57(T2) actual=1
+   T=191.2: IDLE for 0.8ms (consuming energy at lowest freq)
+   T=192.0: Released Job58(T1, actual=2, deadline=200)
+192.0	0.800
+   T=192.0: Scheduled Job58(T1)
+   T=194.5: Completed Job58(T1) actual=2
+   T=194.5: IDLE for 1.5ms (consuming energy at lowest freq)
+   T=196.0: Released Job59(T3, actual=1, deadline=210)
+   T=196.0: Freq change: 0.800 -> 0.900 (util req: 0.900)
+196.0	0.900
+   T=196.0: Scheduled Job59(T3)
+   T=197.1: Completed Job59(T3) actual=1
+   T=197.1: Freq change: 0.900 -> 0.800 (util req: 0.800)
+   T=197.1: IDLE for 2.9ms (consuming energy at lowest freq)
+   T=200.0: Released Job60(T1, actual=1, deadline=208)
+   T=200.0: Released Job61(T2, actual=1, deadline=210)
+200.0	0.800
+   T=200.0: Scheduled Job60(T1)
+   T=201.2: Completed Job60(T1) actual=1
+   T=201.2: Scheduled Job61(T2)
+   T=202.5: Completed Job61(T2) actual=1
+   T=202.5: IDLE for 5.5ms (consuming energy at lowest freq)
+   T=208.0: Released Job62(T1, actual=2, deadline=216)
+208.0	0.800
+   T=208.0: Scheduled Job62(T1)
+   T=210.0: Released Job63(T2, actual=1, deadline=220)
+   T=210.0: Released Job64(T3, actual=1, deadline=224)
+   T=210.0: Freq change: 0.800 -> 0.900 (util req: 0.900)
+210.0	0.900
+   T=210.4: Completed Job62(T1) actual=2
+   T=210.4: Scheduled Job63(T2)
+   T=211.6: Completed Job63(T2) actual=1
+   T=211.6: Scheduled Job64(T3)
+   T=212.7: Completed Job64(T3) actual=1
+   T=212.7: Freq change: 0.900 -> 0.800 (util req: 0.800)
+   T=212.7: IDLE for 3.3ms (consuming energy at lowest freq)
+   T=216.0: Released Job65(T1, actual=1, deadline=224)
+216.0	0.800
+   T=216.0: Scheduled Job65(T1)
+   T=217.2: Completed Job65(T1) actual=1
+   T=217.2: IDLE for 2.8ms (consuming energy at lowest freq)
+   T=220.0: Released Job66(T2, actual=1, deadline=230)
+220.0	0.800
+   T=220.0: Scheduled Job66(T2)
+   T=221.2: Completed Job66(T2) actual=1
+   T=221.2: IDLE for 2.8ms (consuming energy at lowest freq)
+   T=224.0: Released Job67(T1, actual=2, deadline=232)
+   T=224.0: Released Job68(T3, actual=1, deadline=238)
+   T=224.0: Freq change: 0.800 -> 0.900 (util req: 0.900)
+224.0	0.900
+   T=224.0: Scheduled Job67(T1)
+   T=226.2: Completed Job67(T1) actual=2
+   T=226.2: Scheduled Job68(T3)
+   T=227.3: Completed Job68(T3) actual=1
+   T=227.3: Freq change: 0.900 -> 0.800 (util req: 0.800)
+   T=227.3: IDLE for 2.7ms (consuming energy at lowest freq)
+   T=230.0: Released Job69(T2, actual=1, deadline=240)
+230.0	0.800
+   T=230.0: Scheduled Job69(T2)
+   T=231.2: Completed Job69(T2) actual=1
+   T=231.2: IDLE for 0.8ms (consuming energy at lowest freq)
+   T=232.0: Released Job70(T1, actual=1, deadline=240)
+232.0	0.800
+   T=232.0: Scheduled Job70(T1)
+   T=233.2: Completed Job70(T1) actual=1
+   T=233.2: IDLE for 4.8ms (consuming energy at lowest freq)
+   T=238.0: Released Job71(T3, actual=1, deadline=252)
+   T=238.0: Freq change: 0.800 -> 0.900 (util req: 0.900)
+238.0	0.900
+   T=238.0: Scheduled Job71(T3)
+   T=239.1: Completed Job71(T3) actual=1
+   T=239.1: Freq change: 0.900 -> 0.800 (util req: 0.800)
+   T=239.1: IDLE for 0.9ms (consuming energy at lowest freq)
+   T=240.0: Released Job72(T1, actual=2, deadline=248)
+   T=240.0: Released Job73(T2, actual=1, deadline=250)
+240.0	0.800
+   T=240.0: Scheduled Job72(T1)
+   T=242.5: Completed Job72(T1) actual=2
+   T=242.5: Scheduled Job73(T2)
+   T=243.8: Completed Job73(T2) actual=1
+   T=243.8: IDLE for 4.2ms (consuming energy at lowest freq)
+   T=248.0: Released Job74(T1, actual=1, deadline=256)
+248.0	0.800
+   T=248.0: Scheduled Job74(T1)
+   T=249.2: Completed Job74(T1) actual=1
+   T=249.2: IDLE for 0.8ms (consuming energy at lowest freq)
+   T=250.0: Released Job75(T2, actual=1, deadline=260)
+250.0	0.800
+   T=250.0: Scheduled Job75(T2)
+   T=251.2: Completed Job75(T2) actual=1
+   T=251.2: IDLE for 0.8ms (consuming energy at lowest freq)
+   T=252.0: Released Job76(T3, actual=1, deadline=266)
+   T=252.0: Freq change: 0.800 -> 0.900 (util req: 0.900)
+252.0	0.900
+   T=252.0: Scheduled Job76(T3)
+   T=253.1: Completed Job76(T3) actual=1
+   T=253.1: Freq change: 0.900 -> 0.800 (util req: 0.800)
+   T=253.1: IDLE for 2.9ms (consuming energy at lowest freq)
+   T=256.0: Released Job77(T1, actual=2, deadline=264)
+256.0	0.800
+   T=256.0: Scheduled Job77(T1)
+   T=258.5: Completed Job77(T1) actual=2
+   T=258.5: IDLE for 1.5ms (consuming energy at lowest freq)
+   T=260.0: Released Job78(T2, actual=1, deadline=270)
+260.0	0.800
+   T=260.0: Scheduled Job78(T2)
+   T=261.2: Completed Job78(T2) actual=1
+   T=261.2: IDLE for 2.8ms (consuming energy at lowest freq)
+   T=264.0: Released Job79(T1, actual=1, deadline=272)
+264.0	0.800
+   T=264.0: Scheduled Job79(T1)
+   T=265.2: Completed Job79(T1) actual=1
+   T=265.2: IDLE for 0.8ms (consuming energy at lowest freq)
+   T=266.0: Released Job80(T3, actual=1, deadline=280)
+   T=266.0: Freq change: 0.800 -> 0.900 (util req: 0.900)
+266.0	0.900
+   T=266.0: Scheduled Job80(T3)
+   T=267.1: Completed Job80(T3) actual=1
+   T=267.1: Freq change: 0.900 -> 0.800 (util req: 0.800)
+   T=267.1: IDLE for 2.9ms (consuming energy at lowest freq)
+   T=270.0: Released Job81(T2, actual=1, deadline=280)
+270.0	0.800
+   T=270.0: Scheduled Job81(T2)
+   T=271.2: Completed Job81(T2) actual=1
+   T=271.2: IDLE for 0.8ms (consuming energy at lowest freq)
+   T=272.0: Released Job82(T1, actual=2, deadline=280)
+272.0	0.800
+   T=272.0: Scheduled Job82(T1)
+   T=274.5: Completed Job82(T1) actual=2
+   T=274.5: IDLE for 5.5ms (consuming energy at lowest freq)
+
+--- RESULTS for ccRM ---
+Hyperperiod: 280 ms
+Jobs: 83, Decision points: 166
+Preemptions: 2, Context switches: 85
+Deadline misses: 0
+Total energy: 2693.32
+
+
+--- FINAL NORMALIZED ENERGY RESULTS ---
+Plain EDF   : 1.000
+Static EDF  : 0.793
+ccEDF       : 0.580
+LAEDF       : 0.359
+Plain RM    : 1.000
+Static RM   : 1.000
+ccRM        : 0.827
+
+RUNNING SIMULATION WITH LARGER TASK SET
+Loaded invocation times from invocations_large.txt
+
+Task Set Loaded: tasks_large.txt
+T1: period=20, wcet=5 (util=0.250)
+T2: period=50, wcet=8 (util=0.160)
+T3: period=75, wcet=10 (util=0.133)
+T4: period=100, wcet=12 (util=0.120)
+Hyperperiod: 300 ms
+
+
+Calculating Baselines...
+
+=== SIMULATION: Plain EDF ===
+   T=0.0: Freq fixed at 1.000
+   T=0.0: Released Job0(T1, actual=4, deadline=20)
+   T=0.0: Released Job1(T2, actual=7, deadline=50)
+   T=0.0: Released Job2(T3, actual=9, deadline=75)
+   T=0.0: Released Job3(T4, actual=11, deadline=100)
+   T=0.0: Scheduled Job0(T1)
+   T=4.0: Completed Job0(T1) actual=4
+   T=4.0: Scheduled Job1(T2)
+   T=11.0: Completed Job1(T2) actual=7
+   T=11.0: Scheduled Job2(T3)
+   T=20.0: Completed Job2(T3) actual=9
+   T=20.0: Released Job4(T1, actual=3, deadline=40)
+   T=20.0: Scheduled Job4(T1)
+   T=23.0: Completed Job4(T1) actual=3
+   T=23.0: Scheduled Job3(T4)
+   T=34.0: Completed Job3(T4) actual=11
+   T=34.0: IDLE for 6.0ms (consuming energy at lowest freq)
+   T=40.0: Released Job5(T1, actual=4, deadline=60)
+   T=40.0: Scheduled Job5(T1)
+   T=44.0: Completed Job5(T1) actual=4
+   T=44.0: IDLE for 6.0ms (consuming energy at lowest freq)
+   T=50.0: Released Job6(T2, actual=6, deadline=100)
+   T=50.0: Scheduled Job6(T2)
+   T=56.0: Completed Job6(T2) actual=6
+   T=56.0: IDLE for 4.0ms (consuming energy at lowest freq)
+   T=60.0: Released Job7(T1, actual=3, deadline=80)
+   T=60.0: Scheduled Job7(T1)
+   T=63.0: Completed Job7(T1) actual=3
+   T=63.0: IDLE for 12.0ms (consuming energy at lowest freq)
+   T=75.0: Released Job8(T3, actual=8, deadline=150)
+   T=75.0: Scheduled Job8(T3)
+   T=80.0: Released Job9(T1, actual=4, deadline=100)
+   T=80.0: Scheduled Job9(T1)
+   T=84.0: Completed Job9(T1) actual=4
+   T=84.0: Scheduled Job8(T3)
+   T=87.0: Completed Job8(T3) actual=8
+   T=87.0: IDLE for 13.0ms (consuming energy at lowest freq)
+   T=100.0: Released Job10(T1, actual=3, deadline=120)
+   T=100.0: Released Job11(T2, actual=7, deadline=150)
+   T=100.0: Released Job12(T4, actual=10, deadline=200)
+   T=100.0: Scheduled Job10(T1)
+   T=103.0: Completed Job10(T1) actual=3
+   T=103.0: Scheduled Job11(T2)
+   T=110.0: Completed Job11(T2) actual=7
+   T=110.0: Scheduled Job12(T4)
+   T=120.0: Completed Job12(T4) actual=10
+   T=120.0: Released Job13(T1, actual=4, deadline=140)
+   T=120.0: Scheduled Job13(T1)
+   T=124.0: Completed Job13(T1) actual=4
+   T=124.0: IDLE for 16.0ms (consuming energy at lowest freq)
+   T=140.0: Released Job14(T1, actual=3, deadline=160)
+   T=140.0: Scheduled Job14(T1)
+   T=143.0: Completed Job14(T1) actual=3
+   T=143.0: IDLE for 7.0ms (consuming energy at lowest freq)
+   T=150.0: Released Job15(T2, actual=6, deadline=200)
+   T=150.0: Released Job16(T3, actual=9, deadline=225)
+   T=150.0: Scheduled Job15(T2)
+   T=156.0: Completed Job15(T2) actual=6
+   T=156.0: Scheduled Job16(T3)
+   T=160.0: Released Job17(T1, actual=4, deadline=180)
+   T=160.0: Scheduled Job17(T1)
+   T=164.0: Completed Job17(T1) actual=4
+   T=164.0: Scheduled Job16(T3)
+   T=169.0: Completed Job16(T3) actual=9
+   T=169.0: IDLE for 11.0ms (consuming energy at lowest freq)
+   T=180.0: Released Job18(T1, actual=3, deadline=200)
+   T=180.0: Scheduled Job18(T1)
+   T=183.0: Completed Job18(T1) actual=3
+   T=183.0: IDLE for 17.0ms (consuming energy at lowest freq)
+   T=200.0: Released Job19(T1, actual=4, deadline=220)
+   T=200.0: Released Job20(T2, actual=7, deadline=250)
+   T=200.0: Released Job21(T4, actual=11, deadline=300)
+   T=200.0: Scheduled Job19(T1)
+   T=204.0: Completed Job19(T1) actual=4
+   T=204.0: Scheduled Job20(T2)
+   T=211.0: Completed Job20(T2) actual=7
+   T=211.0: Scheduled Job21(T4)
+   T=220.0: Released Job22(T1, actual=3, deadline=240)
+   T=220.0: Scheduled Job22(T1)
+   T=223.0: Completed Job22(T1) actual=3
+   T=223.0: Scheduled Job21(T4)
+   T=225.0: Completed Job21(T4) actual=11
+   T=225.0: Released Job23(T3, actual=8, deadline=300)
+   T=225.0: Scheduled Job23(T3)
+   T=233.0: Completed Job23(T3) actual=8
+   T=233.0: IDLE for 7.0ms (consuming energy at lowest freq)
+   T=240.0: Released Job24(T1, actual=4, deadline=260)
+   T=240.0: Scheduled Job24(T1)
+   T=244.0: Completed Job24(T1) actual=4
+   T=244.0: IDLE for 6.0ms (consuming energy at lowest freq)
+   T=250.0: Released Job25(T2, actual=6, deadline=300)
+   T=250.0: Scheduled Job25(T2)
+   T=256.0: Completed Job25(T2) actual=6
+   T=256.0: IDLE for 4.0ms (consuming energy at lowest freq)
+   T=260.0: Released Job26(T1, actual=3, deadline=280)
+   T=260.0: Scheduled Job26(T1)
+   T=263.0: Completed Job26(T1) actual=3
+   T=263.0: IDLE for 17.0ms (consuming energy at lowest freq)
+   T=280.0: Released Job27(T1, actual=4, deadline=300)
+   T=280.0: Scheduled Job27(T1)
+   T=284.0: Completed Job27(T1) actual=4
+   T=284.0: IDLE for 16.0ms (consuming energy at lowest freq)
+
+--- RESULTS for Plain EDF ---
+Hyperperiod: 300 ms
+Jobs: 28, Decision points: 56
+Preemptions: 3, Context switches: 31
+Deadline misses: 0
+Total energy: 4531.63
+
+=== SIMULATION: Plain RM ===
+   T=0.0: Freq fixed at 1.000
+   T=0.0: Released Job0(T1, actual=4, deadline=20)
+   T=0.0: Released Job1(T2, actual=7, deadline=50)
+   T=0.0: Released Job2(T3, actual=9, deadline=75)
+   T=0.0: Released Job3(T4, actual=11, deadline=100)
+   T=0.0: Scheduled Job0(T1)
+   T=4.0: Completed Job0(T1) actual=4
+   T=4.0: Scheduled Job1(T2)
+   T=11.0: Completed Job1(T2) actual=7
+   T=11.0: Scheduled Job2(T3)
+   T=20.0: Completed Job2(T3) actual=9
+   T=20.0: Released Job4(T1, actual=3, deadline=40)
+   T=20.0: Scheduled Job4(T1)
+   T=23.0: Completed Job4(T1) actual=3
+   T=23.0: Scheduled Job3(T4)
+   T=34.0: Completed Job3(T4) actual=11
+   T=34.0: IDLE for 6.0ms (consuming energy at lowest freq)
+   T=40.0: Released Job5(T1, actual=4, deadline=60)
+   T=40.0: Scheduled Job5(T1)
+   T=44.0: Completed Job5(T1) actual=4
+   T=44.0: IDLE for 6.0ms (consuming energy at lowest freq)
+   T=50.0: Released Job6(T2, actual=6, deadline=100)
+   T=50.0: Scheduled Job6(T2)
+   T=56.0: Completed Job6(T2) actual=6
+   T=56.0: IDLE for 4.0ms (consuming energy at lowest freq)
+   T=60.0: Released Job7(T1, actual=3, deadline=80)
+   T=60.0: Scheduled Job7(T1)
+   T=63.0: Completed Job7(T1) actual=3
+   T=63.0: IDLE for 12.0ms (consuming energy at lowest freq)
+   T=75.0: Released Job8(T3, actual=8, deadline=150)
+   T=75.0: Scheduled Job8(T3)
+   T=80.0: Released Job9(T1, actual=4, deadline=100)
+   T=80.0: Scheduled Job9(T1)
+   T=84.0: Completed Job9(T1) actual=4
+   T=84.0: Scheduled Job8(T3)
+   T=87.0: Completed Job8(T3) actual=8
+   T=87.0: IDLE for 13.0ms (consuming energy at lowest freq)
+   T=100.0: Released Job10(T1, actual=3, deadline=120)
+   T=100.0: Released Job11(T2, actual=7, deadline=150)
+   T=100.0: Released Job12(T4, actual=10, deadline=200)
+   T=100.0: Scheduled Job10(T1)
+   T=103.0: Completed Job10(T1) actual=3
+   T=103.0: Scheduled Job11(T2)
+   T=110.0: Completed Job11(T2) actual=7
+   T=110.0: Scheduled Job12(T4)
+   T=120.0: Completed Job12(T4) actual=10
+   T=120.0: Released Job13(T1, actual=4, deadline=140)
+   T=120.0: Scheduled Job13(T1)
+   T=124.0: Completed Job13(T1) actual=4
+   T=124.0: IDLE for 16.0ms (consuming energy at lowest freq)
+   T=140.0: Released Job14(T1, actual=3, deadline=160)
+   T=140.0: Scheduled Job14(T1)
+   T=143.0: Completed Job14(T1) actual=3
+   T=143.0: IDLE for 7.0ms (consuming energy at lowest freq)
+   T=150.0: Released Job15(T2, actual=6, deadline=200)
+   T=150.0: Released Job16(T3, actual=9, deadline=225)
+   T=150.0: Scheduled Job15(T2)
+   T=156.0: Completed Job15(T2) actual=6
+   T=156.0: Scheduled Job16(T3)
+   T=160.0: Released Job17(T1, actual=4, deadline=180)
+   T=160.0: Scheduled Job17(T1)
+   T=164.0: Completed Job17(T1) actual=4
+   T=164.0: Scheduled Job16(T3)
+   T=169.0: Completed Job16(T3) actual=9
+   T=169.0: IDLE for 11.0ms (consuming energy at lowest freq)
+   T=180.0: Released Job18(T1, actual=3, deadline=200)
+   T=180.0: Scheduled Job18(T1)
+   T=183.0: Completed Job18(T1) actual=3
+   T=183.0: IDLE for 17.0ms (consuming energy at lowest freq)
+   T=200.0: Released Job19(T1, actual=4, deadline=220)
+   T=200.0: Released Job20(T2, actual=7, deadline=250)
+   T=200.0: Released Job21(T4, actual=11, deadline=300)
+   T=200.0: Scheduled Job19(T1)
+   T=204.0: Completed Job19(T1) actual=4
+   T=204.0: Scheduled Job20(T2)
+   T=211.0: Completed Job20(T2) actual=7
+   T=211.0: Scheduled Job21(T4)
+   T=220.0: Released Job22(T1, actual=3, deadline=240)
+   T=220.0: Scheduled Job22(T1)
+   T=223.0: Completed Job22(T1) actual=3
+   T=223.0: Scheduled Job21(T4)
+   T=225.0: Completed Job21(T4) actual=11
+   T=225.0: Released Job23(T3, actual=8, deadline=300)
+   T=225.0: Scheduled Job23(T3)
+   T=233.0: Completed Job23(T3) actual=8
+   T=233.0: IDLE for 7.0ms (consuming energy at lowest freq)
+   T=240.0: Released Job24(T1, actual=4, deadline=260)
+   T=240.0: Scheduled Job24(T1)
+   T=244.0: Completed Job24(T1) actual=4
+   T=244.0: IDLE for 6.0ms (consuming energy at lowest freq)
+   T=250.0: Released Job25(T2, actual=6, deadline=300)
+   T=250.0: Scheduled Job25(T2)
+   T=256.0: Completed Job25(T2) actual=6
+   T=256.0: IDLE for 4.0ms (consuming energy at lowest freq)
+   T=260.0: Released Job26(T1, actual=3, deadline=280)
+   T=260.0: Scheduled Job26(T1)
+   T=263.0: Completed Job26(T1) actual=3
+   T=263.0: IDLE for 17.0ms (consuming energy at lowest freq)
+   T=280.0: Released Job27(T1, actual=4, deadline=300)
+   T=280.0: Scheduled Job27(T1)
+   T=284.0: Completed Job27(T1) actual=4
+   T=284.0: IDLE for 16.0ms (consuming energy at lowest freq)
+
+--- RESULTS for Plain RM ---
+Hyperperiod: 300 ms
+Jobs: 28, Decision points: 56
+Preemptions: 3, Context switches: 31
+Deadline misses: 0
+Total energy: 4531.63
+
+Baselines Calculated. Running DVS simulations...
+
+=== SIMULATION: Static EDF ===
+   T=0.0: Static EDF util req: 0.663 -> Freq set to 0.700
+   T=0.0: Released Job0(T1, actual=4, deadline=20)
+   T=0.0: Released Job1(T2, actual=7, deadline=50)
+   T=0.0: Released Job2(T3, actual=9, deadline=75)
+   T=0.0: Released Job3(T4, actual=11, deadline=100)
+   T=0.0: Scheduled Job0(T1)
+   T=5.7: Completed Job0(T1) actual=4
+   T=5.7: Scheduled Job1(T2)
+   T=15.7: Completed Job1(T2) actual=7
+   T=15.7: Scheduled Job2(T3)
+   T=20.0: Released Job4(T1, actual=3, deadline=40)
+   T=20.0: Scheduled Job4(T1)
+   T=24.3: Completed Job4(T1) actual=3
+   T=24.3: Scheduled Job2(T3)
+   T=32.9: Completed Job2(T3) actual=9
+   T=32.9: Scheduled Job3(T4)
+   T=40.0: Released Job5(T1, actual=4, deadline=60)
+   T=40.0: Scheduled Job5(T1)
+   T=45.7: Completed Job5(T1) actual=4
+   T=45.7: Scheduled Job3(T4)
+   T=50.0: Released Job6(T2, actual=6, deadline=100)
+   T=54.3: Completed Job3(T4) actual=11
+   T=54.3: Scheduled Job6(T2)
+   T=60.0: Released Job7(T1, actual=3, deadline=80)
+   T=60.0: Scheduled Job7(T1)
+   T=64.3: Completed Job7(T1) actual=3
+   T=64.3: Scheduled Job6(T2)
+   T=67.1: Completed Job6(T2) actual=6
+   T=67.1: IDLE for 7.9ms (consuming energy at lowest freq)
+   T=75.0: Released Job8(T3, actual=8, deadline=150)
+   T=75.0: Scheduled Job8(T3)
+   T=80.0: Released Job9(T1, actual=4, deadline=100)
+   T=80.0: Scheduled Job9(T1)
+   T=85.7: Completed Job9(T1) actual=4
+   T=85.7: Scheduled Job8(T3)
+   T=92.1: Completed Job8(T3) actual=8
+   T=92.1: IDLE for 7.9ms (consuming energy at lowest freq)
+   T=100.0: Released Job10(T1, actual=3, deadline=120)
+   T=100.0: Released Job11(T2, actual=7, deadline=150)
+   T=100.0: Released Job12(T4, actual=10, deadline=200)
+   T=100.0: Scheduled Job10(T1)
+   T=104.3: Completed Job10(T1) actual=3
+   T=104.3: Scheduled Job11(T2)
+   T=114.3: Completed Job11(T2) actual=7
+   T=114.3: Scheduled Job12(T4)
+   T=120.0: Released Job13(T1, actual=4, deadline=140)
+   T=120.0: Scheduled Job13(T1)
+   T=125.7: Completed Job13(T1) actual=4
+   T=125.7: Scheduled Job12(T4)
+   T=134.3: Completed Job12(T4) actual=10
+   T=134.3: IDLE for 5.7ms (consuming energy at lowest freq)
+   T=140.0: Released Job14(T1, actual=3, deadline=160)
+   T=140.0: Scheduled Job14(T1)
+   T=144.3: Completed Job14(T1) actual=3
+   T=144.3: IDLE for 5.7ms (consuming energy at lowest freq)
+   T=150.0: Released Job15(T2, actual=6, deadline=200)
+   T=150.0: Released Job16(T3, actual=9, deadline=225)
+   T=150.0: Scheduled Job15(T2)
+   T=158.6: Completed Job15(T2) actual=6
+   T=158.6: Scheduled Job16(T3)
+   T=160.0: Released Job17(T1, actual=4, deadline=180)
+   T=160.0: Scheduled Job17(T1)
+   T=165.7: Completed Job17(T1) actual=4
+   T=165.7: Scheduled Job16(T3)
+   T=177.1: Completed Job16(T3) actual=9
+   T=177.1: IDLE for 2.9ms (consuming energy at lowest freq)
+   T=180.0: Released Job18(T1, actual=3, deadline=200)
+   T=180.0: Scheduled Job18(T1)
+   T=184.3: Completed Job18(T1) actual=3
+   T=184.3: IDLE for 15.7ms (consuming energy at lowest freq)
+   T=200.0: Released Job19(T1, actual=4, deadline=220)
+   T=200.0: Released Job20(T2, actual=7, deadline=250)
+   T=200.0: Released Job21(T4, actual=11, deadline=300)
+   T=200.0: Scheduled Job19(T1)
+   T=205.7: Completed Job19(T1) actual=4
+   T=205.7: Scheduled Job20(T2)
+   T=215.7: Completed Job20(T2) actual=7
+   T=215.7: Scheduled Job21(T4)
+   T=220.0: Released Job22(T1, actual=3, deadline=240)
+   T=220.0: Scheduled Job22(T1)
+   T=224.3: Completed Job22(T1) actual=3
+   T=224.3: Scheduled Job21(T4)
+   T=225.0: Released Job23(T3, actual=8, deadline=300)
+   T=235.7: Completed Job21(T4) actual=11
+   T=235.7: Scheduled Job23(T3)
+   T=240.0: Released Job24(T1, actual=4, deadline=260)
+   T=240.0: Scheduled Job24(T1)
+   T=245.7: Completed Job24(T1) actual=4
+   T=245.7: Scheduled Job23(T3)
+   T=250.0: Released Job25(T2, actual=6, deadline=300)
+   T=252.9: Completed Job23(T3) actual=8
+   T=252.9: Scheduled Job25(T2)
+   T=260.0: Released Job26(T1, actual=3, deadline=280)
+   T=260.0: Scheduled Job26(T1)
+   T=264.3: Completed Job26(T1) actual=3
+   T=264.3: Scheduled Job25(T2)
+   T=265.7: Completed Job25(T2) actual=6
+   T=265.7: IDLE for 14.3ms (consuming energy at lowest freq)
+   T=280.0: Released Job27(T1, actual=4, deadline=300)
+   T=280.0: Scheduled Job27(T1)
+   T=285.7: Completed Job27(T1) actual=4
+   T=285.7: IDLE for 14.3ms (consuming energy at lowest freq)
+
+--- RESULTS for Static EDF ---
+Hyperperiod: 300 ms
+Jobs: 28, Decision points: 56
+Preemptions: 9, Context switches: 37
+Deadline misses: 0
+Total energy: 2960.25
+
+=== SIMULATION: ccEDF ===
+   T=0.0: Dynamic policy initial speed: 1.000
+   T=0.0: Released Job0(T1, actual=4, deadline=20)
+   T=0.0: Released Job1(T2, actual=7, deadline=50)
+   T=0.0: Released Job2(T3, actual=9, deadline=75)
+   T=0.0: Released Job3(T4, actual=11, deadline=100)
+   T=0.0: Freq change: 1.000 -> 0.700 (util req: 0.663)
+   T=0.0: Scheduled Job0(T1)
+   T=5.7: Completed Job0(T1) actual=4
+   T=5.7: Scheduled Job1(T2)
+   T=15.7: Completed Job1(T2) actual=7
+   T=15.7: Freq change: 0.700 -> 0.600 (util req: 0.593)
+   T=15.7: Scheduled Job2(T3)
+   T=20.0: Released Job4(T1, actual=3, deadline=40)
+   T=20.0: Freq change: 0.600 -> 0.700 (util req: 0.643)
+   T=20.0: Scheduled Job4(T1)
+   T=24.3: Completed Job4(T1) actual=3
+   T=24.3: Freq change: 0.700 -> 0.600 (util req: 0.543)
+   T=24.3: Scheduled Job2(T3)
+   T=35.0: Completed Job2(T3) actual=9
+   T=35.0: Scheduled Job3(T4)
+   T=40.0: Released Job5(T1, actual=4, deadline=60)
+   T=40.0: Freq change: 0.600 -> 0.700 (util req: 0.630)
+   T=40.0: Scheduled Job5(T1)
+   T=45.7: Completed Job5(T1) actual=4
+   T=45.7: Freq change: 0.700 -> 0.600 (util req: 0.580)
+   T=45.7: Scheduled Job3(T4)
+   T=50.0: Released Job6(T2, actual=6, deadline=100)
+   T=59.0: Completed Job3(T4) actual=11
+   T=59.0: Scheduled Job6(T2)
+   T=60.0: Released Job7(T1, actual=3, deadline=80)
+   T=60.0: Freq change: 0.600 -> 0.700 (util req: 0.640)
+   T=60.0: Scheduled Job7(T1)
+   T=64.3: Completed Job7(T1) actual=3
+   T=64.3: Freq change: 0.700 -> 0.600 (util req: 0.540)
+   T=64.3: Scheduled Job6(T2)
+   T=73.3: Completed Job6(T2) actual=6
+   T=73.3: Freq change: 0.600 -> 0.500 (util req: 0.500)
+   T=73.3: IDLE for 1.7ms (consuming energy at lowest freq)
+   T=75.0: Released Job8(T3, actual=8, deadline=150)
+   T=75.0: Freq change: 0.500 -> 0.600 (util req: 0.513)
+   T=75.0: Scheduled Job8(T3)
+   T=80.0: Released Job9(T1, actual=4, deadline=100)
+   T=80.0: Freq change: 0.600 -> 0.700 (util req: 0.613)
+   T=80.0: Scheduled Job9(T1)
+   T=85.7: Completed Job9(T1) actual=4
+   T=85.7: Freq change: 0.700 -> 0.600 (util req: 0.563)
+   T=85.7: Scheduled Job8(T3)
+   T=94.0: Completed Job8(T3) actual=8
+   T=94.0: IDLE for 6.0ms (consuming energy at lowest freq)
+   T=100.0: Released Job10(T1, actual=3, deadline=120)
+   T=100.0: Released Job11(T2, actual=7, deadline=150)
+   T=100.0: Released Job12(T4, actual=10, deadline=200)
+   T=100.0: Freq change: 0.600 -> 0.700 (util req: 0.637)
+   T=100.0: Scheduled Job10(T1)
+   T=104.3: Completed Job10(T1) actual=3
+   T=104.3: Freq change: 0.700 -> 0.600 (util req: 0.537)
+   T=104.3: Scheduled Job11(T2)
+   T=116.0: Completed Job11(T2) actual=7
+   T=116.0: Scheduled Job12(T4)
+   T=120.0: Released Job13(T1, actual=4, deadline=140)
+   T=120.0: Freq change: 0.600 -> 0.700 (util req: 0.617)
+   T=120.0: Scheduled Job13(T1)
+   T=125.7: Completed Job13(T1) actual=4
+   T=125.7: Freq change: 0.700 -> 0.600 (util req: 0.567)
+   T=125.7: Scheduled Job12(T4)
+   T=138.3: Completed Job12(T4) actual=10
+   T=138.3: IDLE for 1.7ms (consuming energy at lowest freq)
+   T=140.0: Released Job14(T1, actual=3, deadline=160)
+   T=140.0: Scheduled Job14(T1)
+   T=145.0: Completed Job14(T1) actual=3
+   T=145.0: Freq change: 0.600 -> 0.500 (util req: 0.497)
+   T=145.0: IDLE for 5.0ms (consuming energy at lowest freq)
+   T=150.0: Released Job15(T2, actual=6, deadline=200)
+   T=150.0: Released Job16(T3, actual=9, deadline=225)
+   T=150.0: Freq change: 0.500 -> 0.600 (util req: 0.543)
+   T=150.0: Scheduled Job15(T2)
+   T=160.0: Completed Job15(T2) actual=6
+   T=160.0: Released Job17(T1, actual=4, deadline=180)
+   T=160.0: Freq change: 0.600 -> 0.700 (util req: 0.603)
+   T=160.0: Scheduled Job17(T1)
+   T=165.7: Completed Job17(T1) actual=4
+   T=165.7: Freq change: 0.700 -> 0.600 (util req: 0.553)
+   T=165.7: Scheduled Job16(T3)
+   T=180.0: Released Job18(T1, actual=3, deadline=200)
+   T=180.0: Freq change: 0.600 -> 0.700 (util req: 0.603)
+   T=180.0: Scheduled Job18(T1)
+   T=184.3: Completed Job18(T1) actual=3
+   T=184.3: Freq change: 0.700 -> 0.600 (util req: 0.503)
+   T=184.3: Scheduled Job16(T3)
+   T=185.0: Completed Job16(T3) actual=9
+   T=185.0: Freq change: 0.600 -> 0.500 (util req: 0.490)
+   T=185.0: IDLE for 15.0ms (consuming energy at lowest freq)
+   T=200.0: Released Job19(T1, actual=4, deadline=220)
+   T=200.0: Released Job20(T2, actual=7, deadline=250)
+   T=200.0: Released Job21(T4, actual=11, deadline=300)
+   T=200.0: Freq change: 0.500 -> 0.700 (util req: 0.650)
+   T=200.0: Scheduled Job19(T1)
+   T=205.7: Completed Job19(T1) actual=4
+   T=205.7: Freq change: 0.700 -> 0.600 (util req: 0.600)
+   T=205.7: Scheduled Job20(T2)
+   T=217.4: Completed Job20(T2) actual=7
+   T=217.4: Scheduled Job21(T4)
+   T=220.0: Released Job22(T1, actual=3, deadline=240)
+   T=220.0: Freq change: 0.600 -> 0.700 (util req: 0.630)
+   T=220.0: Scheduled Job22(T1)
+   T=224.3: Completed Job22(T1) actual=3
+   T=224.3: Freq change: 0.700 -> 0.600 (util req: 0.530)
+   T=224.3: Scheduled Job21(T4)
+   T=225.0: Released Job23(T3, actual=8, deadline=300)
+   T=240.0: Completed Job21(T4) actual=11
+   T=240.0: Released Job24(T1, actual=4, deadline=260)
+   T=240.0: Freq change: 0.600 -> 0.700 (util req: 0.633)
+   T=240.0: Scheduled Job24(T1)
+   T=245.7: Completed Job24(T1) actual=4
+   T=245.7: Freq change: 0.700 -> 0.600 (util req: 0.583)
+   T=245.7: Scheduled Job23(T3)
+   T=250.0: Released Job25(T2, actual=6, deadline=300)
+   T=250.0: Freq change: 0.600 -> 0.700 (util req: 0.603)
+   T=257.8: Completed Job23(T3) actual=8
+   T=257.8: Freq change: 0.700 -> 0.600 (util req: 0.577)
+   T=257.8: Scheduled Job25(T2)
+   T=260.0: Released Job26(T1, actual=3, deadline=280)
+   T=260.0: Freq change: 0.600 -> 0.700 (util req: 0.627)
+   T=260.0: Scheduled Job26(T1)
+   T=264.3: Completed Job26(T1) actual=3
+   T=264.3: Freq change: 0.700 -> 0.600 (util req: 0.527)
+   T=264.3: Scheduled Job25(T2)
+   T=272.0: Completed Job25(T2) actual=6
+   T=272.0: Freq change: 0.600 -> 0.500 (util req: 0.487)
+   T=272.0: IDLE for 8.0ms (consuming energy at lowest freq)
+   T=280.0: Released Job27(T1, actual=4, deadline=300)
+   T=280.0: Freq change: 0.500 -> 0.600 (util req: 0.587)
+   T=280.0: Scheduled Job27(T1)
+   T=286.7: Completed Job27(T1) actual=4
+   T=286.7: IDLE for 13.3ms (consuming energy at lowest freq)
+
+--- RESULTS for ccEDF ---
+Hyperperiod: 300 ms
+Jobs: 28, Decision points: 56
+Preemptions: 8, Context switches: 36
+Deadline misses: 0
+Total energy: 2627.16
+
+=== SIMULATION: LAEDF ===
+   T=0.0: Dynamic policy initial speed: 1.000
+   T=0.0: Released Job0(T1, actual=4, deadline=20)
+   T=0.0: Released Job1(T2, actual=7, deadline=50)
+   T=0.0: Released Job2(T3, actual=9, deadline=75)
+   T=0.0: Released Job3(T4, actual=11, deadline=100)
+   T=0.0: Scheduled Job0(T1)
+   T=4.0: Completed Job0(T1) actual=4
+   T=4.0: Freq change: 1.000 -> 0.600 (util req: 0.587)
+   T=4.0: Scheduled Job1(T2)
+   T=15.7: Completed Job1(T2) actual=7
+   T=15.7: Freq change: 0.600 -> 0.400 (util req: 0.400)
+   T=15.7: Scheduled Job2(T3)
+   T=20.0: Released Job4(T1, actual=3, deadline=40)
+   T=20.0: Freq change: 0.400 -> 1.000 (util req: 1.000)
+   T=20.0: Scheduled Job4(T1)
+   T=23.0: Completed Job4(T1) actual=3
+   T=23.0: Freq change: 1.000 -> 0.400 (util req: 0.400)
+   T=23.0: Scheduled Job2(T3)
+   T=40.0: Released Job5(T1, actual=4, deadline=60)
+   T=40.0: Freq change: 0.400 -> 0.800 (util req: 0.773)
+   T=40.0: Scheduled Job5(T1)
+   T=45.0: Completed Job5(T1) actual=4
+   T=45.0: Freq change: 0.800 -> 0.400 (util req: 0.400)
+   T=45.0: Scheduled Job2(T3)
+   T=46.2: Completed Job2(T3) actual=9
+   T=46.2: Scheduled Job3(T4)
+   T=50.0: Released Job6(T2, actual=6, deadline=100)
+   T=60.0: Released Job7(T1, actual=3, deadline=80)
+   T=60.0: Freq change: 0.400 -> 0.800 (util req: 0.723)
+   T=60.0: Scheduled Job7(T1)
+   T=63.8: Completed Job7(T1) actual=3
+   T=63.8: Freq change: 0.800 -> 0.400 (util req: 0.400)
+   T=63.8: Scheduled Job3(T4)
+   T=75.0: Released Job8(T3, actual=8, deadline=150)
+   T=75.0: Freq change: 0.400 -> 0.600 (util req: 0.599)
+   T=76.6: Completed Job3(T4) actual=11
+   T=76.6: Scheduled Job6(T2)
+   T=80.0: Released Job9(T1, actual=4, deadline=100)
+   T=80.0: Freq change: 0.600 -> 0.800 (util req: 0.798)
+   T=85.0: Completed Job6(T2) actual=6
+   T=85.0: Scheduled Job9(T1)
+   T=90.0: Completed Job9(T1) actual=4
+   T=90.0: Freq change: 0.800 -> 0.400 (util req: 0.400)
+   T=90.0: Scheduled Job8(T3)
+   T=100.0: Released Job10(T1, actual=3, deadline=120)
+   T=100.0: Released Job11(T2, actual=7, deadline=150)
+   T=100.0: Released Job12(T4, actual=10, deadline=200)
+   T=100.0: Freq change: 0.400 -> 1.000 (util req: 1.000)
+   T=100.0: Scheduled Job10(T1)
+   T=103.0: Completed Job10(T1) actual=3
+   T=103.0: Freq change: 1.000 -> 0.500 (util req: 0.446)
+   T=103.0: Scheduled Job8(T3)
+   T=111.0: Completed Job8(T3) actual=8
+   T=111.0: Scheduled Job11(T2)
+   T=120.0: Released Job13(T1, actual=4, deadline=140)
+   T=120.0: Freq change: 0.500 -> 0.900 (util req: 0.824)
+   T=120.0: Scheduled Job13(T1)
+   T=124.4: Completed Job13(T1) actual=4
+   T=124.4: Freq change: 0.900 -> 0.500 (util req: 0.488)
+   T=124.4: Scheduled Job11(T2)
+   T=129.4: Completed Job11(T2) actual=7
+   T=129.4: Freq change: 0.500 -> 0.400 (util req: 0.400)
+   T=129.4: Scheduled Job12(T4)
+   T=140.0: Released Job14(T1, actual=3, deadline=160)
+   T=140.0: Freq change: 0.400 -> 0.500 (util req: 0.438)
+   T=140.0: Scheduled Job14(T1)
+   T=146.0: Completed Job14(T1) actual=3
+   T=146.0: Freq change: 0.500 -> 0.400 (util req: 0.400)
+   T=146.0: Scheduled Job12(T4)
+   T=150.0: Released Job15(T2, actual=6, deadline=200)
+   T=150.0: Released Job16(T3, actual=9, deadline=225)
+   T=160.0: Released Job17(T1, actual=4, deadline=180)
+   T=160.0: Freq change: 0.400 -> 1.000 (util req: 0.958)
+   T=160.0: Scheduled Job17(T1)
+   T=164.0: Completed Job17(T1) actual=4
+   T=164.0: Freq change: 1.000 -> 0.500 (util req: 0.421)
+   T=164.0: Scheduled Job12(T4)
+   T=164.3: Completed Job12(T4) actual=10
+   T=164.3: Scheduled Job15(T2)
+   T=176.3: Completed Job15(T2) actual=6
+   T=176.3: Freq change: 0.500 -> 0.400 (util req: 0.400)
+   T=176.3: Scheduled Job16(T3)
+   T=180.0: Released Job18(T1, actual=3, deadline=200)
+   T=180.0: Freq change: 0.400 -> 0.600 (util req: 0.527)
+   T=180.0: Scheduled Job18(T1)
+   T=185.0: Completed Job18(T1) actual=3
+   T=185.0: Freq change: 0.600 -> 0.400 (util req: 0.400)
+   T=185.0: Scheduled Job16(T3)
+   T=200.0: Released Job19(T1, actual=4, deadline=220)
+   T=200.0: Released Job20(T2, actual=7, deadline=250)
+   T=200.0: Released Job21(T4, actual=11, deadline=300)
+   T=200.0: Freq change: 0.400 -> 1.000 (util req: 1.000)
+   T=200.0: Scheduled Job19(T1)
+   T=204.0: Completed Job19(T1) actual=4
+   T=204.0: Scheduled Job16(T3)
+   T=205.5: Completed Job16(T3) actual=9
+   T=205.5: Freq change: 1.000 -> 0.500 (util req: 0.405)
+   T=205.5: Scheduled Job20(T2)
+   T=219.5: Completed Job20(T2) actual=7
+   T=219.5: Freq change: 0.500 -> 0.400 (util req: 0.400)
+   T=219.5: Scheduled Job21(T4)
+   T=220.0: Released Job22(T1, actual=3, deadline=240)
+   T=220.0: Freq change: 0.400 -> 0.700 (util req: 0.691)
+   T=220.0: Scheduled Job22(T1)
+   T=224.3: Completed Job22(T1) actual=3
+   T=224.3: Freq change: 0.700 -> 0.400 (util req: 0.400)
+   T=224.3: Scheduled Job21(T4)
+   T=225.0: Released Job23(T3, actual=8, deadline=300)
+   T=240.0: Released Job24(T1, actual=4, deadline=260)
+   T=240.0: Freq change: 0.400 -> 0.900 (util req: 0.826)
+   T=240.0: Scheduled Job24(T1)
+   T=244.4: Completed Job24(T1) actual=4
+   T=244.4: Freq change: 0.900 -> 0.400 (util req: 0.400)
+   T=244.4: Scheduled Job21(T4)
+   T=250.0: Released Job25(T2, actual=6, deadline=300)
+   T=255.8: Completed Job21(T4) actual=11
+   T=255.8: Scheduled Job25(T2)
+   T=260.0: Released Job26(T1, actual=3, deadline=280)
+   T=260.0: Freq change: 0.400 -> 0.800 (util req: 0.765)
+   T=260.0: Scheduled Job26(T1)
+   T=263.8: Completed Job26(T1) actual=3
+   T=263.8: Freq change: 0.800 -> 0.400 (util req: 0.400)
+   T=263.8: Scheduled Job25(T2)
+   T=274.5: Completed Job25(T2) actual=6
+   T=274.5: Scheduled Job23(T3)
+   T=280.0: Released Job27(T1, actual=4, deadline=300)
+   T=280.0: Freq change: 0.400 -> 0.500 (util req: 0.490)
+   T=291.6: Completed Job23(T3) actual=8
+   T=291.6: Scheduled Job27(T1)
+   T=299.6: Completed Job27(T1) actual=4
+   T=299.6: Freq change: 0.500 -> 0.400 (util req: 0.400)
+   T=299.6: IDLE for 0.4ms (consuming energy at lowest freq)
+
+--- RESULTS for LAEDF ---
+Hyperperiod: 300 ms
+Jobs: 28, Decision points: 56
+Preemptions: 12, Context switches: 40
+Deadline misses: 0
+Total energy: 2315.05
+
+=== SIMULATION: Static RM ===
+   T=0.0: Static RM schedulable at alpha=0.900 -> Freq set to 0.900
+   T=0.0: Released Job0(T1, actual=4, deadline=20)
+   T=0.0: Released Job1(T2, actual=7, deadline=50)
+   T=0.0: Released Job2(T3, actual=9, deadline=75)
+   T=0.0: Released Job3(T4, actual=11, deadline=100)
+   T=0.0: Scheduled Job0(T1)
+   T=4.4: Completed Job0(T1) actual=4
+   T=4.4: Scheduled Job1(T2)
+   T=12.2: Completed Job1(T2) actual=7
+   T=12.2: Scheduled Job2(T3)
+   T=20.0: Released Job4(T1, actual=3, deadline=40)
+   T=20.0: Scheduled Job4(T1)
+   T=23.3: Completed Job4(T1) actual=3
+   T=23.3: Scheduled Job2(T3)
+   T=25.6: Completed Job2(T3) actual=9
+   T=25.6: Scheduled Job3(T4)
+   T=37.8: Completed Job3(T4) actual=11
+   T=37.8: IDLE for 2.2ms (consuming energy at lowest freq)
+   T=40.0: Released Job5(T1, actual=4, deadline=60)
+   T=40.0: Scheduled Job5(T1)
+   T=44.4: Completed Job5(T1) actual=4
+   T=44.4: IDLE for 5.6ms (consuming energy at lowest freq)
+   T=50.0: Released Job6(T2, actual=6, deadline=100)
+   T=50.0: Scheduled Job6(T2)
+   T=56.7: Completed Job6(T2) actual=6
+   T=56.7: IDLE for 3.3ms (consuming energy at lowest freq)
+   T=60.0: Released Job7(T1, actual=3, deadline=80)
+   T=60.0: Scheduled Job7(T1)
+   T=63.3: Completed Job7(T1) actual=3
+   T=63.3: IDLE for 11.7ms (consuming energy at lowest freq)
+   T=75.0: Released Job8(T3, actual=8, deadline=150)
+   T=75.0: Scheduled Job8(T3)
+   T=80.0: Released Job9(T1, actual=4, deadline=100)
+   T=80.0: Scheduled Job9(T1)
+   T=84.4: Completed Job9(T1) actual=4
+   T=84.4: Scheduled Job8(T3)
+   T=88.3: Completed Job8(T3) actual=8
+   T=88.3: IDLE for 11.7ms (consuming energy at lowest freq)
+   T=100.0: Released Job10(T1, actual=3, deadline=120)
+   T=100.0: Released Job11(T2, actual=7, deadline=150)
+   T=100.0: Released Job12(T4, actual=10, deadline=200)
+   T=100.0: Scheduled Job10(T1)
+   T=103.3: Completed Job10(T1) actual=3
+   T=103.3: Scheduled Job11(T2)
+   T=111.1: Completed Job11(T2) actual=7
+   T=111.1: Scheduled Job12(T4)
+   T=120.0: Released Job13(T1, actual=4, deadline=140)
+   T=120.0: Scheduled Job13(T1)
+   T=124.4: Completed Job13(T1) actual=4
+   T=124.4: Scheduled Job12(T4)
+   T=126.7: Completed Job12(T4) actual=10
+   T=126.7: IDLE for 13.3ms (consuming energy at lowest freq)
+   T=140.0: Released Job14(T1, actual=3, deadline=160)
+   T=140.0: Scheduled Job14(T1)
+   T=143.3: Completed Job14(T1) actual=3
+   T=143.3: IDLE for 6.7ms (consuming energy at lowest freq)
+   T=150.0: Released Job15(T2, actual=6, deadline=200)
+   T=150.0: Released Job16(T3, actual=9, deadline=225)
+   T=150.0: Scheduled Job15(T2)
+   T=156.7: Completed Job15(T2) actual=6
+   T=156.7: Scheduled Job16(T3)
+   T=160.0: Released Job17(T1, actual=4, deadline=180)
+   T=160.0: Scheduled Job17(T1)
+   T=164.4: Completed Job17(T1) actual=4
+   T=164.4: Scheduled Job16(T3)
+   T=171.1: Completed Job16(T3) actual=9
+   T=171.1: IDLE for 8.9ms (consuming energy at lowest freq)
+   T=180.0: Released Job18(T1, actual=3, deadline=200)
+   T=180.0: Scheduled Job18(T1)
+   T=183.3: Completed Job18(T1) actual=3
+   T=183.3: IDLE for 16.7ms (consuming energy at lowest freq)
+   T=200.0: Released Job19(T1, actual=4, deadline=220)
+   T=200.0: Released Job20(T2, actual=7, deadline=250)
+   T=200.0: Released Job21(T4, actual=11, deadline=300)
+   T=200.0: Scheduled Job19(T1)
+   T=204.4: Completed Job19(T1) actual=4
+   T=204.4: Scheduled Job20(T2)
+   T=212.2: Completed Job20(T2) actual=7
+   T=212.2: Scheduled Job21(T4)
+   T=220.0: Released Job22(T1, actual=3, deadline=240)
+   T=220.0: Scheduled Job22(T1)
+   T=223.3: Completed Job22(T1) actual=3
+   T=223.3: Scheduled Job21(T4)
+   T=225.0: Released Job23(T3, actual=8, deadline=300)
+   T=225.0: Scheduled Job23(T3)
+   T=233.9: Completed Job23(T3) actual=8
+   T=233.9: Scheduled Job21(T4)
+   T=236.7: Completed Job21(T4) actual=11
+   T=236.7: IDLE for 3.3ms (consuming energy at lowest freq)
+   T=240.0: Released Job24(T1, actual=4, deadline=260)
+   T=240.0: Scheduled Job24(T1)
+   T=244.4: Completed Job24(T1) actual=4
+   T=244.4: IDLE for 5.6ms (consuming energy at lowest freq)
+   T=250.0: Released Job25(T2, actual=6, deadline=300)
+   T=250.0: Scheduled Job25(T2)
+   T=256.7: Completed Job25(T2) actual=6
+   T=256.7: IDLE for 3.3ms (consuming energy at lowest freq)
+   T=260.0: Released Job26(T1, actual=3, deadline=280)
+   T=260.0: Scheduled Job26(T1)
+   T=263.3: Completed Job26(T1) actual=3
+   T=263.3: IDLE for 16.7ms (consuming energy at lowest freq)
+   T=280.0: Released Job27(T1, actual=4, deadline=300)
+   T=280.0: Scheduled Job27(T1)
+   T=284.4: Completed Job27(T1) actual=4
+   T=284.4: IDLE for 15.6ms (consuming energy at lowest freq)
+
+--- RESULTS for Static RM ---
+Hyperperiod: 300 ms
+Jobs: 28, Decision points: 56
+Preemptions: 6, Context switches: 34
+Deadline misses: 0
+Total energy: 3999.94
+
+=== SIMULATION: ccRM ===
+   T=0.0: Dynamic policy initial speed: 1.000
+   T=0.0: Released Job0(T1, actual=4, deadline=20)
+   T=0.0: Released Job1(T2, actual=7, deadline=50)
+   T=0.0: Released Job2(T3, actual=9, deadline=75)
+   T=0.0: Released Job3(T4, actual=11, deadline=100)
+   T=0.0: Freq change: 1.000 -> 0.800 (util req: 0.800)
+   T=0.0: Scheduled Job0(T1)
+   T=5.0: Completed Job0(T1) actual=4
+   T=5.0: Scheduled Job1(T2)
+   T=13.8: Completed Job1(T2) actual=7
+   T=13.8: Scheduled Job2(T3)
+   T=20.0: Released Job4(T1, actual=3, deadline=40)
+   T=20.0: Scheduled Job4(T1)
+   T=23.8: Completed Job4(T1) actual=3
+   T=23.8: Scheduled Job2(T3)
+   T=28.8: Completed Job2(T3) actual=9
+   T=28.8: Scheduled Job3(T4)
+   T=40.0: Released Job5(T1, actual=4, deadline=60)
+   T=40.0: Freq change: 0.800 -> 0.700 (util req: 0.700)
+   T=40.0: Scheduled Job5(T1)
+   T=45.7: Completed Job5(T1) actual=4
+   T=45.7: Scheduled Job3(T4)
+   T=48.6: Completed Job3(T4) actual=11
+   T=48.6: IDLE for 1.4ms (consuming energy at lowest freq)
+   T=50.0: Released Job6(T2, actual=6, deadline=100)
+   T=50.0: Scheduled Job6(T2)
+   T=58.6: Completed Job6(T2) actual=6
+   T=58.6: IDLE for 1.4ms (consuming energy at lowest freq)
+   T=60.0: Released Job7(T1, actual=3, deadline=80)
+   T=60.0: Scheduled Job7(T1)
+   T=64.3: Completed Job7(T1) actual=3
+   T=64.3: IDLE for 10.7ms (consuming energy at lowest freq)
+   T=75.0: Released Job8(T3, actual=8, deadline=150)
+   T=75.0: Scheduled Job8(T3)
+   T=80.0: Released Job9(T1, actual=4, deadline=100)
+   T=80.0: Scheduled Job9(T1)
+   T=85.7: Completed Job9(T1) actual=4
+   T=85.7: Scheduled Job8(T3)
+   T=92.1: Completed Job8(T3) actual=8
+   T=92.1: IDLE for 7.9ms (consuming energy at lowest freq)
+   T=100.0: Released Job10(T1, actual=3, deadline=120)
+   T=100.0: Released Job11(T2, actual=7, deadline=150)
+   T=100.0: Released Job12(T4, actual=10, deadline=200)
+   T=100.0: Freq change: 0.700 -> 0.800 (util req: 0.800)
+   T=100.0: Scheduled Job10(T1)
+   T=103.8: Completed Job10(T1) actual=3
+   T=103.8: Scheduled Job11(T2)
+   T=112.5: Completed Job11(T2) actual=7
+   T=112.5: Scheduled Job12(T4)
+   T=120.0: Released Job13(T1, actual=4, deadline=140)
+   T=120.0: Freq change: 0.800 -> 0.700 (util req: 0.700)
+   T=120.0: Scheduled Job13(T1)
+   T=125.7: Completed Job13(T1) actual=4
+   T=125.7: Scheduled Job12(T4)
+   T=131.4: Completed Job12(T4) actual=10
+   T=131.4: IDLE for 8.6ms (consuming energy at lowest freq)
+   T=140.0: Released Job14(T1, actual=3, deadline=160)
+   T=140.0: Scheduled Job14(T1)
+   T=144.3: Completed Job14(T1) actual=3
+   T=144.3: IDLE for 5.7ms (consuming energy at lowest freq)
+   T=150.0: Released Job15(T2, actual=6, deadline=200)
+   T=150.0: Released Job16(T3, actual=9, deadline=225)
+   T=150.0: Scheduled Job15(T2)
+   T=158.6: Completed Job15(T2) actual=6
+   T=158.6: Scheduled Job16(T3)
+   T=160.0: Released Job17(T1, actual=4, deadline=180)
+   T=160.0: Scheduled Job17(T1)
+   T=165.7: Completed Job17(T1) actual=4
+   T=165.7: Scheduled Job16(T3)
+   T=177.1: Completed Job16(T3) actual=9
+   T=177.1: IDLE for 2.9ms (consuming energy at lowest freq)
+   T=180.0: Released Job18(T1, actual=3, deadline=200)
+   T=180.0: Scheduled Job18(T1)
+   T=184.3: Completed Job18(T1) actual=3
+   T=184.3: IDLE for 15.7ms (consuming energy at lowest freq)
+   T=200.0: Released Job19(T1, actual=4, deadline=220)
+   T=200.0: Released Job20(T2, actual=7, deadline=250)
+   T=200.0: Released Job21(T4, actual=11, deadline=300)
+   T=200.0: Freq change: 0.700 -> 0.800 (util req: 0.800)
+   T=200.0: Scheduled Job19(T1)
+   T=205.0: Completed Job19(T1) actual=4
+   T=205.0: Scheduled Job20(T2)
+   T=213.8: Completed Job20(T2) actual=7
+   T=213.8: Scheduled Job21(T4)
+   T=220.0: Released Job22(T1, actual=3, deadline=240)
+   T=220.0: Freq change: 0.800 -> 0.700 (util req: 0.700)
+   T=220.0: Scheduled Job22(T1)
+   T=224.3: Completed Job22(T1) actual=3
+   T=224.3: Scheduled Job21(T4)
+   T=225.0: Released Job23(T3, actual=8, deadline=300)
+   T=225.0: Scheduled Job23(T3)
+   T=236.4: Completed Job23(T3) actual=8
+   T=236.4: Scheduled Job21(T4)
+   T=240.0: Released Job24(T1, actual=4, deadline=260)
+   T=240.0: Scheduled Job24(T1)
+   T=245.7: Completed Job24(T1) actual=4
+   T=245.7: Scheduled Job21(T4)
+   T=250.0: Completed Job21(T4) actual=11
+   T=250.0: Released Job25(T2, actual=6, deadline=300)
+   T=250.0: Scheduled Job25(T2)
+   T=258.6: Completed Job25(T2) actual=6
+   T=258.6: IDLE for 1.4ms (consuming energy at lowest freq)
+   T=260.0: Released Job26(T1, actual=3, deadline=280)
+   T=260.0: Scheduled Job26(T1)
+   T=264.3: Completed Job26(T1) actual=3
+   T=264.3: IDLE for 15.7ms (consuming energy at lowest freq)
+   T=280.0: Released Job27(T1, actual=4, deadline=300)
+   T=280.0: Scheduled Job27(T1)
+   T=285.7: Completed Job27(T1) actual=4
+   T=285.7: IDLE for 14.3ms (consuming energy at lowest freq)
+
+--- RESULTS for ccRM ---
+Hyperperiod: 300 ms
+Jobs: 28, Decision points: 56
+Preemptions: 8, Context switches: 36
+Deadline misses: 0
+Total energy: 3170.27
+
+
+--- FINAL NORMALIZED ENERGY RESULTS ---
+Plain EDF   : 1.000
+Static EDF  : 0.653
+ccEDF       : 0.580
+LAEDF       : 0.511
+Plain RM    : 1.000
+Static RM   : 0.883
+ccRM        : 0.700
