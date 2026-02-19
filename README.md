@@ -196,10 +196,10 @@ No Deadline Misses ✔
 
 This project demonstrates:
 
-* Real-time scheduling theory in practice
-* EDF vs RM trade-offs
+* Real time scheduling theory in practice
+* EDF vs RM trade offs
 * DVFS integration in scheduling
-* Energy-aware system design
+* Energy aware system design
 * Systems programming in C
 
 ---
@@ -209,8 +209,8 @@ This project demonstrates:
 Future improvements could include:
 
 * Sporadic / aperiodic tasks
-* Multi-core scheduling
-* Thermal-aware scheduling
+* Multi core scheduling
+* Thermal aware scheduling
 * Visualization dashboard
 * Statistical performance graphs
 
@@ -219,6 +219,6 @@ Future improvements could include:
 ## Author
 
 **Shivam Agarwala**
-Operating Systems & Real-Time Scheduling Project
+Operating Systems & Real Time Scheduling Project
 
 ---
